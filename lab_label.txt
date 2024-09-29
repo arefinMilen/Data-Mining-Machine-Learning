@@ -1,0 +1,15 @@
+District,Size,Population,Speciality
+Dhaka,1432,2250000,Administrative
+Gazipur,879,567984,Industry
+Narayanganj,576,53426,Industry
+Rajbari,897,65899,Agriculture
+Chittagong,1234,1345566,Industry
+Cox's Bazer,456,46567,Tourist
+Bandarban,345,67579,Tourist
+Khustia,432,57798,Business
+Feni,543,67890,Agriculture
+Comilla,564,77898,Tourist
+Barisal,577,89750,Agriculture
+Faridpur,567,77650,Agriculture
+Rangpur,575,78966,Agriculture
+Chadpur,876,67789,Tourist
