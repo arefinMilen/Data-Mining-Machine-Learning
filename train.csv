@@ -1,892 +1,1111 @@
-PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
-1,0,3,"Braund, Mr. Owen Harris",male,22,1,0,A/5 21171,7.25,,S
-2,1,1,"Cumings, Mrs. John Bradley (Florence Briggs Thayer)",female,38,1,0,PC 17599,71.2833,C85,C
-3,1,3,"Heikkinen, Miss. Laina",female,26,0,0,STON/O2. 3101282,7.925,,S
-4,1,1,"Futrelle, Mrs. Jacques Heath (Lily May Peel)",female,35,1,0,113803,53.1,C123,S
-5,0,3,"Allen, Mr. William Henry",male,35,0,0,373450,8.05,,S
-6,0,3,"Moran, Mr. James",male,,0,0,330877,8.4583,,Q
-7,0,1,"McCarthy, Mr. Timothy J",male,54,0,0,17463,51.8625,E46,S
-8,0,3,"Palsson, Master. Gosta Leonard",male,2,3,1,349909,21.075,,S
-9,1,3,"Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)",female,27,0,2,347742,11.1333,,S
-10,1,2,"Nasser, Mrs. Nicholas (Adele Achem)",female,14,1,0,237736,30.0708,,C
-11,1,3,"Sandstrom, Miss. Marguerite Rut",female,4,1,1,PP 9549,16.7,G6,S
-12,1,1,"Bonnell, Miss. Elizabeth",female,58,0,0,113783,26.55,C103,S
-13,0,3,"Saundercock, Mr. William Henry",male,20,0,0,A/5. 2151,8.05,,S
-14,0,3,"Andersson, Mr. Anders Johan",male,39,1,5,347082,31.275,,S
-15,0,3,"Vestrom, Miss. Hulda Amanda Adolfina",female,14,0,0,350406,7.8542,,S
-16,1,2,"Hewlett, Mrs. (Mary D Kingcome) ",female,55,0,0,248706,16,,S
-17,0,3,"Rice, Master. Eugene",male,2,4,1,382652,29.125,,Q
-18,1,2,"Williams, Mr. Charles Eugene",male,,0,0,244373,13,,S
-19,0,3,"Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele)",female,31,1,0,345763,18,,S
-20,1,3,"Masselmani, Mrs. Fatima",female,,0,0,2649,7.225,,C
-21,0,2,"Fynney, Mr. Joseph J",male,35,0,0,239865,26,,S
-22,1,2,"Beesley, Mr. Lawrence",male,34,0,0,248698,13,D56,S
-23,1,3,"McGowan, Miss. Anna ""Annie""",female,15,0,0,330923,8.0292,,Q
-24,1,1,"Sloper, Mr. William Thompson",male,28,0,0,113788,35.5,A6,S
-25,0,3,"Palsson, Miss. Torborg Danira",female,8,3,1,349909,21.075,,S
-26,1,3,"Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)",female,38,1,5,347077,31.3875,,S
-27,0,3,"Emir, Mr. Farred Chehab",male,,0,0,2631,7.225,,C
-28,0,1,"Fortune, Mr. Charles Alexander",male,19,3,2,19950,263,C23 C25 C27,S
-29,1,3,"O'Dwyer, Miss. Ellen ""Nellie""",female,,0,0,330959,7.8792,,Q
-30,0,3,"Todoroff, Mr. Lalio",male,,0,0,349216,7.8958,,S
-31,0,1,"Uruchurtu, Don. Manuel E",male,40,0,0,PC 17601,27.7208,,C
-32,1,1,"Spencer, Mrs. William Augustus (Marie Eugenie)",female,,1,0,PC 17569,146.5208,B78,C
-33,1,3,"Glynn, Miss. Mary Agatha",female,,0,0,335677,7.75,,Q
-34,0,2,"Wheadon, Mr. Edward H",male,66,0,0,C.A. 24579,10.5,,S
-35,0,1,"Meyer, Mr. Edgar Joseph",male,28,1,0,PC 17604,82.1708,,C
-36,0,1,"Holverson, Mr. Alexander Oskar",male,42,1,0,113789,52,,S
-37,1,3,"Mamee, Mr. Hanna",male,,0,0,2677,7.2292,,C
-38,0,3,"Cann, Mr. Ernest Charles",male,21,0,0,A./5. 2152,8.05,,S
-39,0,3,"Vander Planke, Miss. Augusta Maria",female,18,2,0,345764,18,,S
-40,1,3,"Nicola-Yarred, Miss. Jamila",female,14,1,0,2651,11.2417,,C
-41,0,3,"Ahlin, Mrs. Johan (Johanna Persdotter Larsson)",female,40,1,0,7546,9.475,,S
-42,0,2,"Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott)",female,27,1,0,11668,21,,S
-43,0,3,"Kraeff, Mr. Theodor",male,,0,0,349253,7.8958,,C
-44,1,2,"Laroche, Miss. Simonne Marie Anne Andree",female,3,1,2,SC/Paris 2123,41.5792,,C
-45,1,3,"Devaney, Miss. Margaret Delia",female,19,0,0,330958,7.8792,,Q
-46,0,3,"Rogers, Mr. William John",male,,0,0,S.C./A.4. 23567,8.05,,S
-47,0,3,"Lennon, Mr. Denis",male,,1,0,370371,15.5,,Q
-48,1,3,"O'Driscoll, Miss. Bridget",female,,0,0,14311,7.75,,Q
-49,0,3,"Samaan, Mr. Youssef",male,,2,0,2662,21.6792,,C
-50,0,3,"Arnold-Franchi, Mrs. Josef (Josefine Franchi)",female,18,1,0,349237,17.8,,S
-51,0,3,"Panula, Master. Juha Niilo",male,7,4,1,3101295,39.6875,,S
-52,0,3,"Nosworthy, Mr. Richard Cater",male,21,0,0,A/4. 39886,7.8,,S
-53,1,1,"Harper, Mrs. Henry Sleeper (Myna Haxtun)",female,49,1,0,PC 17572,76.7292,D33,C
-54,1,2,"Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson)",female,29,1,0,2926,26,,S
-55,0,1,"Ostby, Mr. Engelhart Cornelius",male,65,0,1,113509,61.9792,B30,C
-56,1,1,"Woolner, Mr. Hugh",male,,0,0,19947,35.5,C52,S
-57,1,2,"Rugg, Miss. Emily",female,21,0,0,C.A. 31026,10.5,,S
-58,0,3,"Novel, Mr. Mansouer",male,28.5,0,0,2697,7.2292,,C
-59,1,2,"West, Miss. Constance Mirium",female,5,1,2,C.A. 34651,27.75,,S
-60,0,3,"Goodwin, Master. William Frederick",male,11,5,2,CA 2144,46.9,,S
-61,0,3,"Sirayanian, Mr. Orsen",male,22,0,0,2669,7.2292,,C
-62,1,1,"Icard, Miss. Amelie",female,38,0,0,113572,80,B28,
-63,0,1,"Harris, Mr. Henry Birkhardt",male,45,1,0,36973,83.475,C83,S
-64,0,3,"Skoog, Master. Harald",male,4,3,2,347088,27.9,,S
-65,0,1,"Stewart, Mr. Albert A",male,,0,0,PC 17605,27.7208,,C
-66,1,3,"Moubarek, Master. Gerios",male,,1,1,2661,15.2458,,C
-67,1,2,"Nye, Mrs. (Elizabeth Ramell)",female,29,0,0,C.A. 29395,10.5,F33,S
-68,0,3,"Crease, Mr. Ernest James",male,19,0,0,S.P. 3464,8.1583,,S
-69,1,3,"Andersson, Miss. Erna Alexandra",female,17,4,2,3101281,7.925,,S
-70,0,3,"Kink, Mr. Vincenz",male,26,2,0,315151,8.6625,,S
-71,0,2,"Jenkin, Mr. Stephen Curnow",male,32,0,0,C.A. 33111,10.5,,S
-72,0,3,"Goodwin, Miss. Lillian Amy",female,16,5,2,CA 2144,46.9,,S
-73,0,2,"Hood, Mr. Ambrose Jr",male,21,0,0,S.O.C. 14879,73.5,,S
-74,0,3,"Chronopoulos, Mr. Apostolos",male,26,1,0,2680,14.4542,,C
-75,1,3,"Bing, Mr. Lee",male,32,0,0,1601,56.4958,,S
-76,0,3,"Moen, Mr. Sigurd Hansen",male,25,0,0,348123,7.65,F G73,S
-77,0,3,"Staneff, Mr. Ivan",male,,0,0,349208,7.8958,,S
-78,0,3,"Moutal, Mr. Rahamin Haim",male,,0,0,374746,8.05,,S
-79,1,2,"Caldwell, Master. Alden Gates",male,0.83,0,2,248738,29,,S
-80,1,3,"Dowdell, Miss. Elizabeth",female,30,0,0,364516,12.475,,S
-81,0,3,"Waelens, Mr. Achille",male,22,0,0,345767,9,,S
-82,1,3,"Sheerlinck, Mr. Jan Baptist",male,29,0,0,345779,9.5,,S
-83,1,3,"McDermott, Miss. Brigdet Delia",female,,0,0,330932,7.7875,,Q
-84,0,1,"Carrau, Mr. Francisco M",male,28,0,0,113059,47.1,,S
-85,1,2,"Ilett, Miss. Bertha",female,17,0,0,SO/C 14885,10.5,,S
-86,1,3,"Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson)",female,33,3,0,3101278,15.85,,S
-87,0,3,"Ford, Mr. William Neal",male,16,1,3,W./C. 6608,34.375,,S
-88,0,3,"Slocovski, Mr. Selman Francis",male,,0,0,SOTON/OQ 392086,8.05,,S
-89,1,1,"Fortune, Miss. Mabel Helen",female,23,3,2,19950,263,C23 C25 C27,S
-90,0,3,"Celotti, Mr. Francesco",male,24,0,0,343275,8.05,,S
-91,0,3,"Christmann, Mr. Emil",male,29,0,0,343276,8.05,,S
-92,0,3,"Andreasson, Mr. Paul Edvin",male,20,0,0,347466,7.8542,,S
-93,0,1,"Chaffee, Mr. Herbert Fuller",male,46,1,0,W.E.P. 5734,61.175,E31,S
-94,0,3,"Dean, Mr. Bertram Frank",male,26,1,2,C.A. 2315,20.575,,S
-95,0,3,"Coxon, Mr. Daniel",male,59,0,0,364500,7.25,,S
-96,0,3,"Shorney, Mr. Charles Joseph",male,,0,0,374910,8.05,,S
-97,0,1,"Goldschmidt, Mr. George B",male,71,0,0,PC 17754,34.6542,A5,C
-98,1,1,"Greenfield, Mr. William Bertram",male,23,0,1,PC 17759,63.3583,D10 D12,C
-99,1,2,"Doling, Mrs. John T (Ada Julia Bone)",female,34,0,1,231919,23,,S
-100,0,2,"Kantor, Mr. Sinai",male,34,1,0,244367,26,,S
-101,0,3,"Petranec, Miss. Matilda",female,28,0,0,349245,7.8958,,S
-102,0,3,"Petroff, Mr. Pastcho (""Pentcho"")",male,,0,0,349215,7.8958,,S
-103,0,1,"White, Mr. Richard Frasar",male,21,0,1,35281,77.2875,D26,S
-104,0,3,"Johansson, Mr. Gustaf Joel",male,33,0,0,7540,8.6542,,S
-105,0,3,"Gustafsson, Mr. Anders Vilhelm",male,37,2,0,3101276,7.925,,S
-106,0,3,"Mionoff, Mr. Stoytcho",male,28,0,0,349207,7.8958,,S
-107,1,3,"Salkjelsvik, Miss. Anna Kristine",female,21,0,0,343120,7.65,,S
-108,1,3,"Moss, Mr. Albert Johan",male,,0,0,312991,7.775,,S
-109,0,3,"Rekic, Mr. Tido",male,38,0,0,349249,7.8958,,S
-110,1,3,"Moran, Miss. Bertha",female,,1,0,371110,24.15,,Q
-111,0,1,"Porter, Mr. Walter Chamberlain",male,47,0,0,110465,52,C110,S
-112,0,3,"Zabour, Miss. Hileni",female,14.5,1,0,2665,14.4542,,C
-113,0,3,"Barton, Mr. David John",male,22,0,0,324669,8.05,,S
-114,0,3,"Jussila, Miss. Katriina",female,20,1,0,4136,9.825,,S
-115,0,3,"Attalah, Miss. Malake",female,17,0,0,2627,14.4583,,C
-116,0,3,"Pekoniemi, Mr. Edvard",male,21,0,0,STON/O 2. 3101294,7.925,,S
-117,0,3,"Connors, Mr. Patrick",male,70.5,0,0,370369,7.75,,Q
-118,0,2,"Turpin, Mr. William John Robert",male,29,1,0,11668,21,,S
-119,0,1,"Baxter, Mr. Quigg Edmond",male,24,0,1,PC 17558,247.5208,B58 B60,C
-120,0,3,"Andersson, Miss. Ellis Anna Maria",female,2,4,2,347082,31.275,,S
-121,0,2,"Hickman, Mr. Stanley George",male,21,2,0,S.O.C. 14879,73.5,,S
-122,0,3,"Moore, Mr. Leonard Charles",male,,0,0,A4. 54510,8.05,,S
-123,0,2,"Nasser, Mr. Nicholas",male,32.5,1,0,237736,30.0708,,C
-124,1,2,"Webber, Miss. Susan",female,32.5,0,0,27267,13,E101,S
-125,0,1,"White, Mr. Percival Wayland",male,54,0,1,35281,77.2875,D26,S
-126,1,3,"Nicola-Yarred, Master. Elias",male,12,1,0,2651,11.2417,,C
-127,0,3,"McMahon, Mr. Martin",male,,0,0,370372,7.75,,Q
-128,1,3,"Madsen, Mr. Fridtjof Arne",male,24,0,0,C 17369,7.1417,,S
-129,1,3,"Peter, Miss. Anna",female,,1,1,2668,22.3583,F E69,C
-130,0,3,"Ekstrom, Mr. Johan",male,45,0,0,347061,6.975,,S
-131,0,3,"Drazenoic, Mr. Jozef",male,33,0,0,349241,7.8958,,C
-132,0,3,"Coelho, Mr. Domingos Fernandeo",male,20,0,0,SOTON/O.Q. 3101307,7.05,,S
-133,0,3,"Robins, Mrs. Alexander A (Grace Charity Laury)",female,47,1,0,A/5. 3337,14.5,,S
-134,1,2,"Weisz, Mrs. Leopold (Mathilde Francoise Pede)",female,29,1,0,228414,26,,S
-135,0,2,"Sobey, Mr. Samuel James Hayden",male,25,0,0,C.A. 29178,13,,S
-136,0,2,"Richard, Mr. Emile",male,23,0,0,SC/PARIS 2133,15.0458,,C
-137,1,1,"Newsom, Miss. Helen Monypeny",female,19,0,2,11752,26.2833,D47,S
-138,0,1,"Futrelle, Mr. Jacques Heath",male,37,1,0,113803,53.1,C123,S
-139,0,3,"Osen, Mr. Olaf Elon",male,16,0,0,7534,9.2167,,S
-140,0,1,"Giglio, Mr. Victor",male,24,0,0,PC 17593,79.2,B86,C
-141,0,3,"Boulos, Mrs. Joseph (Sultana)",female,,0,2,2678,15.2458,,C
-142,1,3,"Nysten, Miss. Anna Sofia",female,22,0,0,347081,7.75,,S
-143,1,3,"Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck)",female,24,1,0,STON/O2. 3101279,15.85,,S
-144,0,3,"Burke, Mr. Jeremiah",male,19,0,0,365222,6.75,,Q
-145,0,2,"Andrew, Mr. Edgardo Samuel",male,18,0,0,231945,11.5,,S
-146,0,2,"Nicholls, Mr. Joseph Charles",male,19,1,1,C.A. 33112,36.75,,S
-147,1,3,"Andersson, Mr. August Edvard (""Wennerstrom"")",male,27,0,0,350043,7.7958,,S
-148,0,3,"Ford, Miss. Robina Maggie ""Ruby""",female,9,2,2,W./C. 6608,34.375,,S
-149,0,2,"Navratil, Mr. Michel (""Louis M Hoffman"")",male,36.5,0,2,230080,26,F2,S
-150,0,2,"Byles, Rev. Thomas Roussel Davids",male,42,0,0,244310,13,,S
-151,0,2,"Bateman, Rev. Robert James",male,51,0,0,S.O.P. 1166,12.525,,S
-152,1,1,"Pears, Mrs. Thomas (Edith Wearne)",female,22,1,0,113776,66.6,C2,S
-153,0,3,"Meo, Mr. Alfonzo",male,55.5,0,0,A.5. 11206,8.05,,S
-154,0,3,"van Billiard, Mr. Austin Blyler",male,40.5,0,2,A/5. 851,14.5,,S
-155,0,3,"Olsen, Mr. Ole Martin",male,,0,0,Fa 265302,7.3125,,S
-156,0,1,"Williams, Mr. Charles Duane",male,51,0,1,PC 17597,61.3792,,C
-157,1,3,"Gilnagh, Miss. Katherine ""Katie""",female,16,0,0,35851,7.7333,,Q
-158,0,3,"Corn, Mr. Harry",male,30,0,0,SOTON/OQ 392090,8.05,,S
-159,0,3,"Smiljanic, Mr. Mile",male,,0,0,315037,8.6625,,S
-160,0,3,"Sage, Master. Thomas Henry",male,,8,2,CA. 2343,69.55,,S
-161,0,3,"Cribb, Mr. John Hatfield",male,44,0,1,371362,16.1,,S
-162,1,2,"Watt, Mrs. James (Elizabeth ""Bessie"" Inglis Milne)",female,40,0,0,C.A. 33595,15.75,,S
-163,0,3,"Bengtsson, Mr. John Viktor",male,26,0,0,347068,7.775,,S
-164,0,3,"Calic, Mr. Jovo",male,17,0,0,315093,8.6625,,S
-165,0,3,"Panula, Master. Eino Viljami",male,1,4,1,3101295,39.6875,,S
-166,1,3,"Goldsmith, Master. Frank John William ""Frankie""",male,9,0,2,363291,20.525,,S
-167,1,1,"Chibnall, Mrs. (Edith Martha Bowerman)",female,,0,1,113505,55,E33,S
-168,0,3,"Skoog, Mrs. William (Anna Bernhardina Karlsson)",female,45,1,4,347088,27.9,,S
-169,0,1,"Baumann, Mr. John D",male,,0,0,PC 17318,25.925,,S
-170,0,3,"Ling, Mr. Lee",male,28,0,0,1601,56.4958,,S
-171,0,1,"Van der hoef, Mr. Wyckoff",male,61,0,0,111240,33.5,B19,S
-172,0,3,"Rice, Master. Arthur",male,4,4,1,382652,29.125,,Q
-173,1,3,"Johnson, Miss. Eleanor Ileen",female,1,1,1,347742,11.1333,,S
-174,0,3,"Sivola, Mr. Antti Wilhelm",male,21,0,0,STON/O 2. 3101280,7.925,,S
-175,0,1,"Smith, Mr. James Clinch",male,56,0,0,17764,30.6958,A7,C
-176,0,3,"Klasen, Mr. Klas Albin",male,18,1,1,350404,7.8542,,S
-177,0,3,"Lefebre, Master. Henry Forbes",male,,3,1,4133,25.4667,,S
-178,0,1,"Isham, Miss. Ann Elizabeth",female,50,0,0,PC 17595,28.7125,C49,C
-179,0,2,"Hale, Mr. Reginald",male,30,0,0,250653,13,,S
-180,0,3,"Leonard, Mr. Lionel",male,36,0,0,LINE,0,,S
-181,0,3,"Sage, Miss. Constance Gladys",female,,8,2,CA. 2343,69.55,,S
-182,0,2,"Pernot, Mr. Rene",male,,0,0,SC/PARIS 2131,15.05,,C
-183,0,3,"Asplund, Master. Clarence Gustaf Hugo",male,9,4,2,347077,31.3875,,S
-184,1,2,"Becker, Master. Richard F",male,1,2,1,230136,39,F4,S
-185,1,3,"Kink-Heilmann, Miss. Luise Gretchen",female,4,0,2,315153,22.025,,S
-186,0,1,"Rood, Mr. Hugh Roscoe",male,,0,0,113767,50,A32,S
-187,1,3,"O'Brien, Mrs. Thomas (Johanna ""Hannah"" Godfrey)",female,,1,0,370365,15.5,,Q
-188,1,1,"Romaine, Mr. Charles Hallace (""Mr C Rolmane"")",male,45,0,0,111428,26.55,,S
-189,0,3,"Bourke, Mr. John",male,40,1,1,364849,15.5,,Q
-190,0,3,"Turcin, Mr. Stjepan",male,36,0,0,349247,7.8958,,S
-191,1,2,"Pinsky, Mrs. (Rosa)",female,32,0,0,234604,13,,S
-192,0,2,"Carbines, Mr. William",male,19,0,0,28424,13,,S
-193,1,3,"Andersen-Jensen, Miss. Carla Christine Nielsine",female,19,1,0,350046,7.8542,,S
-194,1,2,"Navratil, Master. Michel M",male,3,1,1,230080,26,F2,S
-195,1,1,"Brown, Mrs. James Joseph (Margaret Tobin)",female,44,0,0,PC 17610,27.7208,B4,C
-196,1,1,"Lurette, Miss. Elise",female,58,0,0,PC 17569,146.5208,B80,C
-197,0,3,"Mernagh, Mr. Robert",male,,0,0,368703,7.75,,Q
-198,0,3,"Olsen, Mr. Karl Siegwart Andreas",male,42,0,1,4579,8.4042,,S
-199,1,3,"Madigan, Miss. Margaret ""Maggie""",female,,0,0,370370,7.75,,Q
-200,0,2,"Yrois, Miss. Henriette (""Mrs Harbeck"")",female,24,0,0,248747,13,,S
-201,0,3,"Vande Walle, Mr. Nestor Cyriel",male,28,0,0,345770,9.5,,S
-202,0,3,"Sage, Mr. Frederick",male,,8,2,CA. 2343,69.55,,S
-203,0,3,"Johanson, Mr. Jakob Alfred",male,34,0,0,3101264,6.4958,,S
-204,0,3,"Youseff, Mr. Gerious",male,45.5,0,0,2628,7.225,,C
-205,1,3,"Cohen, Mr. Gurshon ""Gus""",male,18,0,0,A/5 3540,8.05,,S
-206,0,3,"Strom, Miss. Telma Matilda",female,2,0,1,347054,10.4625,G6,S
-207,0,3,"Backstrom, Mr. Karl Alfred",male,32,1,0,3101278,15.85,,S
-208,1,3,"Albimona, Mr. Nassef Cassem",male,26,0,0,2699,18.7875,,C
-209,1,3,"Carr, Miss. Helen ""Ellen""",female,16,0,0,367231,7.75,,Q
-210,1,1,"Blank, Mr. Henry",male,40,0,0,112277,31,A31,C
-211,0,3,"Ali, Mr. Ahmed",male,24,0,0,SOTON/O.Q. 3101311,7.05,,S
-212,1,2,"Cameron, Miss. Clear Annie",female,35,0,0,F.C.C. 13528,21,,S
-213,0,3,"Perkin, Mr. John Henry",male,22,0,0,A/5 21174,7.25,,S
-214,0,2,"Givard, Mr. Hans Kristensen",male,30,0,0,250646,13,,S
-215,0,3,"Kiernan, Mr. Philip",male,,1,0,367229,7.75,,Q
-216,1,1,"Newell, Miss. Madeleine",female,31,1,0,35273,113.275,D36,C
-217,1,3,"Honkanen, Miss. Eliina",female,27,0,0,STON/O2. 3101283,7.925,,S
-218,0,2,"Jacobsohn, Mr. Sidney Samuel",male,42,1,0,243847,27,,S
-219,1,1,"Bazzani, Miss. Albina",female,32,0,0,11813,76.2917,D15,C
-220,0,2,"Harris, Mr. Walter",male,30,0,0,W/C 14208,10.5,,S
-221,1,3,"Sunderland, Mr. Victor Francis",male,16,0,0,SOTON/OQ 392089,8.05,,S
-222,0,2,"Bracken, Mr. James H",male,27,0,0,220367,13,,S
-223,0,3,"Green, Mr. George Henry",male,51,0,0,21440,8.05,,S
-224,0,3,"Nenkoff, Mr. Christo",male,,0,0,349234,7.8958,,S
-225,1,1,"Hoyt, Mr. Frederick Maxfield",male,38,1,0,19943,90,C93,S
-226,0,3,"Berglund, Mr. Karl Ivar Sven",male,22,0,0,PP 4348,9.35,,S
-227,1,2,"Mellors, Mr. William John",male,19,0,0,SW/PP 751,10.5,,S
-228,0,3,"Lovell, Mr. John Hall (""Henry"")",male,20.5,0,0,A/5 21173,7.25,,S
-229,0,2,"Fahlstrom, Mr. Arne Jonas",male,18,0,0,236171,13,,S
-230,0,3,"Lefebre, Miss. Mathilde",female,,3,1,4133,25.4667,,S
-231,1,1,"Harris, Mrs. Henry Birkhardt (Irene Wallach)",female,35,1,0,36973,83.475,C83,S
-232,0,3,"Larsson, Mr. Bengt Edvin",male,29,0,0,347067,7.775,,S
-233,0,2,"Sjostedt, Mr. Ernst Adolf",male,59,0,0,237442,13.5,,S
-234,1,3,"Asplund, Miss. Lillian Gertrud",female,5,4,2,347077,31.3875,,S
-235,0,2,"Leyson, Mr. Robert William Norman",male,24,0,0,C.A. 29566,10.5,,S
-236,0,3,"Harknett, Miss. Alice Phoebe",female,,0,0,W./C. 6609,7.55,,S
-237,0,2,"Hold, Mr. Stephen",male,44,1,0,26707,26,,S
-238,1,2,"Collyer, Miss. Marjorie ""Lottie""",female,8,0,2,C.A. 31921,26.25,,S
-239,0,2,"Pengelly, Mr. Frederick William",male,19,0,0,28665,10.5,,S
-240,0,2,"Hunt, Mr. George Henry",male,33,0,0,SCO/W 1585,12.275,,S
-241,0,3,"Zabour, Miss. Thamine",female,,1,0,2665,14.4542,,C
-242,1,3,"Murphy, Miss. Katherine ""Kate""",female,,1,0,367230,15.5,,Q
-243,0,2,"Coleridge, Mr. Reginald Charles",male,29,0,0,W./C. 14263,10.5,,S
-244,0,3,"Maenpaa, Mr. Matti Alexanteri",male,22,0,0,STON/O 2. 3101275,7.125,,S
-245,0,3,"Attalah, Mr. Sleiman",male,30,0,0,2694,7.225,,C
-246,0,1,"Minahan, Dr. William Edward",male,44,2,0,19928,90,C78,Q
-247,0,3,"Lindahl, Miss. Agda Thorilda Viktoria",female,25,0,0,347071,7.775,,S
-248,1,2,"Hamalainen, Mrs. William (Anna)",female,24,0,2,250649,14.5,,S
-249,1,1,"Beckwith, Mr. Richard Leonard",male,37,1,1,11751,52.5542,D35,S
-250,0,2,"Carter, Rev. Ernest Courtenay",male,54,1,0,244252,26,,S
-251,0,3,"Reed, Mr. James George",male,,0,0,362316,7.25,,S
-252,0,3,"Strom, Mrs. Wilhelm (Elna Matilda Persson)",female,29,1,1,347054,10.4625,G6,S
-253,0,1,"Stead, Mr. William Thomas",male,62,0,0,113514,26.55,C87,S
-254,0,3,"Lobb, Mr. William Arthur",male,30,1,0,A/5. 3336,16.1,,S
-255,0,3,"Rosblom, Mrs. Viktor (Helena Wilhelmina)",female,41,0,2,370129,20.2125,,S
-256,1,3,"Touma, Mrs. Darwis (Hanne Youssef Razi)",female,29,0,2,2650,15.2458,,C
-257,1,1,"Thorne, Mrs. Gertrude Maybelle",female,,0,0,PC 17585,79.2,,C
-258,1,1,"Cherry, Miss. Gladys",female,30,0,0,110152,86.5,B77,S
-259,1,1,"Ward, Miss. Anna",female,35,0,0,PC 17755,512.3292,,C
-260,1,2,"Parrish, Mrs. (Lutie Davis)",female,50,0,1,230433,26,,S
-261,0,3,"Smith, Mr. Thomas",male,,0,0,384461,7.75,,Q
-262,1,3,"Asplund, Master. Edvin Rojj Felix",male,3,4,2,347077,31.3875,,S
-263,0,1,"Taussig, Mr. Emil",male,52,1,1,110413,79.65,E67,S
-264,0,1,"Harrison, Mr. William",male,40,0,0,112059,0,B94,S
-265,0,3,"Henry, Miss. Delia",female,,0,0,382649,7.75,,Q
-266,0,2,"Reeves, Mr. David",male,36,0,0,C.A. 17248,10.5,,S
-267,0,3,"Panula, Mr. Ernesti Arvid",male,16,4,1,3101295,39.6875,,S
-268,1,3,"Persson, Mr. Ernst Ulrik",male,25,1,0,347083,7.775,,S
-269,1,1,"Graham, Mrs. William Thompson (Edith Junkins)",female,58,0,1,PC 17582,153.4625,C125,S
-270,1,1,"Bissette, Miss. Amelia",female,35,0,0,PC 17760,135.6333,C99,S
-271,0,1,"Cairns, Mr. Alexander",male,,0,0,113798,31,,S
-272,1,3,"Tornquist, Mr. William Henry",male,25,0,0,LINE,0,,S
-273,1,2,"Mellinger, Mrs. (Elizabeth Anne Maidment)",female,41,0,1,250644,19.5,,S
-274,0,1,"Natsch, Mr. Charles H",male,37,0,1,PC 17596,29.7,C118,C
-275,1,3,"Healy, Miss. Hanora ""Nora""",female,,0,0,370375,7.75,,Q
-276,1,1,"Andrews, Miss. Kornelia Theodosia",female,63,1,0,13502,77.9583,D7,S
-277,0,3,"Lindblom, Miss. Augusta Charlotta",female,45,0,0,347073,7.75,,S
-278,0,2,"Parkes, Mr. Francis ""Frank""",male,,0,0,239853,0,,S
-279,0,3,"Rice, Master. Eric",male,7,4,1,382652,29.125,,Q
-280,1,3,"Abbott, Mrs. Stanton (Rosa Hunt)",female,35,1,1,C.A. 2673,20.25,,S
-281,0,3,"Duane, Mr. Frank",male,65,0,0,336439,7.75,,Q
-282,0,3,"Olsson, Mr. Nils Johan Goransson",male,28,0,0,347464,7.8542,,S
-283,0,3,"de Pelsmaeker, Mr. Alfons",male,16,0,0,345778,9.5,,S
-284,1,3,"Dorking, Mr. Edward Arthur",male,19,0,0,A/5. 10482,8.05,,S
-285,0,1,"Smith, Mr. Richard William",male,,0,0,113056,26,A19,S
-286,0,3,"Stankovic, Mr. Ivan",male,33,0,0,349239,8.6625,,C
-287,1,3,"de Mulder, Mr. Theodore",male,30,0,0,345774,9.5,,S
-288,0,3,"Naidenoff, Mr. Penko",male,22,0,0,349206,7.8958,,S
-289,1,2,"Hosono, Mr. Masabumi",male,42,0,0,237798,13,,S
-290,1,3,"Connolly, Miss. Kate",female,22,0,0,370373,7.75,,Q
-291,1,1,"Barber, Miss. Ellen ""Nellie""",female,26,0,0,19877,78.85,,S
-292,1,1,"Bishop, Mrs. Dickinson H (Helen Walton)",female,19,1,0,11967,91.0792,B49,C
-293,0,2,"Levy, Mr. Rene Jacques",male,36,0,0,SC/Paris 2163,12.875,D,C
-294,0,3,"Haas, Miss. Aloisia",female,24,0,0,349236,8.85,,S
-295,0,3,"Mineff, Mr. Ivan",male,24,0,0,349233,7.8958,,S
-296,0,1,"Lewy, Mr. Ervin G",male,,0,0,PC 17612,27.7208,,C
-297,0,3,"Hanna, Mr. Mansour",male,23.5,0,0,2693,7.2292,,C
-298,0,1,"Allison, Miss. Helen Loraine",female,2,1,2,113781,151.55,C22 C26,S
-299,1,1,"Saalfeld, Mr. Adolphe",male,,0,0,19988,30.5,C106,S
-300,1,1,"Baxter, Mrs. James (Helene DeLaudeniere Chaput)",female,50,0,1,PC 17558,247.5208,B58 B60,C
-301,1,3,"Kelly, Miss. Anna Katherine ""Annie Kate""",female,,0,0,9234,7.75,,Q
-302,1,3,"McCoy, Mr. Bernard",male,,2,0,367226,23.25,,Q
-303,0,3,"Johnson, Mr. William Cahoone Jr",male,19,0,0,LINE,0,,S
-304,1,2,"Keane, Miss. Nora A",female,,0,0,226593,12.35,E101,Q
-305,0,3,"Williams, Mr. Howard Hugh ""Harry""",male,,0,0,A/5 2466,8.05,,S
-306,1,1,"Allison, Master. Hudson Trevor",male,0.92,1,2,113781,151.55,C22 C26,S
-307,1,1,"Fleming, Miss. Margaret",female,,0,0,17421,110.8833,,C
-308,1,1,"Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo)",female,17,1,0,PC 17758,108.9,C65,C
-309,0,2,"Abelson, Mr. Samuel",male,30,1,0,P/PP 3381,24,,C
-310,1,1,"Francatelli, Miss. Laura Mabel",female,30,0,0,PC 17485,56.9292,E36,C
-311,1,1,"Hays, Miss. Margaret Bechstein",female,24,0,0,11767,83.1583,C54,C
-312,1,1,"Ryerson, Miss. Emily Borie",female,18,2,2,PC 17608,262.375,B57 B59 B63 B66,C
-313,0,2,"Lahtinen, Mrs. William (Anna Sylfven)",female,26,1,1,250651,26,,S
-314,0,3,"Hendekovic, Mr. Ignjac",male,28,0,0,349243,7.8958,,S
-315,0,2,"Hart, Mr. Benjamin",male,43,1,1,F.C.C. 13529,26.25,,S
-316,1,3,"Nilsson, Miss. Helmina Josefina",female,26,0,0,347470,7.8542,,S
-317,1,2,"Kantor, Mrs. Sinai (Miriam Sternin)",female,24,1,0,244367,26,,S
-318,0,2,"Moraweck, Dr. Ernest",male,54,0,0,29011,14,,S
-319,1,1,"Wick, Miss. Mary Natalie",female,31,0,2,36928,164.8667,C7,S
-320,1,1,"Spedden, Mrs. Frederic Oakley (Margaretta Corning Stone)",female,40,1,1,16966,134.5,E34,C
-321,0,3,"Dennis, Mr. Samuel",male,22,0,0,A/5 21172,7.25,,S
-322,0,3,"Danoff, Mr. Yoto",male,27,0,0,349219,7.8958,,S
-323,1,2,"Slayter, Miss. Hilda Mary",female,30,0,0,234818,12.35,,Q
-324,1,2,"Caldwell, Mrs. Albert Francis (Sylvia Mae Harbaugh)",female,22,1,1,248738,29,,S
-325,0,3,"Sage, Mr. George John Jr",male,,8,2,CA. 2343,69.55,,S
-326,1,1,"Young, Miss. Marie Grice",female,36,0,0,PC 17760,135.6333,C32,C
-327,0,3,"Nysveen, Mr. Johan Hansen",male,61,0,0,345364,6.2375,,S
-328,1,2,"Ball, Mrs. (Ada E Hall)",female,36,0,0,28551,13,D,S
-329,1,3,"Goldsmith, Mrs. Frank John (Emily Alice Brown)",female,31,1,1,363291,20.525,,S
-330,1,1,"Hippach, Miss. Jean Gertrude",female,16,0,1,111361,57.9792,B18,C
-331,1,3,"McCoy, Miss. Agnes",female,,2,0,367226,23.25,,Q
-332,0,1,"Partner, Mr. Austen",male,45.5,0,0,113043,28.5,C124,S
-333,0,1,"Graham, Mr. George Edward",male,38,0,1,PC 17582,153.4625,C91,S
-334,0,3,"Vander Planke, Mr. Leo Edmondus",male,16,2,0,345764,18,,S
-335,1,1,"Frauenthal, Mrs. Henry William (Clara Heinsheimer)",female,,1,0,PC 17611,133.65,,S
-336,0,3,"Denkoff, Mr. Mitto",male,,0,0,349225,7.8958,,S
-337,0,1,"Pears, Mr. Thomas Clinton",male,29,1,0,113776,66.6,C2,S
-338,1,1,"Burns, Miss. Elizabeth Margaret",female,41,0,0,16966,134.5,E40,C
-339,1,3,"Dahl, Mr. Karl Edwart",male,45,0,0,7598,8.05,,S
-340,0,1,"Blackwell, Mr. Stephen Weart",male,45,0,0,113784,35.5,T,S
-341,1,2,"Navratil, Master. Edmond Roger",male,2,1,1,230080,26,F2,S
-342,1,1,"Fortune, Miss. Alice Elizabeth",female,24,3,2,19950,263,C23 C25 C27,S
-343,0,2,"Collander, Mr. Erik Gustaf",male,28,0,0,248740,13,,S
-344,0,2,"Sedgwick, Mr. Charles Frederick Waddington",male,25,0,0,244361,13,,S
-345,0,2,"Fox, Mr. Stanley Hubert",male,36,0,0,229236,13,,S
-346,1,2,"Brown, Miss. Amelia ""Mildred""",female,24,0,0,248733,13,F33,S
-347,1,2,"Smith, Miss. Marion Elsie",female,40,0,0,31418,13,,S
-348,1,3,"Davison, Mrs. Thomas Henry (Mary E Finck)",female,,1,0,386525,16.1,,S
-349,1,3,"Coutts, Master. William Loch ""William""",male,3,1,1,C.A. 37671,15.9,,S
-350,0,3,"Dimic, Mr. Jovan",male,42,0,0,315088,8.6625,,S
-351,0,3,"Odahl, Mr. Nils Martin",male,23,0,0,7267,9.225,,S
-352,0,1,"Williams-Lambert, Mr. Fletcher Fellows",male,,0,0,113510,35,C128,S
-353,0,3,"Elias, Mr. Tannous",male,15,1,1,2695,7.2292,,C
-354,0,3,"Arnold-Franchi, Mr. Josef",male,25,1,0,349237,17.8,,S
-355,0,3,"Yousif, Mr. Wazli",male,,0,0,2647,7.225,,C
-356,0,3,"Vanden Steen, Mr. Leo Peter",male,28,0,0,345783,9.5,,S
-357,1,1,"Bowerman, Miss. Elsie Edith",female,22,0,1,113505,55,E33,S
-358,0,2,"Funk, Miss. Annie Clemmer",female,38,0,0,237671,13,,S
-359,1,3,"McGovern, Miss. Mary",female,,0,0,330931,7.8792,,Q
-360,1,3,"Mockler, Miss. Helen Mary ""Ellie""",female,,0,0,330980,7.8792,,Q
-361,0,3,"Skoog, Mr. Wilhelm",male,40,1,4,347088,27.9,,S
-362,0,2,"del Carlo, Mr. Sebastiano",male,29,1,0,SC/PARIS 2167,27.7208,,C
-363,0,3,"Barbara, Mrs. (Catherine David)",female,45,0,1,2691,14.4542,,C
-364,0,3,"Asim, Mr. Adola",male,35,0,0,SOTON/O.Q. 3101310,7.05,,S
-365,0,3,"O'Brien, Mr. Thomas",male,,1,0,370365,15.5,,Q
-366,0,3,"Adahl, Mr. Mauritz Nils Martin",male,30,0,0,C 7076,7.25,,S
-367,1,1,"Warren, Mrs. Frank Manley (Anna Sophia Atkinson)",female,60,1,0,110813,75.25,D37,C
-368,1,3,"Moussa, Mrs. (Mantoura Boulos)",female,,0,0,2626,7.2292,,C
-369,1,3,"Jermyn, Miss. Annie",female,,0,0,14313,7.75,,Q
-370,1,1,"Aubart, Mme. Leontine Pauline",female,24,0,0,PC 17477,69.3,B35,C
-371,1,1,"Harder, Mr. George Achilles",male,25,1,0,11765,55.4417,E50,C
-372,0,3,"Wiklund, Mr. Jakob Alfred",male,18,1,0,3101267,6.4958,,S
-373,0,3,"Beavan, Mr. William Thomas",male,19,0,0,323951,8.05,,S
-374,0,1,"Ringhini, Mr. Sante",male,22,0,0,PC 17760,135.6333,,C
-375,0,3,"Palsson, Miss. Stina Viola",female,3,3,1,349909,21.075,,S
-376,1,1,"Meyer, Mrs. Edgar Joseph (Leila Saks)",female,,1,0,PC 17604,82.1708,,C
-377,1,3,"Landergren, Miss. Aurora Adelia",female,22,0,0,C 7077,7.25,,S
-378,0,1,"Widener, Mr. Harry Elkins",male,27,0,2,113503,211.5,C82,C
-379,0,3,"Betros, Mr. Tannous",male,20,0,0,2648,4.0125,,C
-380,0,3,"Gustafsson, Mr. Karl Gideon",male,19,0,0,347069,7.775,,S
-381,1,1,"Bidois, Miss. Rosalie",female,42,0,0,PC 17757,227.525,,C
-382,1,3,"Nakid, Miss. Maria (""Mary"")",female,1,0,2,2653,15.7417,,C
-383,0,3,"Tikkanen, Mr. Juho",male,32,0,0,STON/O 2. 3101293,7.925,,S
-384,1,1,"Holverson, Mrs. Alexander Oskar (Mary Aline Towner)",female,35,1,0,113789,52,,S
-385,0,3,"Plotcharsky, Mr. Vasil",male,,0,0,349227,7.8958,,S
-386,0,2,"Davies, Mr. Charles Henry",male,18,0,0,S.O.C. 14879,73.5,,S
-387,0,3,"Goodwin, Master. Sidney Leonard",male,1,5,2,CA 2144,46.9,,S
-388,1,2,"Buss, Miss. Kate",female,36,0,0,27849,13,,S
-389,0,3,"Sadlier, Mr. Matthew",male,,0,0,367655,7.7292,,Q
-390,1,2,"Lehmann, Miss. Bertha",female,17,0,0,SC 1748,12,,C
-391,1,1,"Carter, Mr. William Ernest",male,36,1,2,113760,120,B96 B98,S
-392,1,3,"Jansson, Mr. Carl Olof",male,21,0,0,350034,7.7958,,S
-393,0,3,"Gustafsson, Mr. Johan Birger",male,28,2,0,3101277,7.925,,S
-394,1,1,"Newell, Miss. Marjorie",female,23,1,0,35273,113.275,D36,C
-395,1,3,"Sandstrom, Mrs. Hjalmar (Agnes Charlotta Bengtsson)",female,24,0,2,PP 9549,16.7,G6,S
-396,0,3,"Johansson, Mr. Erik",male,22,0,0,350052,7.7958,,S
-397,0,3,"Olsson, Miss. Elina",female,31,0,0,350407,7.8542,,S
-398,0,2,"McKane, Mr. Peter David",male,46,0,0,28403,26,,S
-399,0,2,"Pain, Dr. Alfred",male,23,0,0,244278,10.5,,S
-400,1,2,"Trout, Mrs. William H (Jessie L)",female,28,0,0,240929,12.65,,S
-401,1,3,"Niskanen, Mr. Juha",male,39,0,0,STON/O 2. 3101289,7.925,,S
-402,0,3,"Adams, Mr. John",male,26,0,0,341826,8.05,,S
-403,0,3,"Jussila, Miss. Mari Aina",female,21,1,0,4137,9.825,,S
-404,0,3,"Hakkarainen, Mr. Pekka Pietari",male,28,1,0,STON/O2. 3101279,15.85,,S
-405,0,3,"Oreskovic, Miss. Marija",female,20,0,0,315096,8.6625,,S
-406,0,2,"Gale, Mr. Shadrach",male,34,1,0,28664,21,,S
-407,0,3,"Widegren, Mr. Carl/Charles Peter",male,51,0,0,347064,7.75,,S
-408,1,2,"Richards, Master. William Rowe",male,3,1,1,29106,18.75,,S
-409,0,3,"Birkeland, Mr. Hans Martin Monsen",male,21,0,0,312992,7.775,,S
-410,0,3,"Lefebre, Miss. Ida",female,,3,1,4133,25.4667,,S
-411,0,3,"Sdycoff, Mr. Todor",male,,0,0,349222,7.8958,,S
-412,0,3,"Hart, Mr. Henry",male,,0,0,394140,6.8583,,Q
-413,1,1,"Minahan, Miss. Daisy E",female,33,1,0,19928,90,C78,Q
-414,0,2,"Cunningham, Mr. Alfred Fleming",male,,0,0,239853,0,,S
-415,1,3,"Sundman, Mr. Johan Julian",male,44,0,0,STON/O 2. 3101269,7.925,,S
-416,0,3,"Meek, Mrs. Thomas (Annie Louise Rowley)",female,,0,0,343095,8.05,,S
-417,1,2,"Drew, Mrs. James Vivian (Lulu Thorne Christian)",female,34,1,1,28220,32.5,,S
-418,1,2,"Silven, Miss. Lyyli Karoliina",female,18,0,2,250652,13,,S
-419,0,2,"Matthews, Mr. William John",male,30,0,0,28228,13,,S
-420,0,3,"Van Impe, Miss. Catharina",female,10,0,2,345773,24.15,,S
-421,0,3,"Gheorgheff, Mr. Stanio",male,,0,0,349254,7.8958,,C
-422,0,3,"Charters, Mr. David",male,21,0,0,A/5. 13032,7.7333,,Q
-423,0,3,"Zimmerman, Mr. Leo",male,29,0,0,315082,7.875,,S
-424,0,3,"Danbom, Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren)",female,28,1,1,347080,14.4,,S
-425,0,3,"Rosblom, Mr. Viktor Richard",male,18,1,1,370129,20.2125,,S
-426,0,3,"Wiseman, Mr. Phillippe",male,,0,0,A/4. 34244,7.25,,S
-427,1,2,"Clarke, Mrs. Charles V (Ada Maria Winfield)",female,28,1,0,2003,26,,S
-428,1,2,"Phillips, Miss. Kate Florence (""Mrs Kate Louise Phillips Marshall"")",female,19,0,0,250655,26,,S
-429,0,3,"Flynn, Mr. James",male,,0,0,364851,7.75,,Q
-430,1,3,"Pickard, Mr. Berk (Berk Trembisky)",male,32,0,0,SOTON/O.Q. 392078,8.05,E10,S
-431,1,1,"Bjornstrom-Steffansson, Mr. Mauritz Hakan",male,28,0,0,110564,26.55,C52,S
-432,1,3,"Thorneycroft, Mrs. Percival (Florence Kate White)",female,,1,0,376564,16.1,,S
-433,1,2,"Louch, Mrs. Charles Alexander (Alice Adelaide Slow)",female,42,1,0,SC/AH 3085,26,,S
-434,0,3,"Kallio, Mr. Nikolai Erland",male,17,0,0,STON/O 2. 3101274,7.125,,S
-435,0,1,"Silvey, Mr. William Baird",male,50,1,0,13507,55.9,E44,S
-436,1,1,"Carter, Miss. Lucile Polk",female,14,1,2,113760,120,B96 B98,S
-437,0,3,"Ford, Miss. Doolina Margaret ""Daisy""",female,21,2,2,W./C. 6608,34.375,,S
-438,1,2,"Richards, Mrs. Sidney (Emily Hocking)",female,24,2,3,29106,18.75,,S
-439,0,1,"Fortune, Mr. Mark",male,64,1,4,19950,263,C23 C25 C27,S
-440,0,2,"Kvillner, Mr. Johan Henrik Johannesson",male,31,0,0,C.A. 18723,10.5,,S
-441,1,2,"Hart, Mrs. Benjamin (Esther Ada Bloomfield)",female,45,1,1,F.C.C. 13529,26.25,,S
-442,0,3,"Hampe, Mr. Leon",male,20,0,0,345769,9.5,,S
-443,0,3,"Petterson, Mr. Johan Emil",male,25,1,0,347076,7.775,,S
-444,1,2,"Reynaldo, Ms. Encarnacion",female,28,0,0,230434,13,,S
-445,1,3,"Johannesen-Bratthammer, Mr. Bernt",male,,0,0,65306,8.1125,,S
-446,1,1,"Dodge, Master. Washington",male,4,0,2,33638,81.8583,A34,S
-447,1,2,"Mellinger, Miss. Madeleine Violet",female,13,0,1,250644,19.5,,S
-448,1,1,"Seward, Mr. Frederic Kimber",male,34,0,0,113794,26.55,,S
-449,1,3,"Baclini, Miss. Marie Catherine",female,5,2,1,2666,19.2583,,C
-450,1,1,"Peuchen, Major. Arthur Godfrey",male,52,0,0,113786,30.5,C104,S
-451,0,2,"West, Mr. Edwy Arthur",male,36,1,2,C.A. 34651,27.75,,S
-452,0,3,"Hagland, Mr. Ingvald Olai Olsen",male,,1,0,65303,19.9667,,S
-453,0,1,"Foreman, Mr. Benjamin Laventall",male,30,0,0,113051,27.75,C111,C
-454,1,1,"Goldenberg, Mr. Samuel L",male,49,1,0,17453,89.1042,C92,C
-455,0,3,"Peduzzi, Mr. Joseph",male,,0,0,A/5 2817,8.05,,S
-456,1,3,"Jalsevac, Mr. Ivan",male,29,0,0,349240,7.8958,,C
-457,0,1,"Millet, Mr. Francis Davis",male,65,0,0,13509,26.55,E38,S
-458,1,1,"Kenyon, Mrs. Frederick R (Marion)",female,,1,0,17464,51.8625,D21,S
-459,1,2,"Toomey, Miss. Ellen",female,50,0,0,F.C.C. 13531,10.5,,S
-460,0,3,"O'Connor, Mr. Maurice",male,,0,0,371060,7.75,,Q
-461,1,1,"Anderson, Mr. Harry",male,48,0,0,19952,26.55,E12,S
-462,0,3,"Morley, Mr. William",male,34,0,0,364506,8.05,,S
-463,0,1,"Gee, Mr. Arthur H",male,47,0,0,111320,38.5,E63,S
-464,0,2,"Milling, Mr. Jacob Christian",male,48,0,0,234360,13,,S
-465,0,3,"Maisner, Mr. Simon",male,,0,0,A/S 2816,8.05,,S
-466,0,3,"Goncalves, Mr. Manuel Estanslas",male,38,0,0,SOTON/O.Q. 3101306,7.05,,S
-467,0,2,"Campbell, Mr. William",male,,0,0,239853,0,,S
-468,0,1,"Smart, Mr. John Montgomery",male,56,0,0,113792,26.55,,S
-469,0,3,"Scanlan, Mr. James",male,,0,0,36209,7.725,,Q
-470,1,3,"Baclini, Miss. Helene Barbara",female,0.75,2,1,2666,19.2583,,C
-471,0,3,"Keefe, Mr. Arthur",male,,0,0,323592,7.25,,S
-472,0,3,"Cacic, Mr. Luka",male,38,0,0,315089,8.6625,,S
-473,1,2,"West, Mrs. Edwy Arthur (Ada Mary Worth)",female,33,1,2,C.A. 34651,27.75,,S
-474,1,2,"Jerwan, Mrs. Amin S (Marie Marthe Thuillard)",female,23,0,0,SC/AH Basle 541,13.7917,D,C
-475,0,3,"Strandberg, Miss. Ida Sofia",female,22,0,0,7553,9.8375,,S
-476,0,1,"Clifford, Mr. George Quincy",male,,0,0,110465,52,A14,S
-477,0,2,"Renouf, Mr. Peter Henry",male,34,1,0,31027,21,,S
-478,0,3,"Braund, Mr. Lewis Richard",male,29,1,0,3460,7.0458,,S
-479,0,3,"Karlsson, Mr. Nils August",male,22,0,0,350060,7.5208,,S
-480,1,3,"Hirvonen, Miss. Hildur E",female,2,0,1,3101298,12.2875,,S
-481,0,3,"Goodwin, Master. Harold Victor",male,9,5,2,CA 2144,46.9,,S
-482,0,2,"Frost, Mr. Anthony Wood ""Archie""",male,,0,0,239854,0,,S
-483,0,3,"Rouse, Mr. Richard Henry",male,50,0,0,A/5 3594,8.05,,S
-484,1,3,"Turkula, Mrs. (Hedwig)",female,63,0,0,4134,9.5875,,S
-485,1,1,"Bishop, Mr. Dickinson H",male,25,1,0,11967,91.0792,B49,C
-486,0,3,"Lefebre, Miss. Jeannie",female,,3,1,4133,25.4667,,S
-487,1,1,"Hoyt, Mrs. Frederick Maxfield (Jane Anne Forby)",female,35,1,0,19943,90,C93,S
-488,0,1,"Kent, Mr. Edward Austin",male,58,0,0,11771,29.7,B37,C
-489,0,3,"Somerton, Mr. Francis William",male,30,0,0,A.5. 18509,8.05,,S
-490,1,3,"Coutts, Master. Eden Leslie ""Neville""",male,9,1,1,C.A. 37671,15.9,,S
-491,0,3,"Hagland, Mr. Konrad Mathias Reiersen",male,,1,0,65304,19.9667,,S
-492,0,3,"Windelov, Mr. Einar",male,21,0,0,SOTON/OQ 3101317,7.25,,S
-493,0,1,"Molson, Mr. Harry Markland",male,55,0,0,113787,30.5,C30,S
-494,0,1,"Artagaveytia, Mr. Ramon",male,71,0,0,PC 17609,49.5042,,C
-495,0,3,"Stanley, Mr. Edward Roland",male,21,0,0,A/4 45380,8.05,,S
-496,0,3,"Yousseff, Mr. Gerious",male,,0,0,2627,14.4583,,C
-497,1,1,"Eustis, Miss. Elizabeth Mussey",female,54,1,0,36947,78.2667,D20,C
-498,0,3,"Shellard, Mr. Frederick William",male,,0,0,C.A. 6212,15.1,,S
-499,0,1,"Allison, Mrs. Hudson J C (Bessie Waldo Daniels)",female,25,1,2,113781,151.55,C22 C26,S
-500,0,3,"Svensson, Mr. Olof",male,24,0,0,350035,7.7958,,S
-501,0,3,"Calic, Mr. Petar",male,17,0,0,315086,8.6625,,S
-502,0,3,"Canavan, Miss. Mary",female,21,0,0,364846,7.75,,Q
-503,0,3,"O'Sullivan, Miss. Bridget Mary",female,,0,0,330909,7.6292,,Q
-504,0,3,"Laitinen, Miss. Kristina Sofia",female,37,0,0,4135,9.5875,,S
-505,1,1,"Maioni, Miss. Roberta",female,16,0,0,110152,86.5,B79,S
-506,0,1,"Penasco y Castellana, Mr. Victor de Satode",male,18,1,0,PC 17758,108.9,C65,C
-507,1,2,"Quick, Mrs. Frederick Charles (Jane Richards)",female,33,0,2,26360,26,,S
-508,1,1,"Bradley, Mr. George (""George Arthur Brayton"")",male,,0,0,111427,26.55,,S
-509,0,3,"Olsen, Mr. Henry Margido",male,28,0,0,C 4001,22.525,,S
-510,1,3,"Lang, Mr. Fang",male,26,0,0,1601,56.4958,,S
-511,1,3,"Daly, Mr. Eugene Patrick",male,29,0,0,382651,7.75,,Q
-512,0,3,"Webber, Mr. James",male,,0,0,SOTON/OQ 3101316,8.05,,S
-513,1,1,"McGough, Mr. James Robert",male,36,0,0,PC 17473,26.2875,E25,S
-514,1,1,"Rothschild, Mrs. Martin (Elizabeth L. Barrett)",female,54,1,0,PC 17603,59.4,,C
-515,0,3,"Coleff, Mr. Satio",male,24,0,0,349209,7.4958,,S
-516,0,1,"Walker, Mr. William Anderson",male,47,0,0,36967,34.0208,D46,S
-517,1,2,"Lemore, Mrs. (Amelia Milley)",female,34,0,0,C.A. 34260,10.5,F33,S
-518,0,3,"Ryan, Mr. Patrick",male,,0,0,371110,24.15,,Q
-519,1,2,"Angle, Mrs. William A (Florence ""Mary"" Agnes Hughes)",female,36,1,0,226875,26,,S
-520,0,3,"Pavlovic, Mr. Stefo",male,32,0,0,349242,7.8958,,S
-521,1,1,"Perreault, Miss. Anne",female,30,0,0,12749,93.5,B73,S
-522,0,3,"Vovk, Mr. Janko",male,22,0,0,349252,7.8958,,S
-523,0,3,"Lahoud, Mr. Sarkis",male,,0,0,2624,7.225,,C
-524,1,1,"Hippach, Mrs. Louis Albert (Ida Sophia Fischer)",female,44,0,1,111361,57.9792,B18,C
-525,0,3,"Kassem, Mr. Fared",male,,0,0,2700,7.2292,,C
-526,0,3,"Farrell, Mr. James",male,40.5,0,0,367232,7.75,,Q
-527,1,2,"Ridsdale, Miss. Lucy",female,50,0,0,W./C. 14258,10.5,,S
-528,0,1,"Farthing, Mr. John",male,,0,0,PC 17483,221.7792,C95,S
-529,0,3,"Salonen, Mr. Johan Werner",male,39,0,0,3101296,7.925,,S
-530,0,2,"Hocking, Mr. Richard George",male,23,2,1,29104,11.5,,S
-531,1,2,"Quick, Miss. Phyllis May",female,2,1,1,26360,26,,S
-532,0,3,"Toufik, Mr. Nakli",male,,0,0,2641,7.2292,,C
-533,0,3,"Elias, Mr. Joseph Jr",male,17,1,1,2690,7.2292,,C
-534,1,3,"Peter, Mrs. Catherine (Catherine Rizk)",female,,0,2,2668,22.3583,,C
-535,0,3,"Cacic, Miss. Marija",female,30,0,0,315084,8.6625,,S
-536,1,2,"Hart, Miss. Eva Miriam",female,7,0,2,F.C.C. 13529,26.25,,S
-537,0,1,"Butt, Major. Archibald Willingham",male,45,0,0,113050,26.55,B38,S
-538,1,1,"LeRoy, Miss. Bertha",female,30,0,0,PC 17761,106.425,,C
-539,0,3,"Risien, Mr. Samuel Beard",male,,0,0,364498,14.5,,S
-540,1,1,"Frolicher, Miss. Hedwig Margaritha",female,22,0,2,13568,49.5,B39,C
-541,1,1,"Crosby, Miss. Harriet R",female,36,0,2,WE/P 5735,71,B22,S
-542,0,3,"Andersson, Miss. Ingeborg Constanzia",female,9,4,2,347082,31.275,,S
-543,0,3,"Andersson, Miss. Sigrid Elisabeth",female,11,4,2,347082,31.275,,S
-544,1,2,"Beane, Mr. Edward",male,32,1,0,2908,26,,S
-545,0,1,"Douglas, Mr. Walter Donald",male,50,1,0,PC 17761,106.425,C86,C
-546,0,1,"Nicholson, Mr. Arthur Ernest",male,64,0,0,693,26,,S
-547,1,2,"Beane, Mrs. Edward (Ethel Clarke)",female,19,1,0,2908,26,,S
-548,1,2,"Padro y Manent, Mr. Julian",male,,0,0,SC/PARIS 2146,13.8625,,C
-549,0,3,"Goldsmith, Mr. Frank John",male,33,1,1,363291,20.525,,S
-550,1,2,"Davies, Master. John Morgan Jr",male,8,1,1,C.A. 33112,36.75,,S
-551,1,1,"Thayer, Mr. John Borland Jr",male,17,0,2,17421,110.8833,C70,C
-552,0,2,"Sharp, Mr. Percival James R",male,27,0,0,244358,26,,S
-553,0,3,"O'Brien, Mr. Timothy",male,,0,0,330979,7.8292,,Q
-554,1,3,"Leeni, Mr. Fahim (""Philip Zenni"")",male,22,0,0,2620,7.225,,C
-555,1,3,"Ohman, Miss. Velin",female,22,0,0,347085,7.775,,S
-556,0,1,"Wright, Mr. George",male,62,0,0,113807,26.55,,S
-557,1,1,"Duff Gordon, Lady. (Lucille Christiana Sutherland) (""Mrs Morgan"")",female,48,1,0,11755,39.6,A16,C
-558,0,1,"Robbins, Mr. Victor",male,,0,0,PC 17757,227.525,,C
-559,1,1,"Taussig, Mrs. Emil (Tillie Mandelbaum)",female,39,1,1,110413,79.65,E67,S
-560,1,3,"de Messemaeker, Mrs. Guillaume Joseph (Emma)",female,36,1,0,345572,17.4,,S
-561,0,3,"Morrow, Mr. Thomas Rowan",male,,0,0,372622,7.75,,Q
-562,0,3,"Sivic, Mr. Husein",male,40,0,0,349251,7.8958,,S
-563,0,2,"Norman, Mr. Robert Douglas",male,28,0,0,218629,13.5,,S
-564,0,3,"Simmons, Mr. John",male,,0,0,SOTON/OQ 392082,8.05,,S
-565,0,3,"Meanwell, Miss. (Marion Ogden)",female,,0,0,SOTON/O.Q. 392087,8.05,,S
-566,0,3,"Davies, Mr. Alfred J",male,24,2,0,A/4 48871,24.15,,S
-567,0,3,"Stoytcheff, Mr. Ilia",male,19,0,0,349205,7.8958,,S
-568,0,3,"Palsson, Mrs. Nils (Alma Cornelia Berglund)",female,29,0,4,349909,21.075,,S
-569,0,3,"Doharr, Mr. Tannous",male,,0,0,2686,7.2292,,C
-570,1,3,"Jonsson, Mr. Carl",male,32,0,0,350417,7.8542,,S
-571,1,2,"Harris, Mr. George",male,62,0,0,S.W./PP 752,10.5,,S
-572,1,1,"Appleton, Mrs. Edward Dale (Charlotte Lamson)",female,53,2,0,11769,51.4792,C101,S
-573,1,1,"Flynn, Mr. John Irwin (""Irving"")",male,36,0,0,PC 17474,26.3875,E25,S
-574,1,3,"Kelly, Miss. Mary",female,,0,0,14312,7.75,,Q
-575,0,3,"Rush, Mr. Alfred George John",male,16,0,0,A/4. 20589,8.05,,S
-576,0,3,"Patchett, Mr. George",male,19,0,0,358585,14.5,,S
-577,1,2,"Garside, Miss. Ethel",female,34,0,0,243880,13,,S
-578,1,1,"Silvey, Mrs. William Baird (Alice Munger)",female,39,1,0,13507,55.9,E44,S
-579,0,3,"Caram, Mrs. Joseph (Maria Elias)",female,,1,0,2689,14.4583,,C
-580,1,3,"Jussila, Mr. Eiriik",male,32,0,0,STON/O 2. 3101286,7.925,,S
-581,1,2,"Christy, Miss. Julie Rachel",female,25,1,1,237789,30,,S
-582,1,1,"Thayer, Mrs. John Borland (Marian Longstreth Morris)",female,39,1,1,17421,110.8833,C68,C
-583,0,2,"Downton, Mr. William James",male,54,0,0,28403,26,,S
-584,0,1,"Ross, Mr. John Hugo",male,36,0,0,13049,40.125,A10,C
-585,0,3,"Paulner, Mr. Uscher",male,,0,0,3411,8.7125,,C
-586,1,1,"Taussig, Miss. Ruth",female,18,0,2,110413,79.65,E68,S
-587,0,2,"Jarvis, Mr. John Denzil",male,47,0,0,237565,15,,S
-588,1,1,"Frolicher-Stehli, Mr. Maxmillian",male,60,1,1,13567,79.2,B41,C
-589,0,3,"Gilinski, Mr. Eliezer",male,22,0,0,14973,8.05,,S
-590,0,3,"Murdlin, Mr. Joseph",male,,0,0,A./5. 3235,8.05,,S
-591,0,3,"Rintamaki, Mr. Matti",male,35,0,0,STON/O 2. 3101273,7.125,,S
-592,1,1,"Stephenson, Mrs. Walter Bertram (Martha Eustis)",female,52,1,0,36947,78.2667,D20,C
-593,0,3,"Elsbury, Mr. William James",male,47,0,0,A/5 3902,7.25,,S
-594,0,3,"Bourke, Miss. Mary",female,,0,2,364848,7.75,,Q
-595,0,2,"Chapman, Mr. John Henry",male,37,1,0,SC/AH 29037,26,,S
-596,0,3,"Van Impe, Mr. Jean Baptiste",male,36,1,1,345773,24.15,,S
-597,1,2,"Leitch, Miss. Jessie Wills",female,,0,0,248727,33,,S
-598,0,3,"Johnson, Mr. Alfred",male,49,0,0,LINE,0,,S
-599,0,3,"Boulos, Mr. Hanna",male,,0,0,2664,7.225,,C
-600,1,1,"Duff Gordon, Sir. Cosmo Edmund (""Mr Morgan"")",male,49,1,0,PC 17485,56.9292,A20,C
-601,1,2,"Jacobsohn, Mrs. Sidney Samuel (Amy Frances Christy)",female,24,2,1,243847,27,,S
-602,0,3,"Slabenoff, Mr. Petco",male,,0,0,349214,7.8958,,S
-603,0,1,"Harrington, Mr. Charles H",male,,0,0,113796,42.4,,S
-604,0,3,"Torber, Mr. Ernst William",male,44,0,0,364511,8.05,,S
-605,1,1,"Homer, Mr. Harry (""Mr E Haven"")",male,35,0,0,111426,26.55,,C
-606,0,3,"Lindell, Mr. Edvard Bengtsson",male,36,1,0,349910,15.55,,S
-607,0,3,"Karaic, Mr. Milan",male,30,0,0,349246,7.8958,,S
-608,1,1,"Daniel, Mr. Robert Williams",male,27,0,0,113804,30.5,,S
-609,1,2,"Laroche, Mrs. Joseph (Juliette Marie Louise Lafargue)",female,22,1,2,SC/Paris 2123,41.5792,,C
-610,1,1,"Shutes, Miss. Elizabeth W",female,40,0,0,PC 17582,153.4625,C125,S
-611,0,3,"Andersson, Mrs. Anders Johan (Alfrida Konstantia Brogren)",female,39,1,5,347082,31.275,,S
-612,0,3,"Jardin, Mr. Jose Neto",male,,0,0,SOTON/O.Q. 3101305,7.05,,S
-613,1,3,"Murphy, Miss. Margaret Jane",female,,1,0,367230,15.5,,Q
-614,0,3,"Horgan, Mr. John",male,,0,0,370377,7.75,,Q
-615,0,3,"Brocklebank, Mr. William Alfred",male,35,0,0,364512,8.05,,S
-616,1,2,"Herman, Miss. Alice",female,24,1,2,220845,65,,S
-617,0,3,"Danbom, Mr. Ernst Gilbert",male,34,1,1,347080,14.4,,S
-618,0,3,"Lobb, Mrs. William Arthur (Cordelia K Stanlick)",female,26,1,0,A/5. 3336,16.1,,S
-619,1,2,"Becker, Miss. Marion Louise",female,4,2,1,230136,39,F4,S
-620,0,2,"Gavey, Mr. Lawrence",male,26,0,0,31028,10.5,,S
-621,0,3,"Yasbeck, Mr. Antoni",male,27,1,0,2659,14.4542,,C
-622,1,1,"Kimball, Mr. Edwin Nelson Jr",male,42,1,0,11753,52.5542,D19,S
-623,1,3,"Nakid, Mr. Sahid",male,20,1,1,2653,15.7417,,C
-624,0,3,"Hansen, Mr. Henry Damsgaard",male,21,0,0,350029,7.8542,,S
-625,0,3,"Bowen, Mr. David John ""Dai""",male,21,0,0,54636,16.1,,S
-626,0,1,"Sutton, Mr. Frederick",male,61,0,0,36963,32.3208,D50,S
-627,0,2,"Kirkland, Rev. Charles Leonard",male,57,0,0,219533,12.35,,Q
-628,1,1,"Longley, Miss. Gretchen Fiske",female,21,0,0,13502,77.9583,D9,S
-629,0,3,"Bostandyeff, Mr. Guentcho",male,26,0,0,349224,7.8958,,S
-630,0,3,"O'Connell, Mr. Patrick D",male,,0,0,334912,7.7333,,Q
-631,1,1,"Barkworth, Mr. Algernon Henry Wilson",male,80,0,0,27042,30,A23,S
-632,0,3,"Lundahl, Mr. Johan Svensson",male,51,0,0,347743,7.0542,,S
-633,1,1,"Stahelin-Maeglin, Dr. Max",male,32,0,0,13214,30.5,B50,C
-634,0,1,"Parr, Mr. William Henry Marsh",male,,0,0,112052,0,,S
-635,0,3,"Skoog, Miss. Mabel",female,9,3,2,347088,27.9,,S
-636,1,2,"Davis, Miss. Mary",female,28,0,0,237668,13,,S
-637,0,3,"Leinonen, Mr. Antti Gustaf",male,32,0,0,STON/O 2. 3101292,7.925,,S
-638,0,2,"Collyer, Mr. Harvey",male,31,1,1,C.A. 31921,26.25,,S
-639,0,3,"Panula, Mrs. Juha (Maria Emilia Ojala)",female,41,0,5,3101295,39.6875,,S
-640,0,3,"Thorneycroft, Mr. Percival",male,,1,0,376564,16.1,,S
-641,0,3,"Jensen, Mr. Hans Peder",male,20,0,0,350050,7.8542,,S
-642,1,1,"Sagesser, Mlle. Emma",female,24,0,0,PC 17477,69.3,B35,C
-643,0,3,"Skoog, Miss. Margit Elizabeth",female,2,3,2,347088,27.9,,S
-644,1,3,"Foo, Mr. Choong",male,,0,0,1601,56.4958,,S
-645,1,3,"Baclini, Miss. Eugenie",female,0.75,2,1,2666,19.2583,,C
-646,1,1,"Harper, Mr. Henry Sleeper",male,48,1,0,PC 17572,76.7292,D33,C
-647,0,3,"Cor, Mr. Liudevit",male,19,0,0,349231,7.8958,,S
-648,1,1,"Simonius-Blumer, Col. Oberst Alfons",male,56,0,0,13213,35.5,A26,C
-649,0,3,"Willey, Mr. Edward",male,,0,0,S.O./P.P. 751,7.55,,S
-650,1,3,"Stanley, Miss. Amy Zillah Elsie",female,23,0,0,CA. 2314,7.55,,S
-651,0,3,"Mitkoff, Mr. Mito",male,,0,0,349221,7.8958,,S
-652,1,2,"Doling, Miss. Elsie",female,18,0,1,231919,23,,S
-653,0,3,"Kalvik, Mr. Johannes Halvorsen",male,21,0,0,8475,8.4333,,S
-654,1,3,"O'Leary, Miss. Hanora ""Norah""",female,,0,0,330919,7.8292,,Q
-655,0,3,"Hegarty, Miss. Hanora ""Nora""",female,18,0,0,365226,6.75,,Q
-656,0,2,"Hickman, Mr. Leonard Mark",male,24,2,0,S.O.C. 14879,73.5,,S
-657,0,3,"Radeff, Mr. Alexander",male,,0,0,349223,7.8958,,S
-658,0,3,"Bourke, Mrs. John (Catherine)",female,32,1,1,364849,15.5,,Q
-659,0,2,"Eitemiller, Mr. George Floyd",male,23,0,0,29751,13,,S
-660,0,1,"Newell, Mr. Arthur Webster",male,58,0,2,35273,113.275,D48,C
-661,1,1,"Frauenthal, Dr. Henry William",male,50,2,0,PC 17611,133.65,,S
-662,0,3,"Badt, Mr. Mohamed",male,40,0,0,2623,7.225,,C
-663,0,1,"Colley, Mr. Edward Pomeroy",male,47,0,0,5727,25.5875,E58,S
-664,0,3,"Coleff, Mr. Peju",male,36,0,0,349210,7.4958,,S
-665,1,3,"Lindqvist, Mr. Eino William",male,20,1,0,STON/O 2. 3101285,7.925,,S
-666,0,2,"Hickman, Mr. Lewis",male,32,2,0,S.O.C. 14879,73.5,,S
-667,0,2,"Butler, Mr. Reginald Fenton",male,25,0,0,234686,13,,S
-668,0,3,"Rommetvedt, Mr. Knud Paust",male,,0,0,312993,7.775,,S
-669,0,3,"Cook, Mr. Jacob",male,43,0,0,A/5 3536,8.05,,S
-670,1,1,"Taylor, Mrs. Elmer Zebley (Juliet Cummins Wright)",female,,1,0,19996,52,C126,S
-671,1,2,"Brown, Mrs. Thomas William Solomon (Elizabeth Catherine Ford)",female,40,1,1,29750,39,,S
-672,0,1,"Davidson, Mr. Thornton",male,31,1,0,F.C. 12750,52,B71,S
-673,0,2,"Mitchell, Mr. Henry Michael",male,70,0,0,C.A. 24580,10.5,,S
-674,1,2,"Wilhelms, Mr. Charles",male,31,0,0,244270,13,,S
-675,0,2,"Watson, Mr. Ennis Hastings",male,,0,0,239856,0,,S
-676,0,3,"Edvardsson, Mr. Gustaf Hjalmar",male,18,0,0,349912,7.775,,S
-677,0,3,"Sawyer, Mr. Frederick Charles",male,24.5,0,0,342826,8.05,,S
-678,1,3,"Turja, Miss. Anna Sofia",female,18,0,0,4138,9.8417,,S
-679,0,3,"Goodwin, Mrs. Frederick (Augusta Tyler)",female,43,1,6,CA 2144,46.9,,S
-680,1,1,"Cardeza, Mr. Thomas Drake Martinez",male,36,0,1,PC 17755,512.3292,B51 B53 B55,C
-681,0,3,"Peters, Miss. Katie",female,,0,0,330935,8.1375,,Q
-682,1,1,"Hassab, Mr. Hammad",male,27,0,0,PC 17572,76.7292,D49,C
-683,0,3,"Olsvigen, Mr. Thor Anderson",male,20,0,0,6563,9.225,,S
-684,0,3,"Goodwin, Mr. Charles Edward",male,14,5,2,CA 2144,46.9,,S
-685,0,2,"Brown, Mr. Thomas William Solomon",male,60,1,1,29750,39,,S
-686,0,2,"Laroche, Mr. Joseph Philippe Lemercier",male,25,1,2,SC/Paris 2123,41.5792,,C
-687,0,3,"Panula, Mr. Jaako Arnold",male,14,4,1,3101295,39.6875,,S
-688,0,3,"Dakic, Mr. Branko",male,19,0,0,349228,10.1708,,S
-689,0,3,"Fischer, Mr. Eberhard Thelander",male,18,0,0,350036,7.7958,,S
-690,1,1,"Madill, Miss. Georgette Alexandra",female,15,0,1,24160,211.3375,B5,S
-691,1,1,"Dick, Mr. Albert Adrian",male,31,1,0,17474,57,B20,S
-692,1,3,"Karun, Miss. Manca",female,4,0,1,349256,13.4167,,C
-693,1,3,"Lam, Mr. Ali",male,,0,0,1601,56.4958,,S
-694,0,3,"Saad, Mr. Khalil",male,25,0,0,2672,7.225,,C
-695,0,1,"Weir, Col. John",male,60,0,0,113800,26.55,,S
-696,0,2,"Chapman, Mr. Charles Henry",male,52,0,0,248731,13.5,,S
-697,0,3,"Kelly, Mr. James",male,44,0,0,363592,8.05,,S
-698,1,3,"Mullens, Miss. Katherine ""Katie""",female,,0,0,35852,7.7333,,Q
-699,0,1,"Thayer, Mr. John Borland",male,49,1,1,17421,110.8833,C68,C
-700,0,3,"Humblen, Mr. Adolf Mathias Nicolai Olsen",male,42,0,0,348121,7.65,F G63,S
-701,1,1,"Astor, Mrs. John Jacob (Madeleine Talmadge Force)",female,18,1,0,PC 17757,227.525,C62 C64,C
-702,1,1,"Silverthorne, Mr. Spencer Victor",male,35,0,0,PC 17475,26.2875,E24,S
-703,0,3,"Barbara, Miss. Saiide",female,18,0,1,2691,14.4542,,C
-704,0,3,"Gallagher, Mr. Martin",male,25,0,0,36864,7.7417,,Q
-705,0,3,"Hansen, Mr. Henrik Juul",male,26,1,0,350025,7.8542,,S
-706,0,2,"Morley, Mr. Henry Samuel (""Mr Henry Marshall"")",male,39,0,0,250655,26,,S
-707,1,2,"Kelly, Mrs. Florence ""Fannie""",female,45,0,0,223596,13.5,,S
-708,1,1,"Calderhead, Mr. Edward Pennington",male,42,0,0,PC 17476,26.2875,E24,S
-709,1,1,"Cleaver, Miss. Alice",female,22,0,0,113781,151.55,,S
-710,1,3,"Moubarek, Master. Halim Gonios (""William George"")",male,,1,1,2661,15.2458,,C
-711,1,1,"Mayne, Mlle. Berthe Antonine (""Mrs de Villiers"")",female,24,0,0,PC 17482,49.5042,C90,C
-712,0,1,"Klaber, Mr. Herman",male,,0,0,113028,26.55,C124,S
-713,1,1,"Taylor, Mr. Elmer Zebley",male,48,1,0,19996,52,C126,S
-714,0,3,"Larsson, Mr. August Viktor",male,29,0,0,7545,9.4833,,S
-715,0,2,"Greenberg, Mr. Samuel",male,52,0,0,250647,13,,S
-716,0,3,"Soholt, Mr. Peter Andreas Lauritz Andersen",male,19,0,0,348124,7.65,F G73,S
-717,1,1,"Endres, Miss. Caroline Louise",female,38,0,0,PC 17757,227.525,C45,C
-718,1,2,"Troutt, Miss. Edwina Celia ""Winnie""",female,27,0,0,34218,10.5,E101,S
-719,0,3,"McEvoy, Mr. Michael",male,,0,0,36568,15.5,,Q
-720,0,3,"Johnson, Mr. Malkolm Joackim",male,33,0,0,347062,7.775,,S
-721,1,2,"Harper, Miss. Annie Jessie ""Nina""",female,6,0,1,248727,33,,S
-722,0,3,"Jensen, Mr. Svend Lauritz",male,17,1,0,350048,7.0542,,S
-723,0,2,"Gillespie, Mr. William Henry",male,34,0,0,12233,13,,S
-724,0,2,"Hodges, Mr. Henry Price",male,50,0,0,250643,13,,S
-725,1,1,"Chambers, Mr. Norman Campbell",male,27,1,0,113806,53.1,E8,S
-726,0,3,"Oreskovic, Mr. Luka",male,20,0,0,315094,8.6625,,S
-727,1,2,"Renouf, Mrs. Peter Henry (Lillian Jefferys)",female,30,3,0,31027,21,,S
-728,1,3,"Mannion, Miss. Margareth",female,,0,0,36866,7.7375,,Q
-729,0,2,"Bryhl, Mr. Kurt Arnold Gottfrid",male,25,1,0,236853,26,,S
-730,0,3,"Ilmakangas, Miss. Pieta Sofia",female,25,1,0,STON/O2. 3101271,7.925,,S
-731,1,1,"Allen, Miss. Elisabeth Walton",female,29,0,0,24160,211.3375,B5,S
-732,0,3,"Hassan, Mr. Houssein G N",male,11,0,0,2699,18.7875,,C
-733,0,2,"Knight, Mr. Robert J",male,,0,0,239855,0,,S
-734,0,2,"Berriman, Mr. William John",male,23,0,0,28425,13,,S
-735,0,2,"Troupiansky, Mr. Moses Aaron",male,23,0,0,233639,13,,S
-736,0,3,"Williams, Mr. Leslie",male,28.5,0,0,54636,16.1,,S
-737,0,3,"Ford, Mrs. Edward (Margaret Ann Watson)",female,48,1,3,W./C. 6608,34.375,,S
-738,1,1,"Lesurer, Mr. Gustave J",male,35,0,0,PC 17755,512.3292,B101,C
-739,0,3,"Ivanoff, Mr. Kanio",male,,0,0,349201,7.8958,,S
-740,0,3,"Nankoff, Mr. Minko",male,,0,0,349218,7.8958,,S
-741,1,1,"Hawksford, Mr. Walter James",male,,0,0,16988,30,D45,S
-742,0,1,"Cavendish, Mr. Tyrell William",male,36,1,0,19877,78.85,C46,S
-743,1,1,"Ryerson, Miss. Susan Parker ""Suzette""",female,21,2,2,PC 17608,262.375,B57 B59 B63 B66,C
-744,0,3,"McNamee, Mr. Neal",male,24,1,0,376566,16.1,,S
-745,1,3,"Stranden, Mr. Juho",male,31,0,0,STON/O 2. 3101288,7.925,,S
-746,0,1,"Crosby, Capt. Edward Gifford",male,70,1,1,WE/P 5735,71,B22,S
-747,0,3,"Abbott, Mr. Rossmore Edward",male,16,1,1,C.A. 2673,20.25,,S
-748,1,2,"Sinkkonen, Miss. Anna",female,30,0,0,250648,13,,S
-749,0,1,"Marvin, Mr. Daniel Warner",male,19,1,0,113773,53.1,D30,S
-750,0,3,"Connaghton, Mr. Michael",male,31,0,0,335097,7.75,,Q
-751,1,2,"Wells, Miss. Joan",female,4,1,1,29103,23,,S
-752,1,3,"Moor, Master. Meier",male,6,0,1,392096,12.475,E121,S
-753,0,3,"Vande Velde, Mr. Johannes Joseph",male,33,0,0,345780,9.5,,S
-754,0,3,"Jonkoff, Mr. Lalio",male,23,0,0,349204,7.8958,,S
-755,1,2,"Herman, Mrs. Samuel (Jane Laver)",female,48,1,2,220845,65,,S
-756,1,2,"Hamalainen, Master. Viljo",male,0.67,1,1,250649,14.5,,S
-757,0,3,"Carlsson, Mr. August Sigfrid",male,28,0,0,350042,7.7958,,S
-758,0,2,"Bailey, Mr. Percy Andrew",male,18,0,0,29108,11.5,,S
-759,0,3,"Theobald, Mr. Thomas Leonard",male,34,0,0,363294,8.05,,S
-760,1,1,"Rothes, the Countess. of (Lucy Noel Martha Dyer-Edwards)",female,33,0,0,110152,86.5,B77,S
-761,0,3,"Garfirth, Mr. John",male,,0,0,358585,14.5,,S
-762,0,3,"Nirva, Mr. Iisakki Antino Aijo",male,41,0,0,SOTON/O2 3101272,7.125,,S
-763,1,3,"Barah, Mr. Hanna Assi",male,20,0,0,2663,7.2292,,C
-764,1,1,"Carter, Mrs. William Ernest (Lucile Polk)",female,36,1,2,113760,120,B96 B98,S
-765,0,3,"Eklund, Mr. Hans Linus",male,16,0,0,347074,7.775,,S
-766,1,1,"Hogeboom, Mrs. John C (Anna Andrews)",female,51,1,0,13502,77.9583,D11,S
-767,0,1,"Brewe, Dr. Arthur Jackson",male,,0,0,112379,39.6,,C
-768,0,3,"Mangan, Miss. Mary",female,30.5,0,0,364850,7.75,,Q
-769,0,3,"Moran, Mr. Daniel J",male,,1,0,371110,24.15,,Q
-770,0,3,"Gronnestad, Mr. Daniel Danielsen",male,32,0,0,8471,8.3625,,S
-771,0,3,"Lievens, Mr. Rene Aime",male,24,0,0,345781,9.5,,S
-772,0,3,"Jensen, Mr. Niels Peder",male,48,0,0,350047,7.8542,,S
-773,0,2,"Mack, Mrs. (Mary)",female,57,0,0,S.O./P.P. 3,10.5,E77,S
-774,0,3,"Elias, Mr. Dibo",male,,0,0,2674,7.225,,C
-775,1,2,"Hocking, Mrs. Elizabeth (Eliza Needs)",female,54,1,3,29105,23,,S
-776,0,3,"Myhrman, Mr. Pehr Fabian Oliver Malkolm",male,18,0,0,347078,7.75,,S
-777,0,3,"Tobin, Mr. Roger",male,,0,0,383121,7.75,F38,Q
-778,1,3,"Emanuel, Miss. Virginia Ethel",female,5,0,0,364516,12.475,,S
-779,0,3,"Kilgannon, Mr. Thomas J",male,,0,0,36865,7.7375,,Q
-780,1,1,"Robert, Mrs. Edward Scott (Elisabeth Walton McMillan)",female,43,0,1,24160,211.3375,B3,S
-781,1,3,"Ayoub, Miss. Banoura",female,13,0,0,2687,7.2292,,C
-782,1,1,"Dick, Mrs. Albert Adrian (Vera Gillespie)",female,17,1,0,17474,57,B20,S
-783,0,1,"Long, Mr. Milton Clyde",male,29,0,0,113501,30,D6,S
-784,0,3,"Johnston, Mr. Andrew G",male,,1,2,W./C. 6607,23.45,,S
-785,0,3,"Ali, Mr. William",male,25,0,0,SOTON/O.Q. 3101312,7.05,,S
-786,0,3,"Harmer, Mr. Abraham (David Lishin)",male,25,0,0,374887,7.25,,S
-787,1,3,"Sjoblom, Miss. Anna Sofia",female,18,0,0,3101265,7.4958,,S
-788,0,3,"Rice, Master. George Hugh",male,8,4,1,382652,29.125,,Q
-789,1,3,"Dean, Master. Bertram Vere",male,1,1,2,C.A. 2315,20.575,,S
-790,0,1,"Guggenheim, Mr. Benjamin",male,46,0,0,PC 17593,79.2,B82 B84,C
-791,0,3,"Keane, Mr. Andrew ""Andy""",male,,0,0,12460,7.75,,Q
-792,0,2,"Gaskell, Mr. Alfred",male,16,0,0,239865,26,,S
-793,0,3,"Sage, Miss. Stella Anna",female,,8,2,CA. 2343,69.55,,S
-794,0,1,"Hoyt, Mr. William Fisher",male,,0,0,PC 17600,30.6958,,C
-795,0,3,"Dantcheff, Mr. Ristiu",male,25,0,0,349203,7.8958,,S
-796,0,2,"Otter, Mr. Richard",male,39,0,0,28213,13,,S
-797,1,1,"Leader, Dr. Alice (Farnham)",female,49,0,0,17465,25.9292,D17,S
-798,1,3,"Osman, Mrs. Mara",female,31,0,0,349244,8.6833,,S
-799,0,3,"Ibrahim Shawah, Mr. Yousseff",male,30,0,0,2685,7.2292,,C
-800,0,3,"Van Impe, Mrs. Jean Baptiste (Rosalie Paula Govaert)",female,30,1,1,345773,24.15,,S
-801,0,2,"Ponesell, Mr. Martin",male,34,0,0,250647,13,,S
-802,1,2,"Collyer, Mrs. Harvey (Charlotte Annie Tate)",female,31,1,1,C.A. 31921,26.25,,S
-803,1,1,"Carter, Master. William Thornton II",male,11,1,2,113760,120,B96 B98,S
-804,1,3,"Thomas, Master. Assad Alexander",male,0.42,0,1,2625,8.5167,,C
-805,1,3,"Hedman, Mr. Oskar Arvid",male,27,0,0,347089,6.975,,S
-806,0,3,"Johansson, Mr. Karl Johan",male,31,0,0,347063,7.775,,S
-807,0,1,"Andrews, Mr. Thomas Jr",male,39,0,0,112050,0,A36,S
-808,0,3,"Pettersson, Miss. Ellen Natalia",female,18,0,0,347087,7.775,,S
-809,0,2,"Meyer, Mr. August",male,39,0,0,248723,13,,S
-810,1,1,"Chambers, Mrs. Norman Campbell (Bertha Griggs)",female,33,1,0,113806,53.1,E8,S
-811,0,3,"Alexander, Mr. William",male,26,0,0,3474,7.8875,,S
-812,0,3,"Lester, Mr. James",male,39,0,0,A/4 48871,24.15,,S
-813,0,2,"Slemen, Mr. Richard James",male,35,0,0,28206,10.5,,S
-814,0,3,"Andersson, Miss. Ebba Iris Alfrida",female,6,4,2,347082,31.275,,S
-815,0,3,"Tomlin, Mr. Ernest Portage",male,30.5,0,0,364499,8.05,,S
-816,0,1,"Fry, Mr. Richard",male,,0,0,112058,0,B102,S
-817,0,3,"Heininen, Miss. Wendla Maria",female,23,0,0,STON/O2. 3101290,7.925,,S
-818,0,2,"Mallet, Mr. Albert",male,31,1,1,S.C./PARIS 2079,37.0042,,C
-819,0,3,"Holm, Mr. John Fredrik Alexander",male,43,0,0,C 7075,6.45,,S
-820,0,3,"Skoog, Master. Karl Thorsten",male,10,3,2,347088,27.9,,S
-821,1,1,"Hays, Mrs. Charles Melville (Clara Jennings Gregg)",female,52,1,1,12749,93.5,B69,S
-822,1,3,"Lulic, Mr. Nikola",male,27,0,0,315098,8.6625,,S
-823,0,1,"Reuchlin, Jonkheer. John George",male,38,0,0,19972,0,,S
-824,1,3,"Moor, Mrs. (Beila)",female,27,0,1,392096,12.475,E121,S
-825,0,3,"Panula, Master. Urho Abraham",male,2,4,1,3101295,39.6875,,S
-826,0,3,"Flynn, Mr. John",male,,0,0,368323,6.95,,Q
-827,0,3,"Lam, Mr. Len",male,,0,0,1601,56.4958,,S
-828,1,2,"Mallet, Master. Andre",male,1,0,2,S.C./PARIS 2079,37.0042,,C
-829,1,3,"McCormack, Mr. Thomas Joseph",male,,0,0,367228,7.75,,Q
-830,1,1,"Stone, Mrs. George Nelson (Martha Evelyn)",female,62,0,0,113572,80,B28,
-831,1,3,"Yasbeck, Mrs. Antoni (Selini Alexander)",female,15,1,0,2659,14.4542,,C
-832,1,2,"Richards, Master. George Sibley",male,0.83,1,1,29106,18.75,,S
-833,0,3,"Saad, Mr. Amin",male,,0,0,2671,7.2292,,C
-834,0,3,"Augustsson, Mr. Albert",male,23,0,0,347468,7.8542,,S
-835,0,3,"Allum, Mr. Owen George",male,18,0,0,2223,8.3,,S
-836,1,1,"Compton, Miss. Sara Rebecca",female,39,1,1,PC 17756,83.1583,E49,C
-837,0,3,"Pasic, Mr. Jakob",male,21,0,0,315097,8.6625,,S
-838,0,3,"Sirota, Mr. Maurice",male,,0,0,392092,8.05,,S
-839,1,3,"Chip, Mr. Chang",male,32,0,0,1601,56.4958,,S
-840,1,1,"Marechal, Mr. Pierre",male,,0,0,11774,29.7,C47,C
-841,0,3,"Alhomaki, Mr. Ilmari Rudolf",male,20,0,0,SOTON/O2 3101287,7.925,,S
-842,0,2,"Mudd, Mr. Thomas Charles",male,16,0,0,S.O./P.P. 3,10.5,,S
-843,1,1,"Serepeca, Miss. Augusta",female,30,0,0,113798,31,,C
-844,0,3,"Lemberopolous, Mr. Peter L",male,34.5,0,0,2683,6.4375,,C
-845,0,3,"Culumovic, Mr. Jeso",male,17,0,0,315090,8.6625,,S
-846,0,3,"Abbing, Mr. Anthony",male,42,0,0,C.A. 5547,7.55,,S
-847,0,3,"Sage, Mr. Douglas Bullen",male,,8,2,CA. 2343,69.55,,S
-848,0,3,"Markoff, Mr. Marin",male,35,0,0,349213,7.8958,,C
-849,0,2,"Harper, Rev. John",male,28,0,1,248727,33,,S
-850,1,1,"Goldenberg, Mrs. Samuel L (Edwiga Grabowska)",female,,1,0,17453,89.1042,C92,C
-851,0,3,"Andersson, Master. Sigvard Harald Elias",male,4,4,2,347082,31.275,,S
-852,0,3,"Svensson, Mr. Johan",male,74,0,0,347060,7.775,,S
-853,0,3,"Boulos, Miss. Nourelain",female,9,1,1,2678,15.2458,,C
-854,1,1,"Lines, Miss. Mary Conover",female,16,0,1,PC 17592,39.4,D28,S
-855,0,2,"Carter, Mrs. Ernest Courtenay (Lilian Hughes)",female,44,1,0,244252,26,,S
-856,1,3,"Aks, Mrs. Sam (Leah Rosen)",female,18,0,1,392091,9.35,,S
-857,1,1,"Wick, Mrs. George Dennick (Mary Hitchcock)",female,45,1,1,36928,164.8667,,S
-858,1,1,"Daly, Mr. Peter Denis ",male,51,0,0,113055,26.55,E17,S
-859,1,3,"Baclini, Mrs. Solomon (Latifa Qurban)",female,24,0,3,2666,19.2583,,C
-860,0,3,"Razi, Mr. Raihed",male,,0,0,2629,7.2292,,C
-861,0,3,"Hansen, Mr. Claus Peter",male,41,2,0,350026,14.1083,,S
-862,0,2,"Giles, Mr. Frederick Edward",male,21,1,0,28134,11.5,,S
-863,1,1,"Swift, Mrs. Frederick Joel (Margaret Welles Barron)",female,48,0,0,17466,25.9292,D17,S
-864,0,3,"Sage, Miss. Dorothy Edith ""Dolly""",female,,8,2,CA. 2343,69.55,,S
-865,0,2,"Gill, Mr. John William",male,24,0,0,233866,13,,S
-866,1,2,"Bystrom, Mrs. (Karolina)",female,42,0,0,236852,13,,S
-867,1,2,"Duran y More, Miss. Asuncion",female,27,1,0,SC/PARIS 2149,13.8583,,C
-868,0,1,"Roebling, Mr. Washington Augustus II",male,31,0,0,PC 17590,50.4958,A24,S
-869,0,3,"van Melkebeke, Mr. Philemon",male,,0,0,345777,9.5,,S
-870,1,3,"Johnson, Master. Harold Theodor",male,4,1,1,347742,11.1333,,S
-871,0,3,"Balkic, Mr. Cerin",male,26,0,0,349248,7.8958,,S
-872,1,1,"Beckwith, Mrs. Richard Leonard (Sallie Monypeny)",female,47,1,1,11751,52.5542,D35,S
-873,0,1,"Carlsson, Mr. Frans Olof",male,33,0,0,695,5,B51 B53 B55,S
-874,0,3,"Vander Cruyssen, Mr. Victor",male,47,0,0,345765,9,,S
-875,1,2,"Abelson, Mrs. Samuel (Hannah Wizosky)",female,28,1,0,P/PP 3381,24,,C
-876,1,3,"Najib, Miss. Adele Kiamie ""Jane""",female,15,0,0,2667,7.225,,C
-877,0,3,"Gustafsson, Mr. Alfred Ossian",male,20,0,0,7534,9.8458,,S
-878,0,3,"Petroff, Mr. Nedelio",male,19,0,0,349212,7.8958,,S
-879,0,3,"Laleff, Mr. Kristo",male,,0,0,349217,7.8958,,S
-880,1,1,"Potter, Mrs. Thomas Jr (Lily Alexenia Wilson)",female,56,0,1,11767,83.1583,C50,C
-881,1,2,"Shelley, Mrs. William (Imanita Parrish Hall)",female,25,0,1,230433,26,,S
-882,0,3,"Markun, Mr. Johann",male,33,0,0,349257,7.8958,,S
-883,0,3,"Dahlberg, Miss. Gerda Ulrika",female,22,0,0,7552,10.5167,,S
-884,0,2,"Banfield, Mr. Frederick James",male,28,0,0,C.A./SOTON 34068,10.5,,S
-885,0,3,"Sutehall, Mr. Henry Jr",male,25,0,0,SOTON/OQ 392076,7.05,,S
-886,0,3,"Rice, Mrs. William (Margaret Norton)",female,39,0,5,382652,29.125,,Q
-887,0,2,"Montvila, Rev. Juozas",male,27,0,0,211536,13,,S
-888,1,1,"Graham, Miss. Margaret Edith",female,19,0,0,112053,30,B42,S
-889,0,3,"Johnston, Miss. Catherine Helen ""Carrie""",female,,1,2,W./C. 6607,23.45,,S
-890,1,1,"Behr, Mr. Karl Howell",male,26,0,0,111369,30,C148,C
-891,0,3,"Dooley, Mr. Patrick",male,32,0,0,370376,7.75,,Q
+ID,Age,Gender,Height,Weight,CALC,FAVC,FCVC,NCP,SCC,SMOKE,CH2O,family_history_with_overweight,FAF,TUE,CAEC,MTRANS,NObeyesdad
+1,21.0,Female,1.62,64.0,no,no,2.0,3.0,no,no,2.0,yes,0.0,1.0,Sometimes,Public_Transportation,Normal_Weight
+2,21.0,,1.52,56.0,Sometimes,no,3.0,3.0,yes,yes,3.0,yes,3.0,,Sometimes,Public_Transportation,Normal_Weight
+3,,Male,,77.0,Frequently,no,2.0,3.0,no,no,2.0,yes,2.0,,Sometimes,Public_Transportation,Normal_Weight
+4,27.0,,,87.0,Frequently,no,3.0,3.0,no,,2.0,,2.0,0.0,,Walking,Overweight_Level_I
+5,22.0,Male,1.78,89.8,Sometimes,no,2.0,1.0,no,no,2.0,no,0.0,0.0,Sometimes,Public_Transportation,Overweight_Level_II
+6,,Male,1.62,53.0,Sometimes,yes,2.0,3.0,no,no,2.0,no,0.0,,Sometimes,Automobile,Normal_Weight
+7,,,1.5,55.0,Sometimes,yes,3.0,3.0,no,no,2.0,yes,1.0,0.0,Sometimes,Motorbike,Normal_Weight
+8,22.0,,1.64,,Sometimes,no,2.0,3.0,no,no,2.0,no,3.0,,,Public_Transportation,Normal_Weight
+9,,,1.78,64.0,,,3.0,3.0,no,no,2.0,yes,1.0,,,Public_Transportation,Normal_Weight
+10,22.0,Male,1.72,68.0,no,,2.0,3.0,no,no,2.0,yes,1.0,,Sometimes,Public_Transportation,Normal_Weight
+11,26.0,Male,1.85,105.0,Sometimes,,3.0,3.0,no,,3.0,yes,2.0,,Frequently,Public_Transportation,Obesity_Type_I
+12,,,1.72,80.0,Sometimes,,2.0,3.0,yes,,2.0,,2.0,1.0,,,Overweight_Level_II
+13,22.0,Male,1.65,56.0,Sometimes,,3.0,3.0,no,no,3.0,no,2.0,0.0,Sometimes,Public_Transportation,Normal_Weight
+14,41.0,Male,1.8,99.0,Frequently,yes,2.0,3.0,no,,2.0,no,2.0,1.0,,Automobile,Obesity_Type_I
+15,,Male,,60.0,Sometimes,,3.0,1.0,no,,1.0,yes,1.0,1.0,Sometimes,Public_Transportation,Normal_Weight
+16,,,,66.0,Sometimes,no,3.0,3.0,yes,,2.0,yes,2.0,1.0,Always,Public_Transportation,Normal_Weight
+17,27.0,,1.93,102.0,Sometimes,yes,2.0,1.0,no,no,1.0,yes,1.0,,Sometimes,Public_Transportation,Overweight_Level_II
+18,29.0,,1.53,78.0,no,yes,2.0,1.0,no,no,2.0,no,0.0,,Sometimes,Automobile,Obesity_Type_I
+19,,Female,,82.0,no,,3.0,4.0,no,yes,1.0,yes,0.0,,Frequently,Automobile,Overweight_Level_II
+20,23.0,,1.65,70.0,,,2.0,1.0,no,no,2.0,yes,0.0,0.0,Sometimes,Public_Transportation,Overweight_Level_I
+21,,Male,,,no,no,2.0,3.0,no,no,2.0,,3.0,,Sometimes,Walking,Overweight_Level_II
+22,52.0,,1.69,87.0,no,,3.0,1.0,no,,2.0,yes,0.0,,Sometimes,Automobile,Obesity_Type_I
+23,22.0,Female,1.65,60.0,Sometimes,,3.0,3.0,no,no,2.0,yes,1.0,0.0,Sometimes,Automobile,Normal_Weight
+24,,Female,1.6,82.0,Sometimes,yes,1.0,1.0,no,,2.0,yes,0.0,,Sometimes,,Obesity_Type_I
+25,21.0,Male,,68.0,Sometimes,,2.0,3.0,no,no,2.0,yes,0.0,1.0,Sometimes,,Normal_Weight
+26,,Male,1.6,50.0,no,,2.0,4.0,no,,2.0,yes,3.0,2.0,,Public_Transportation,Normal_Weight
+27,21.0,,1.7,65.0,,yes,2.0,1.0,no,no,2.0,yes,1.0,2.0,,Walking,Normal_Weight
+28,23.0,,,52.0,Sometimes,,2.0,4.0,no,,2.0,no,2.0,1.0,Frequently,Automobile,Normal_Weight
+29,19.0,,,76.0,Sometimes,,3.0,3.0,yes,,2.0,,3.0,1.0,Sometimes,Public_Transportation,Normal_Weight
+30,23.0,Male,1.68,70.0,Frequently,yes,2.0,3.0,no,,2.0,no,2.0,2.0,Sometimes,Walking,Normal_Weight
+31,29.0,Male,1.77,,no,yes,1.0,4.0,no,no,3.0,no,0.0,1.0,,Motorbike,Overweight_Level_I
+32,,Female,1.58,68.0,Sometimes,no,2.0,1.0,no,,1.0,yes,1.0,0.0,Sometimes,Public_Transportation,Overweight_Level_II
+33,,,1.77,,Sometimes,no,2.0,3.0,no,no,3.0,no,1.0,1.0,Sometimes,Walking,Normal_Weight
+34,39.0,Male,1.79,90.0,Sometimes,,2.0,1.0,no,no,2.0,no,0.0,0.0,Sometimes,Public_Transportation,Overweight_Level_II
+35,,,1.65,62.0,Sometimes,yes,2.0,4.0,no,no,2.0,no,2.0,,Frequently,Public_Transportation,Normal_Weight
+36,,Female,1.5,65.0,Sometimes,,2.0,3.0,no,no,2.0,yes,2.0,2.0,Sometimes,Public_Transportation,Overweight_Level_II
+37,,,1.56,49.0,no,yes,2.0,3.0,yes,no,1.0,no,2.0,,,Walking,Normal_Weight
+38,21.0,Female,1.6,48.0,Sometimes,yes,2.0,3.0,no,no,1.0,no,1.0,0.0,Sometimes,Public_Transportation,Normal_Weight
+39,23.0,Male,1.65,,Sometimes,yes,2.0,3.0,no,no,2.0,yes,1.0,,Sometimes,Public_Transportation,Normal_Weight
+40,21.0,Female,1.75,,Sometimes,yes,2.0,3.0,no,,3.0,,3.0,0.0,Sometimes,Public_Transportation,Overweight_Level_II
+41,21.0,,1.67,75.0,Sometimes,yes,2.0,3.0,no,no,2.0,yes,1.0,0.0,,Public_Transportation,Overweight_Level_I
+42,23.0,Male,1.68,60.0,no,,2.0,4.0,no,no,2.0,no,0.0,0.0,Frequently,Walking,Normal_Weight
+43,21.0,,1.66,64.0,no,yes,1.0,3.0,no,no,1.0,,0.0,0.0,,Public_Transportation,Normal_Weight
+44,21.0,Male,1.66,62.0,Frequently,yes,2.0,3.0,no,yes,2.0,yes,,1.0,,Public_Transportation,Normal_Weight
+45,,Male,1.81,80.0,no,,1.0,3.0,no,,2.0,no,2.0,0.0,no,Public_Transportation,Normal_Weight
+46,,Female,,65.0,no,no,2.0,3.0,no,,1.0,yes,0.0,1.0,Sometimes,Public_Transportation,Overweight_Level_II
+47,21.0,,,72.0,,,1.0,3.0,no,,3.0,yes,2.0,0.0,Frequently,Public_Transportation,Normal_Weight
+48,21.0,Male,1.75,72.0,Sometimes,,1.0,3.0,no,no,3.0,yes,2.0,0.0,Frequently,Public_Transportation,Normal_Weight
+49,,Female,1.66,,Sometimes,,3.0,3.0,no,no,2.0,,1.0,0.0,,Walking,Normal_Weight
+50,21.0,Female,1.55,,Sometimes,yes,2.0,3.0,no,no,2.0,no,0.0,,Sometimes,Public_Transportation,Normal_Weight
+51,21.0,Female,1.61,54.5,Sometimes,yes,3.0,3.0,no,,3.0,yes,0.0,1.0,,Walking,Normal_Weight
+52,,Female,1.5,44.0,Sometimes,,2.0,3.0,no,no,1.0,no,0.0,0.0,Sometimes,Automobile,Normal_Weight
+53,23.0,,1.64,52.0,no,,3.0,1.0,no,no,2.0,no,2.0,2.0,Sometimes,Public_Transportation,Normal_Weight
+54,23.0,Female,1.63,,no,,3.0,3.0,yes,,2.0,yes,2.0,1.0,no,Public_Transportation,Normal_Weight
+55,22.0,Female,1.6,,no,no,3.0,4.0,no,no,3.0,no,2.0,0.0,,,Normal_Weight
+56,23.0,Male,1.68,62.0,Sometimes,no,2.0,4.0,no,no,2.0,no,0.0,0.0,,Automobile,Normal_Weight
+57,22.0,Male,1.7,70.0,Sometimes,,2.0,3.0,no,no,1.0,yes,0.0,,Sometimes,Automobile,Normal_Weight
+58,21.0,Male,1.64,65.0,no,,2.0,3.0,no,no,1.0,yes,0.0,1.0,Sometimes,Public_Transportation,Normal_Weight
+59,17.0,Female,1.65,67.0,no,yes,3.0,1.0,no,no,2.0,,1.0,,Sometimes,,Normal_Weight
+60,20.0,Male,1.76,55.0,no,,2.0,4.0,no,no,3.0,yes,2.0,,Sometimes,Public_Transportation,Insufficient_Weight
+61,21.0,Female,,49.0,Sometimes,yes,2.0,3.0,no,no,3.0,yes,3.0,1.0,,Public_Transportation,Normal_Weight
+62,20.0,Male,1.65,,Sometimes,,2.0,3.0,no,,2.0,no,3.0,1.0,Sometimes,Public_Transportation,Normal_Weight
+63,,Male,1.67,62.0,Sometimes,,2.0,1.0,no,no,2.0,no,0.0,,,Public_Transportation,Normal_Weight
+64,22.0,Male,1.68,55.0,Sometimes,yes,2.0,3.0,no,no,2.0,yes,0.0,2.0,,Automobile,Normal_Weight
+65,21.0,Female,1.66,57.0,no,,2.0,3.0,no,,1.0,yes,1.0,1.0,Frequently,,Normal_Weight
+66,21.0,Female,,69.0,no,yes,1.0,3.0,no,no,2.0,yes,0.0,1.0,Frequently,Public_Transportation,Overweight_Level_I
+67,23.0,,,90.0,Frequently,yes,1.0,3.0,no,no,2.0,yes,0.0,,Always,Public_Transportation,Overweight_Level_II
+68,23.0,,,,Frequently,yes,2.0,3.0,no,no,2.0,yes,0.0,1.0,Always,Automobile,Obesity_Type_I
+69,,Male,1.76,112.0,Frequently,yes,1.0,3.0,yes,yes,2.0,yes,0.0,0.0,no,,Obesity_Type_II
+70,23.0,Male,1.8,60.0,Sometimes,no,2.0,3.0,no,no,3.0,yes,0.0,1.0,,Public_Transportation,Normal_Weight
+71,23.0,Female,1.65,80.0,no,yes,2.0,3.0,no,no,2.0,yes,0.0,2.0,,Public_Transportation,Overweight_Level_II
+72,,,1.67,50.0,Sometimes,,3.0,3.0,yes,,3.0,,2.0,1.0,no,Public_Transportation,Insufficient_Weight
+73,,Female,1.65,,no,,2.0,3.0,yes,,3.0,yes,1.0,0.0,Sometimes,,Normal_Weight
+74,19.0,,1.85,65.0,Sometimes,no,2.0,3.0,no,,3.0,yes,2.0,1.0,Sometimes,Bike,Normal_Weight
+75,24.0,,1.7,85.0,Frequently,,2.0,3.0,no,no,3.0,yes,0.0,1.0,Frequently,Public_Transportation,Overweight_Level_II
+76,23.0,,1.63,45.0,no,,3.0,3.0,yes,no,3.0,yes,2.0,0.0,,Public_Transportation,Insufficient_Weight
+77,,,1.6,45.0,no,,2.0,3.0,no,no,2.0,yes,1.0,0.0,no,Public_Transportation,Insufficient_Weight
+78,,,1.7,,no,yes,2.0,3.0,no,no,3.0,yes,0.0,0.0,Sometimes,,Overweight_Level_II
+79,23.0,Female,1.65,90.0,no,yes,2.0,3.0,no,no,3.0,yes,0.0,1.0,,Public_Transportation,Obesity_Type_I
+80,,Male,1.65,60.0,Sometimes,,2.0,3.0,no,no,2.0,yes,,0.0,Sometimes,Public_Transportation,Normal_Weight
+81,19.0,,1.63,58.0,no,no,3.0,3.0,yes,,2.0,no,0.0,,,Public_Transportation,Normal_Weight
+82,30.0,Male,1.8,,Sometimes,,2.0,3.0,no,,2.0,yes,0.0,,,Public_Transportation,Overweight_Level_II
+83,23.0,Male,1.67,85.5,no,yes,2.0,3.0,no,no,2.0,yes,0.0,1.0,Always,Public_Transportation,Obesity_Type_I
+84,19.0,Female,,,no,no,3.0,3.0,yes,no,3.0,no,2.0,0.0,no,Walking,Insufficient_Weight
+85,,Male,1.7,,Sometimes,yes,2.0,3.0,no,,2.0,yes,0.0,1.0,,,Overweight_Level_II
+86,,Male,1.65,58.5,no,,2.0,3.0,no,no,2.0,yes,0.0,0.0,Sometimes,Public_Transportation,Normal_Weight
+87,21.0,Male,1.85,83.0,no,,2.0,1.0,no,no,3.0,yes,1.0,0.0,Frequently,Public_Transportation,Normal_Weight
+88,19.0,,1.82,87.0,no,yes,2.0,3.0,no,,2.0,yes,0.0,0.0,Sometimes,Public_Transportation,Overweight_Level_I
+89,22.0,,1.65,,no,yes,2.0,3.0,yes,,2.0,yes,1.0,0.0,Frequently,Automobile,Normal_Weight
+90,29.0,,1.7,78.0,Frequently,yes,3.0,3.0,no,,1.0,yes,2.0,1.0,,Automobile,Overweight_Level_II
+91,25.0,Female,1.63,93.0,no,,3.0,4.0,no,,1.0,no,2.0,0.0,Always,Public_Transportation,Obesity_Type_II
+92,,Female,1.61,,Frequently,,3.0,3.0,yes,no,2.0,yes,0.0,1.0,Always,,Normal_Weight
+93,55.0,Male,1.78,84.0,Frequently,no,3.0,4.0,yes,,3.0,yes,3.0,0.0,Frequently,Walking,Overweight_Level_I
+94,20.0,Female,1.6,57.0,no,no,3.0,3.0,no,no,2.0,no,1.0,0.0,,Walking,Normal_Weight
+95,,,1.6,48.0,no,yes,3.0,3.0,no,no,2.0,no,2.0,0.0,Sometimes,Public_Transportation,Normal_Weight
+96,26.0,Male,1.7,,Frequently,no,3.0,1.0,no,,2.0,yes,,0.0,Frequently,Public_Transportation,Normal_Weight
+97,23.0,Female,,,,no,2.0,3.0,no,no,2.0,yes,3.0,0.0,Sometimes,Public_Transportation,Normal_Weight
+98,21.0,Female,1.52,42.0,Sometimes,no,3.0,1.0,no,no,1.0,no,0.0,0.0,,Public_Transportation,Insufficient_Weight
+99,21.0,Female,1.52,,Sometimes,no,3.0,1.0,no,no,1.0,no,0.0,0.0,Frequently,Public_Transportation,Insufficient_Weight
+100,23.0,Male,,70.0,Frequently,no,2.0,3.0,no,no,2.0,no,3.0,1.0,Sometimes,Public_Transportation,Normal_Weight
+101,21.0,,1.69,63.0,Sometimes,,3.0,1.0,no,no,1.0,no,0.0,0.0,Sometimes,Public_Transportation,Normal_Weight
+102,22.0,Male,1.7,66.4,no,no,2.0,3.0,no,no,2.0,yes,0.0,0.0,Frequently,Public_Transportation,Normal_Weight
+103,,Female,1.55,,Sometimes,,2.0,4.0,yes,no,2.0,no,2.0,0.0,Frequently,Automobile,Normal_Weight
+104,22.0,,1.65,58.0,Sometimes,yes,3.0,4.0,no,,2.0,yes,1.0,0.0,Frequently,Public_Transportation,Normal_Weight
+105,,Female,,80.0,Sometimes,yes,2.0,3.0,no,no,2.0,yes,0.0,0.0,,,Obesity_Type_I
+106,25.0,Female,1.57,55.0,Sometimes,yes,2.0,1.0,no,,2.0,no,2.0,,Sometimes,Public_Transportation,Normal_Weight
+107,25.0,,1.57,55.0,Sometimes,yes,2.0,1.0,no,,2.0,no,2.0,0.0,,Public_Transportation,Normal_Weight
+108,22.0,Male,,,Sometimes,,2.0,3.0,no,no,1.0,yes,0.0,,Always,Automobile,Overweight_Level_I
+109,22.0,,,,no,,2.0,3.0,no,,3.0,yes,3.0,2.0,Sometimes,Walking,Obesity_Type_I
+110,21.0,Female,1.65,,no,yes,3.0,1.0,no,no,3.0,yes,2.0,1.0,,,Obesity_Type_I
+111,21.0,,1.75,,Sometimes,,3.0,3.0,no,no,2.0,yes,0.0,,Sometimes,Public_Transportation,Normal_Weight
+112,22.0,,1.58,58.0,no,,2.0,1.0,no,no,1.0,yes,0.0,0.0,,Public_Transportation,Normal_Weight
+113,18.0,Female,,51.0,Sometimes,,2.0,4.0,no,,2.0,yes,1.0,0.0,Frequently,,Normal_Weight
+114,,Female,1.5,,no,no,2.0,1.0,no,,2.0,yes,3.0,0.0,,Walking,Normal_Weight
+115,19.0,Female,1.61,62.0,Frequently,,3.0,1.0,no,,2.0,yes,1.0,0.0,Frequently,Public_Transportation,Normal_Weight
+116,,Female,,57.0,no,,3.0,3.0,no,no,2.0,yes,0.0,1.0,Frequently,Public_Transportation,Normal_Weight
+117,15.0,,1.65,,no,,3.0,3.0,no,no,1.0,,3.0,2.0,,Walking,Obesity_Type_I
+118,17.0,,1.7,85.0,no,no,2.0,3.0,no,no,2.0,yes,1.0,1.0,Frequently,,Overweight_Level_II
+119,23.0,,1.62,53.0,Sometimes,,2.0,3.0,no,no,2.0,yes,1.0,1.0,Sometimes,Public_Transportation,Normal_Weight
+120,19.0,Female,1.63,,Sometimes,,3.0,3.0,no,,3.0,yes,2.0,,,Automobile,Overweight_Level_II
+121,23.0,Female,1.67,75.0,no,,2.0,3.0,no,yes,2.0,,0.0,2.0,Frequently,,Overweight_Level_I
+122,,Male,1.87,95.0,Frequently,yes,1.0,3.0,no,,2.0,yes,0.0,2.0,,Public_Transportation,Overweight_Level_II
+123,,,1.75,,no,,3.0,4.0,no,no,1.0,yes,1.0,0.0,Frequently,,Insufficient_Weight
+124,24.0,Male,1.66,67.0,no,,3.0,1.0,no,no,2.0,yes,1.0,0.0,,Public_Transportation,Normal_Weight
+125,23.0,,1.76,,no,yes,3.0,3.0,no,no,1.0,no,0.0,0.0,Sometimes,Public_Transportation,Overweight_Level_II
+126,18.0,Male,1.75,,Frequently,yes,2.0,3.0,no,no,2.0,yes,0.0,,,Public_Transportation,Overweight_Level_I
+127,,Male,1.67,,Sometimes,,2.0,3.0,no,no,2.0,no,1.0,0.0,,Public_Transportation,Normal_Weight
+128,,,1.65,61.0,Sometimes,,3.0,1.0,yes,no,3.0,no,1.0,0.0,Sometimes,Public_Transportation,Normal_Weight
+129,,Male,1.72,70.0,Sometimes,,3.0,3.0,no,no,1.0,yes,0.0,,Frequently,Public_Transportation,Normal_Weight
+130,27.0,Male,1.7,,Frequently,,3.0,3.0,no,no,3.0,no,1.0,1.0,Sometimes,Public_Transportation,Overweight_Level_II
+131,20.0,Female,1.58,,no,,2.0,4.0,no,no,2.0,,1.0,1.0,,,Normal_Weight
+132,23.0,Male,1.62,,,no,2.0,3.0,no,no,1.0,no,1.0,,Sometimes,Public_Transportation,Normal_Weight
+133,19.0,Female,1.65,56.0,Frequently,yes,3.0,3.0,yes,yes,3.0,yes,1.0,2.0,Frequently,,Normal_Weight
+134,,,1.65,66.0,Frequently,yes,3.0,3.0,no,,2.0,,1.0,1.0,Always,Public_Transportation,Normal_Weight
+135,,Male,1.77,,Sometimes,yes,3.0,3.0,no,no,1.0,yes,2.0,,Sometimes,Automobile,Obesity_Type_I
+136,24.0,Male,1.7,,Sometimes,yes,2.0,3.0,no,no,2.0,yes,1.0,0.0,Sometimes,Automobile,Overweight_Level_I
+137,25.0,Male,1.79,72.0,Sometimes,,2.0,3.0,no,no,2.0,yes,1.0,,Sometimes,Public_Transportation,Normal_Weight
+138,44.0,Male,,80.0,no,,2.0,3.0,no,,3.0,yes,0.0,0.0,Sometimes,Motorbike,Obesity_Type_I
+139,,,1.76,,no,no,3.0,3.0,yes,no,3.0,yes,3.0,0.0,Always,Bike,Normal_Weight
+140,25.0,Male,1.7,,no,,2.0,3.0,no,,2.0,no,,1.0,Frequently,Public_Transportation,Normal_Weight
+141,23.0,,1.89,,Sometimes,yes,3.0,3.0,no,no,3.0,yes,1.0,,Frequently,Public_Transportation,Insufficient_Weight
+142,25.0,,1.87,,Frequently,yes,3.0,3.0,no,no,2.0,no,2.0,0.0,Always,Public_Transportation,Normal_Weight
+143,23.0,,1.74,93.5,Frequently,,2.0,3.0,no,yes,1.0,no,1.0,1.0,,Automobile,Obesity_Type_I
+144,34.0,Female,,,,,3.0,1.0,no,no,1.0,no,0.0,,Sometimes,,Overweight_Level_I
+145,22.0,Male,1.61,,Sometimes,no,2.0,4.0,yes,,3.0,,2.0,2.0,,Public_Transportation,Overweight_Level_I
+146,21.0,Male,1.62,70.0,Sometimes,yes,2.0,1.0,no,no,3.0,no,1.0,0.0,,,Overweight_Level_I
+147,24.0,Female,1.56,51.0,Frequently,no,3.0,3.0,no,no,2.0,no,2.0,2.0,,,Normal_Weight
+148,36.0,Female,1.63,,Sometimes,,3.0,3.0,no,no,1.0,yes,0.0,0.0,Sometimes,Automobile,Obesity_Type_I
+149,27.0,Female,1.6,61.0,Sometimes,yes,3.0,3.0,no,no,2.0,no,0.0,,,Automobile,Normal_Weight
+150,32.0,,,90.0,Sometimes,,3.0,1.0,no,,2.0,yes,2.0,,Sometimes,Automobile,Obesity_Type_I
+151,25.0,,1.78,78.0,Sometimes,,2.0,1.0,no,,2.0,yes,2.0,1.0,,Public_Transportation,Normal_Weight
+152,30.0,Female,1.62,,Sometimes,,3.0,3.0,no,no,2.0,yes,2.0,,,Automobile,Normal_Weight
+153,38.0,Female,1.5,60.0,Sometimes,yes,2.0,1.0,no,yes,2.0,yes,0.0,0.0,Always,Automobile,Overweight_Level_I
+154,34.0,Male,1.69,84.0,no,,2.0,3.0,no,no,3.0,yes,2.0,0.0,Sometimes,,Overweight_Level_II
+155,,Male,,,Sometimes,yes,2.0,3.0,no,no,2.0,,0.0,0.0,Sometimes,,Obesity_Type_I
+156,31.0,,1.68,63.0,Sometimes,,3.0,1.0,no,no,2.0,yes,1.0,1.0,,,Normal_Weight
+157,35.0,Female,1.53,45.0,no,no,3.0,3.0,no,,1.0,yes,0.0,1.0,Frequently,,Normal_Weight
+158,21.0,Male,1.67,60.0,,yes,2.0,3.0,no,no,2.0,yes,2.0,1.0,Frequently,Public_Transportation,Normal_Weight
+159,,,,62.0,Sometimes,,3.0,3.0,no,,3.0,yes,0.0,0.0,Sometimes,,Overweight_Level_I
+160,27.0,Male,1.64,78.0,Frequently,,2.0,1.0,no,no,2.0,yes,0.0,0.0,,Automobile,Overweight_Level_II
+161,,Male,,72.0,Sometimes,,3.0,3.0,no,,1.0,yes,2.0,1.0,Sometimes,Public_Transportation,Normal_Weight
+162,55.0,Male,1.65,,no,,2.0,3.0,no,no,2.0,no,1.0,0.0,,,Overweight_Level_II
+163,21.0,Female,1.63,60.0,Sometimes,yes,3.0,3.0,no,,2.0,yes,2.0,,Always,Public_Transportation,Normal_Weight
+164,,Male,1.89,,no,no,3.0,3.0,yes,no,2.0,no,3.0,0.0,Frequently,Public_Transportation,Normal_Weight
+165,35.0,,1.77,85.0,Sometimes,no,3.0,3.0,no,no,3.0,yes,2.0,1.0,Frequently,,Overweight_Level_II
+166,30.0,Male,1.92,130.0,Sometimes,no,2.0,3.0,no,yes,1.0,yes,1.0,0.0,Sometimes,Public_Transportation,Obesity_Type_II
+167,29.0,,1.74,72.0,Sometimes,,3.0,3.0,no,,2.0,yes,0.0,,Always,,Normal_Weight
+168,,Male,1.65,80.0,no,no,2.0,3.0,no,no,2.0,yes,1.0,2.0,Sometimes,Walking,Overweight_Level_II
+169,22.0,Female,,,Sometimes,,2.0,1.0,no,no,2.0,yes,1.0,,Sometimes,Public_Transportation,Overweight_Level_I
+170,45.0,Female,1.63,,no,,2.0,3.0,no,,1.0,yes,0.0,0.0,,Automobile,Overweight_Level_II
+171,22.0,Male,,82.0,,,2.0,1.0,no,no,2.0,no,2.0,1.0,,Public_Transportation,Overweight_Level_II
+172,,Male,1.6,,Sometimes,yes,2.0,3.0,no,no,2.0,yes,1.0,0.0,Frequently,Public_Transportation,Normal_Weight
+173,23.0,,1.65,,Sometimes,,3.0,1.0,no,no,2.0,no,1.0,2.0,,Public_Transportation,Normal_Weight
+174,18.0,Male,1.74,,no,,3.0,3.0,yes,no,2.0,no,0.0,,Sometimes,Public_Transportation,Normal_Weight
+175,21.0,,1.62,,Sometimes,,2.0,1.0,no,,3.0,no,1.0,,,Public_Transportation,Overweight_Level_I
+176,38.0,Female,1.64,,no,,2.0,3.0,no,no,2.0,yes,2.0,0.0,Sometimes,Public_Transportation,Normal_Weight
+177,18.0,Female,1.57,48.0,no,,3.0,1.0,no,no,1.0,yes,1.0,0.0,,,Normal_Weight
+178,,,1.84,,Sometimes,yes,3.0,3.0,yes,no,2.0,,3.0,0.0,Frequently,Public_Transportation,Normal_Weight
+179,,,1.91,,Frequently,yes,3.0,3.0,no,yes,2.0,,2.0,2.0,Frequently,,Normal_Weight
+180,21.0,,1.62,70.0,Sometimes,yes,2.0,1.0,no,no,3.0,no,1.0,0.0,no,Public_Transportation,Overweight_Level_I
+181,18.0,Female,,48.0,no,,2.0,3.0,no,no,2.0,no,1.0,0.0,Sometimes,,Normal_Weight
+182,23.0,,1.68,67.0,Sometimes,,2.0,3.0,no,no,1.0,yes,0.0,0.0,Frequently,Public_Transportation,Normal_Weight
+183,22.0,Female,1.68,52.0,no,,3.0,3.0,no,no,2.0,no,0.0,,,Public_Transportation,Insufficient_Weight
+184,23.0,Female,1.48,60.0,Sometimes,,2.0,1.0,no,yes,1.0,yes,0.0,0.0,Sometimes,Public_Transportation,Overweight_Level_II
+185,21.0,Male,1.62,,Sometimes,,2.0,1.0,no,,3.0,no,1.0,0.0,,Public_Transportation,Overweight_Level_I
+186,,Female,1.62,,Sometimes,,3.0,3.0,no,no,2.0,no,1.0,0.0,Sometimes,Automobile,Overweight_Level_I
+187,39.0,,1.78,96.0,Frequently,no,2.0,3.0,no,,3.0,yes,1.0,0.0,Sometimes,Automobile,Obesity_Type_I
+188,,Male,1.78,98.0,no,no,2.0,3.0,no,no,3.0,yes,3.0,2.0,,Public_Transportation,Obesity_Type_I
+189,35.0,,1.78,,Frequently,,3.0,,no,no,3.0,yes,3.0,1.0,no,Automobile,Obesity_Type_I
+190,33.0,Female,1.63,62.0,no,yes,2.0,3.0,no,no,2.0,yes,1.0,1.0,,Public_Transportation,Normal_Weight
+191,20.0,,,56.0,Sometimes,yes,2.0,3.0,no,no,2.0,no,1.0,,Sometimes,Public_Transportation,Normal_Weight
+192,26.0,Male,1.75,,Sometimes,yes,3.0,1.0,yes,yes,2.0,yes,2.0,0.0,,Public_Transportation,Overweight_Level_I
+193,20.0,Male,1.83,,Sometimes,,3.0,3.0,yes,no,3.0,yes,3.0,0.0,Sometimes,Automobile,Overweight_Level_I
+194,,Male,,68.0,no,no,2.0,1.0,yes,no,3.0,,2.0,,,Public_Transportation,Normal_Weight
+195,23.0,,1.6,83.0,no,yes,3.0,3.0,no,,3.0,yes,3.0,,,,Obesity_Type_I
+196,19.0,,1.8,85.0,Sometimes,yes,3.0,3.0,no,no,2.0,yes,1.0,1.0,,Walking,Overweight_Level_I
+197,22.0,Male,1.75,74.0,,,2.0,3.0,no,,2.0,yes,1.0,2.0,Sometimes,,Normal_Weight
+198,41.0,,1.75,118.0,Sometimes,yes,2.0,3.0,no,no,2.0,yes,0.0,,,Bike,Obesity_Type_II
+199,18.0,Female,1.59,,no,yes,2.0,1.0,no,no,1.0,yes,0.0,2.0,Frequently,Public_Transportation,Insufficient_Weight
+200,,,,,Sometimes,,2.0,1.0,no,no,1.0,yes,1.0,1.0,Sometimes,Public_Transportation,Normal_Weight
+201,23.0,Female,1.63,83.0,Sometimes,,3.0,1.0,no,yes,3.0,yes,1.0,2.0,Sometimes,Public_Transportation,Obesity_Type_I
+202,41.0,,1.54,,Sometimes,yes,2.0,3.0,no,no,1.0,yes,0.0,0.0,,Automobile,Obesity_Type_I
+203,,Female,1.56,102.0,Sometimes,,3.0,3.0,no,yes,1.0,yes,0.0,,Sometimes,,Obesity_Type_III
+204,29.0,Male,1.69,,Sometimes,,2.0,3.0,no,,3.0,yes,1.0,0.0,Sometimes,Automobile,Obesity_Type_I
+205,,Male,1.83,71.0,no,yes,2.0,3.0,no,,2.0,yes,3.0,,,Automobile,Normal_Weight
+206,23.0,Female,1.6,78.0,Frequently,yes,2.0,1.0,no,yes,2.0,yes,1.0,0.0,Sometimes,Public_Transportation,Obesity_Type_I
+207,,,1.75,100.0,no,yes,2.0,3.0,no,,2.0,,2.0,,Frequently,Public_Transportation,Obesity_Type_I
+208,30.0,,1.75,73.0,Sometimes,no,2.0,3.0,yes,no,2.0,yes,1.0,0.0,no,Walking,Normal_Weight
+209,22.0,,,65.0,Sometimes,,2.0,3.0,no,no,2.0,yes,1.0,1.0,,Public_Transportation,Normal_Weight
+210,22.0,,1.69,65.0,Sometimes,,2.0,3.0,no,,2.0,yes,1.0,1.0,,,Normal_Weight
+211,20.0,Male,1.8,114.0,no,yes,2.0,3.0,no,,2.0,yes,0.0,1.0,,Public_Transportation,Obesity_Type_II
+212,21.0,Female,1.63,,no,yes,2.0,1.0,no,,1.0,no,1.0,1.0,Sometimes,,Normal_Weight
+213,24.0,,1.5,63.0,no,,2.0,1.0,no,,2.0,yes,0.0,0.0,Sometimes,Public_Transportation,Overweight_Level_II
+214,,Male,1.8,,no,yes,3.0,3.0,no,no,2.0,yes,1.0,0.0,Sometimes,Public_Transportation,Normal_Weight
+215,21.0,Male,,,Sometimes,yes,2.0,3.0,no,no,2.0,,1.0,0.0,Sometimes,Public_Transportation,Normal_Weight
+216,,Male,1.68,70.0,Sometimes,yes,3.0,3.0,no,no,3.0,yes,0.0,2.0,Sometimes,Public_Transportation,Normal_Weight
+217,,,1.6,63.0,Sometimes,no,3.0,3.0,no,no,2.0,yes,3.0,,,Walking,Normal_Weight
+218,21.0,,1.71,,Frequently,no,2.0,3.0,yes,no,3.0,no,3.0,1.0,,Automobile,Overweight_Level_I
+219,21.0,Female,1.5,42.3,no,no,1.0,1.0,no,no,2.0,yes,3.0,0.0,Sometimes,Public_Transportation,Normal_Weight
+220,,Female,1.6,68.0,Sometimes,,2.0,3.0,no,no,3.0,yes,1.0,0.0,Sometimes,Public_Transportation,Overweight_Level_I
+221,21.0,Female,1.75,78.0,Frequently,no,2.0,3.0,yes,no,2.0,yes,0.0,2.0,Frequently,Public_Transportation,Overweight_Level_I
+222,23.0,Male,,82.0,Sometimes,yes,2.0,1.0,no,,1.0,yes,1.0,1.0,Sometimes,Public_Transportation,Overweight_Level_II
+223,21.0,,1.72,66.5,no,,3.0,4.0,no,no,3.0,yes,0.0,2.0,,Public_Transportation,Normal_Weight
+224,22.0,Female,1.61,,no,yes,3.0,3.0,no,,3.0,,1.0,0.0,Frequently,,Normal_Weight
+225,23.0,,,82.0,no,yes,2.0,1.0,no,no,2.0,yes,0.0,0.0,Sometimes,Public_Transportation,Obesity_Type_I
+226,25.0,Male,,,Sometimes,no,3.0,3.0,no,no,3.0,yes,2.0,0.0,Sometimes,Walking,Obesity_Type_II
+227,20.0,,,,no,,2.0,3.0,no,,1.0,no,0.0,1.0,Sometimes,Automobile,Normal_Weight
+228,24.0,,1.62,58.0,Sometimes,yes,3.0,3.0,no,no,2.0,,1.0,1.0,Sometimes,Public_Transportation,Normal_Weight
+229,,,1.68,80.0,no,,3.0,3.0,no,no,3.0,no,0.0,0.0,Sometimes,Automobile,Overweight_Level_II
+230,32.0,Male,,120.0,no,,3.0,3.0,no,no,3.0,yes,0.0,2.0,Sometimes,,Obesity_Type_II
+231,,Male,1.9,91.0,Sometimes,yes,3.0,4.0,no,no,3.0,yes,2.0,0.0,,Walking,Overweight_Level_I
+232,,Female,1.63,66.0,Sometimes,,3.0,1.0,no,yes,3.0,yes,0.0,0.0,Sometimes,Public_Transportation,Normal_Weight
+233,51.0,Female,1.59,50.0,no,,3.0,3.0,yes,yes,3.0,yes,2.0,0.0,Sometimes,Public_Transportation,Normal_Weight
+234,34.0,Female,1.68,77.0,,,3.0,1.0,no,no,2.0,,1.0,0.0,Sometimes,Automobile,Overweight_Level_II
+235,19.0,,1.59,,no,yes,2.0,1.0,no,no,2.0,yes,2.0,0.0,,Public_Transportation,Normal_Weight
+236,19.0,,,70.0,no,,2.0,1.0,no,no,2.0,yes,2.0,0.0,,Public_Transportation,Normal_Weight
+237,,,1.66,59.0,no,,1.0,3.0,yes,no,2.0,no,3.0,0.0,Always,,Normal_Weight
+238,19.0,,1.64,,no,,3.0,3.0,no,,1.0,,1.0,1.0,Sometimes,Public_Transportation,Normal_Weight
+239,20.0,,1.62,53.0,no,yes,3.0,1.0,no,,3.0,no,1.0,1.0,Sometimes,,Normal_Weight
+240,,Female,1.7,,no,yes,3.0,3.0,yes,no,3.0,yes,3.0,,no,Public_Transportation,Normal_Weight
+241,17.0,Female,1.63,65.0,no,yes,2.0,1.0,no,no,3.0,no,1.0,1.0,Sometimes,Public_Transportation,Normal_Weight
+242,22.0,Male,1.6,,no,yes,3.0,3.0,no,no,2.0,no,3.0,0.0,Sometimes,Bike,Overweight_Level_I
+243,20.0,,1.63,64.0,no,,1.0,3.0,no,no,2.0,yes,0.0,,Always,Automobile,Normal_Weight
+244,,Male,1.85,99.0,Sometimes,,2.0,3.0,no,yes,3.0,yes,1.0,0.0,Sometimes,Automobile,Overweight_Level_II
+245,,Female,1.54,,Sometimes,,2.0,1.0,yes,no,2.0,yes,2.0,,Sometimes,Public_Transportation,Normal_Weight
+246,20.0,Female,1.64,49.0,Sometimes,no,3.0,3.0,no,yes,2.0,,2.0,1.0,Sometimes,Automobile,Insufficient_Weight
+247,20.0,Female,1.57,,Sometimes,yes,3.0,3.0,no,no,3.0,no,0.0,1.0,Sometimes,Public_Transportation,Normal_Weight
+248,,Female,1.62,,no,,3.0,3.0,no,no,1.0,no,3.0,1.0,Frequently,Automobile,Normal_Weight
+249,21.0,,1.72,,Sometimes,,3.0,3.0,yes,no,3.0,yes,3.0,0.0,Always,,Normal_Weight
+250,,Male,1.76,,Sometimes,yes,3.0,1.0,no,,2.0,yes,3.0,0.0,,Walking,Overweight_Level_I
+251,,,1.65,75.0,no,yes,3.0,1.0,no,no,2.0,,1.0,1.0,Sometimes,Public_Transportation,Overweight_Level_II
+252,,Male,1.67,78.0,Frequently,no,2.0,1.0,no,no,3.0,yes,0.0,0.0,,,Overweight_Level_II
+253,,Male,,90.0,Frequently,,2.0,3.0,no,yes,2.0,yes,1.0,0.0,Sometimes,Automobile,Overweight_Level_II
+254,26.0,Female,1.59,,Sometimes,,2.0,1.0,no,no,2.0,yes,0.0,2.0,Sometimes,Public_Transportation,Normal_Weight
+255,22.0,,1.64,56.0,no,,3.0,3.0,no,,2.0,yes,0.0,0.0,Sometimes,Public_Transportation,Normal_Weight
+256,19.0,,,81.0,no,no,1.0,3.0,no,no,2.0,,3.0,0.0,Sometimes,Bike,Overweight_Level_I
+257,18.0,Male,1.75,85.0,,no,2.0,3.0,no,no,3.0,yes,1.0,0.0,Sometimes,Public_Transportation,Overweight_Level_II
+258,19.0,Male,1.85,,no,,2.0,3.0,yes,no,3.0,no,1.0,2.0,Sometimes,Public_Transportation,Obesity_Type_I
+259,18.0,,1.7,80.0,no,,3.0,1.0,no,,1.0,,1.0,0.0,Sometimes,Public_Transportation,Overweight_Level_II
+260,,Female,1.67,91.0,Sometimes,yes,1.0,3.0,no,,1.0,yes,0.0,1.0,,Public_Transportation,Obesity_Type_I
+261,21.0,Male,1.72,,no,yes,2.0,3.0,no,no,1.0,no,1.0,0.0,,Public_Transportation,Overweight_Level_I
+262,28.0,Female,,73.0,Sometimes,no,2.0,3.0,yes,no,2.0,yes,2.0,0.0,,Walking,Overweight_Level_I
+263,18.0,Male,,,Sometimes,,2.0,3.0,no,no,2.0,no,1.0,1.0,Sometimes,Public_Transportation,Normal_Weight
+264,,Male,1.74,53.0,no,,2.0,3.0,no,,1.0,no,3.0,2.0,Frequently,Public_Transportation,Insufficient_Weight
+265,18.0,Male,,67.0,Sometimes,yes,3.0,3.0,yes,no,3.0,yes,1.0,1.0,Frequently,Automobile,Normal_Weight
+266,18.0,Male,1.7,50.0,Sometimes,yes,1.0,3.0,no,no,1.0,,2.0,1.0,,Public_Transportation,Insufficient_Weight
+267,,Female,,50.0,Sometimes,,3.0,4.0,no,no,2.0,no,0.0,0.0,Frequently,,Insufficient_Weight
+268,38.0,,1.7,78.0,Frequently,yes,3.0,3.0,no,no,2.0,no,0.0,0.0,Frequently,Automobile,Overweight_Level_II
+269,17.0,Male,1.67,,no,,2.0,4.0,no,no,2.0,no,0.0,2.0,Always,Public_Transportation,Normal_Weight
+270,23.0,Male,1.72,,Sometimes,,2.0,3.0,no,no,2.0,yes,0.0,,,Walking,Normal_Weight
+271,23.0,Male,1.82,107.0,Sometimes,,2.0,3.0,no,no,3.0,no,0.0,1.0,Sometimes,Public_Transportation,Obesity_Type_I
+272,19.0,Female,1.5,,Sometimes,,2.0,3.0,no,no,1.0,no,0.0,2.0,,Public_Transportation,Normal_Weight
+273,18.0,Male,1.7,,no,,2.0,3.0,no,,2.0,no,2.0,1.0,,Public_Transportation,Normal_Weight
+274,25.0,Male,1.71,71.0,Sometimes,yes,2.0,3.0,no,no,2.0,,0.0,0.0,Frequently,Motorbike,Normal_Weight
+275,25.0,,1.61,61.0,Sometimes,,2.0,3.0,no,,1.0,no,2.0,1.0,,Public_Transportation,Normal_Weight
+276,18.0,,1.5,50.0,Sometimes,yes,3.0,3.0,no,,2.0,yes,0.0,1.0,Frequently,Public_Transportation,Normal_Weight
+277,16.0,Male,,50.0,no,,2.0,1.0,no,no,3.0,yes,1.0,0.0,Frequently,Public_Transportation,Insufficient_Weight
+278,21.0,Male,1.82,67.0,Sometimes,,2.0,4.0,no,,3.0,no,3.0,2.0,Always,Walking,Normal_Weight
+279,32.0,Female,1.57,57.0,Sometimes,,3.0,3.0,no,no,2.0,yes,0.0,0.0,Sometimes,Automobile,Normal_Weight
+280,18.0,Male,1.79,52.0,Sometimes,,3.0,3.0,no,,2.0,no,1.0,1.0,Sometimes,Public_Transportation,Insufficient_Weight
+281,,,1.75,62.0,Sometimes,,3.0,4.0,no,,2.0,no,0.0,,,Public_Transportation,Normal_Weight
+282,18.0,,,,Sometimes,,2.0,3.0,no,,2.0,yes,0.0,0.0,Frequently,Public_Transportation,Normal_Weight
+283,18.0,Female,,,no,,2.0,3.0,no,no,1.0,yes,1.0,1.0,Frequently,Public_Transportation,Normal_Weight
+284,17.0,Male,,60.0,Sometimes,no,2.0,3.0,no,no,3.0,no,2.0,1.0,Sometimes,Walking,Normal_Weight
+285,20.0,Male,1.77,70.0,Sometimes,,1.0,1.0,no,no,2.0,yes,1.0,1.0,Sometimes,Public_Transportation,Normal_Weight
+286,21.0,Male,1.79,105.0,,,2.0,3.0,no,,1.0,,0.0,0.0,,Public_Transportation,Obesity_Type_I
+287,,,1.6,61.0,Sometimes,yes,2.0,3.0,no,no,1.0,no,1.0,1.0,Sometimes,,Normal_Weight
+288,,,1.6,58.0,no,yes,2.0,3.0,no,,3.0,yes,3.0,,Sometimes,,Normal_Weight
+289,17.0,Female,1.56,51.0,no,,3.0,3.0,no,,1.0,no,0.0,,,,Normal_Weight
+290,,Male,1.88,,Sometimes,no,2.0,3.0,no,no,3.0,no,3.0,0.0,,Automobile,Normal_Weight
+291,16.0,,,71.0,Sometimes,yes,2.0,3.0,no,,2.0,yes,2.0,1.0,Frequently,,Normal_Weight
+292,17.0,,1.8,,no,,2.0,3.0,no,no,2.0,,2.0,1.0,Frequently,,Insufficient_Weight
+293,,Male,1.7,65.0,no,yes,2.0,3.0,no,no,1.0,yes,1.0,,Frequently,Public_Transportation,Normal_Weight
+294,19.0,Male,,,,no,2.0,3.0,no,,2.0,yes,1.0,0.0,Frequently,Public_Transportation,Normal_Weight
+295,18.0,Male,1.86,,Sometimes,,2.0,1.0,no,yes,2.0,yes,1.0,2.0,Sometimes,Public_Transportation,Obesity_Type_I
+296,16.0,Female,1.66,58.0,no,no,2.0,1.0,no,,1.0,no,0.0,1.0,Sometimes,Walking,Normal_Weight
+297,21.0,Female,1.53,53.0,Sometimes,,3.0,3.0,no,no,2.0,no,2.0,1.0,Sometimes,Public_Transportation,Normal_Weight
+298,,Male,1.74,80.0,no,,2.0,3.0,no,no,2.0,no,2.0,0.0,Sometimes,Automobile,Overweight_Level_I
+299,,Male,1.8,,Frequently,yes,2.0,3.0,no,,1.0,yes,0.0,1.0,Frequently,Public_Transportation,Normal_Weight
+300,23.0,Male,1.7,75.0,Sometimes,yes,3.0,3.0,no,,3.0,no,1.0,,Sometimes,Public_Transportation,Overweight_Level_I
+301,26.0,Male,,70.0,Sometimes,,2.0,3.0,no,yes,1.0,no,0.0,,Sometimes,,Normal_Weight
+302,18.0,,1.72,,Sometimes,yes,2.0,4.0,no,no,2.0,no,2.0,1.0,Sometimes,,Normal_Weight
+303,16.0,Male,1.84,45.0,Sometimes,yes,3.0,3.0,no,no,3.0,yes,3.0,2.0,Always,Walking,Insufficient_Weight
+304,16.0,Female,1.57,49.0,Sometimes,,2.0,4.0,no,no,2.0,no,0.0,1.0,Always,,Normal_Weight
+305,20.0,Male,,,,no,2.0,3.0,no,,3.0,yes,2.0,1.0,Sometimes,Public_Transportation,Overweight_Level_I
+306,23.0,Male,1.75,,Sometimes,yes,2.0,3.0,no,yes,2.0,yes,2.0,1.0,Sometimes,Public_Transportation,Obesity_Type_II
+307,,,1.56,,Sometimes,yes,1.0,3.0,no,no,2.0,yes,0.0,2.0,Always,,Normal_Weight
+308,23.0,Female,,48.0,Sometimes,yes,2.0,1.0,no,no,1.0,yes,0.0,2.0,Frequently,Public_Transportation,Normal_Weight
+309,20.0,,1.8,75.0,Sometimes,yes,3.0,4.0,no,no,3.0,,2.0,0.0,,,Normal_Weight
+310,16.0,,1.66,58.0,no,no,2.0,1.0,no,no,1.0,no,0.0,1.0,Sometimes,Walking,Normal_Weight
+311,,Male,1.79,57.0,no,,2.0,4.0,no,no,2.0,yes,2.0,1.0,,,Insufficient_Weight
+312,17.0,Male,1.72,,no,,2.0,3.0,no,,2.0,no,3.0,1.0,Always,Public_Transportation,Normal_Weight
+313,16.0,,1.6,,no,yes,3.0,3.0,no,no,1.0,no,3.0,0.0,Sometimes,Public_Transportation,Normal_Weight
+314,17.0,Male,,56.0,Sometimes,,1.0,3.0,no,,2.0,yes,1.0,1.0,,Public_Transportation,Normal_Weight
+315,26.0,,1.65,63.0,no,yes,3.0,3.0,no,no,1.0,no,1.0,,Sometimes,,Normal_Weight
+316,26.0,Male,,72.0,Sometimes,yes,2.0,3.0,no,no,2.0,no,0.0,0.0,Always,Public_Transportation,Normal_Weight
+317,38.0,,,75.0,no,no,3.0,3.0,no,,1.0,yes,2.0,1.0,,Automobile,Normal_Weight
+318,18.0,Male,1.75,70.0,no,yes,3.0,4.0,no,,2.0,no,1.0,,,Public_Transportation,Normal_Weight
+319,,Female,1.56,,Sometimes,,2.0,3.0,no,no,1.0,no,0.0,,,Public_Transportation,Normal_Weight
+320,,Female,,63.0,Sometimes,,2.0,3.0,no,,1.0,no,0.0,1.0,Sometimes,Automobile,Overweight_Level_I
+321,21.0,Male,,67.0,no,yes,3.0,1.0,no,no,2.0,yes,1.0,,Always,Public_Transportation,Normal_Weight
+322,38.0,,1.75,,no,no,3.0,3.0,no,,1.0,yes,3.0,1.0,Frequently,Automobile,Normal_Weight
+323,23.0,Female,1.75,56.0,Sometimes,no,3.0,3.0,no,,2.0,no,2.0,0.0,Frequently,,Insufficient_Weight
+324,18.0,,,,Sometimes,yes,2.0,3.0,no,no,2.0,yes,3.0,0.0,Sometimes,Automobile,Normal_Weight
+325,30.0,Female,1.65,71.0,Sometimes,,2.0,3.0,no,no,1.0,yes,0.0,0.0,Sometimes,,Overweight_Level_I
+326,21.0,Female,1.55,58.0,Sometimes,,2.0,1.0,no,,1.0,no,1.0,0.0,Sometimes,,Normal_Weight
+327,18.0,Male,1.7,55.3,Sometimes,yes,3.0,3.0,no,,2.0,,3.0,0.0,Sometimes,Public_Transportation,Normal_Weight
+328,23.0,Male,1.72,76.0,Sometimes,,3.0,4.0,no,no,1.0,yes,0.0,0.0,Frequently,Public_Transportation,Overweight_Level_I
+329,19.0,Male,1.74,74.0,Sometimes,,3.0,1.0,no,no,3.0,yes,3.0,,,Walking,Normal_Weight
+330,,,1.65,82.0,Sometimes,yes,3.0,3.0,no,,1.0,yes,0.0,,,Public_Transportation,Obesity_Type_I
+331,17.0,Female,1.8,,Sometimes,,3.0,4.0,no,no,1.0,no,2.0,,Frequently,Public_Transportation,Insufficient_Weight
+332,17.0,Male,1.74,56.0,,,2.0,3.0,no,,2.0,yes,2.0,1.0,Sometimes,Public_Transportation,Normal_Weight
+333,27.0,,1.85,,no,,2.0,1.0,no,no,2.0,yes,1.0,0.0,,,Normal_Weight
+334,,Female,1.7,56.0,no,no,3.0,4.0,yes,no,3.0,no,3.0,0.0,Always,Automobile,Normal_Weight
+335,18.0,Female,1.45,53.0,Frequently,,2.0,3.0,yes,no,2.0,no,1.0,2.0,Frequently,,Overweight_Level_I
+336,19.0,Male,1.7,50.0,Sometimes,,1.0,4.0,no,,1.0,,2.0,1.0,,Public_Transportation,Insufficient_Weight
+337,20.0,,1.7,65.0,no,yes,2.0,3.0,no,,2.0,no,0.0,1.0,Sometimes,Public_Transportation,Normal_Weight
+338,18.0,,1.78,,no,yes,3.0,3.0,no,no,2.0,yes,3.0,2.0,,Walking,Normal_Weight
+339,,Female,1.6,,Sometimes,yes,3.0,1.0,yes,no,2.0,no,1.0,,,,Overweight_Level_I
+340,19.0,Female,1.53,42.0,Frequently,,2.0,3.0,yes,,1.0,no,2.0,,,Public_Transportation,Insufficient_Weight
+341,21.0,Male,1.8,72.0,no,,3.0,3.0,no,no,2.0,no,1.0,1.0,Sometimes,Public_Transportation,Normal_Weight
+342,20.0,Male,1.6,50.0,Sometimes,,2.0,3.0,no,,1.0,no,0.0,0.0,Sometimes,,Normal_Weight
+343,23.0,Male,1.74,,Sometimes,,3.0,3.0,no,no,2.0,yes,1.0,0.0,Sometimes,Public_Transportation,Obesity_Type_I
+344,,Male,1.65,,no,no,3.0,3.0,no,,2.0,no,3.0,0.0,Sometimes,Public_Transportation,Normal_Weight
+345,18.0,,1.87,,Sometimes,yes,3.0,3.0,no,no,2.0,yes,2.0,1.0,,Public_Transportation,Obesity_Type_III
+346,,Male,1.7,55.0,Sometimes,yes,3.0,3.0,no,no,2.0,no,3.0,1.0,Always,,Normal_Weight
+347,21.0,Female,1.54,47.0,,,3.0,3.0,no,,1.0,,2.0,0.0,Always,Public_Transportation,Normal_Weight
+348,17.0,,1.8,,Sometimes,yes,2.0,3.0,no,,3.0,yes,1.0,1.0,Sometimes,Walking,Overweight_Level_II
+349,18.0,,1.82,,no,yes,2.0,3.0,no,no,2.0,yes,3.0,2.0,Sometimes,Walking,Normal_Weight
+350,20.0,Male,1.98,125.0,Sometimes,yes,2.0,3.0,no,no,3.0,yes,1.0,1.0,Always,Public_Transportation,Obesity_Type_I
+351,,Male,,,Sometimes,,2.0,3.0,no,,1.0,yes,3.0,2.0,,Walking,Normal_Weight
+352,26.0,Female,1.65,60.0,no,no,3.0,4.0,no,no,2.0,no,2.0,0.0,,Walking,Normal_Weight
+353,,Female,,53.0,Sometimes,yes,1.0,3.0,no,no,1.0,no,2.0,2.0,Sometimes,Walking,Normal_Weight
+354,,Female,,51.0,Sometimes,,1.0,3.0,no,,2.0,yes,0.0,,Sometimes,,Normal_Weight
+355,17.0,Female,1.6,59.0,no,yes,2.0,3.0,no,no,2.0,no,1.0,2.0,Sometimes,Public_Transportation,Normal_Weight
+356,27.0,,1.55,,Sometimes,yes,3.0,1.0,no,no,1.0,no,1.0,0.0,Sometimes,,Overweight_Level_I
+357,17.0,,1.9,60.0,no,,3.0,3.0,no,no,2.0,,3.0,1.0,,Walking,Insufficient_Weight
+358,17.0,Female,,,no,yes,1.0,3.0,no,,1.0,yes,1.0,1.0,Sometimes,Automobile,Normal_Weight
+359,41.0,,1.75,110.0,Frequently,,2.0,1.0,no,,1.0,yes,1.0,0.0,Sometimes,Automobile,Obesity_Type_II
+360,33.0,Female,,48.0,Sometimes,no,2.0,3.0,no,,2.0,yes,1.0,0.0,Sometimes,Public_Transportation,Normal_Weight
+361,20.0,,1.87,,Sometimes,,2.0,3.0,no,no,1.0,no,1.0,1.0,Frequently,,Normal_Weight
+362,40.0,Female,1.56,,no,yes,2.0,1.0,no,,2.0,yes,2.0,0.0,Sometimes,,Obesity_Type_I
+363,,Female,1.65,73.0,Sometimes,no,3.0,3.0,no,no,2.0,yes,1.0,,,Automobile,Overweight_Level_I
+364,19.0,,1.8,,Sometimes,yes,2.0,1.0,no,,2.0,,2.0,,Sometimes,,Normal_Weight
+365,24.0,Male,,,Sometimes,,2.0,1.0,no,no,2.0,yes,2.0,1.0,Always,Public_Transportation,Overweight_Level_I
+366,24.0,,1.7,68.0,Sometimes,,3.0,3.0,no,no,2.0,no,0.0,,Sometimes,Motorbike,Normal_Weight
+367,33.0,Male,1.72,83.0,Sometimes,yes,2.0,1.0,no,no,2.0,yes,3.0,0.0,,Automobile,Overweight_Level_II
+368,40.0,Female,1.58,,Sometimes,yes,2.0,3.0,no,no,2.0,no,3.0,1.0,Frequently,Public_Transportation,Overweight_Level_I
+369,37.0,Female,1.68,,no,,2.0,1.0,no,no,2.0,,0.0,0.0,Sometimes,Automobile,Overweight_Level_II
+370,20.0,,1.58,74.0,Sometimes,no,3.0,3.0,no,no,2.0,no,3.0,1.0,Frequently,Public_Transportation,Overweight_Level_II
+371,19.0,,,60.0,no,yes,2.0,3.0,no,no,1.0,no,1.0,1.0,Sometimes,Public_Transportation,Normal_Weight
+372,,,,,Sometimes,yes,3.0,1.0,yes,no,2.0,yes,1.0,2.0,,Public_Transportation,Overweight_Level_I
+373,18.0,Female,1.62,,no,,3.0,3.0,no,no,1.0,no,0.0,2.0,Sometimes,Automobile,Normal_Weight
+374,21.0,,1.54,56.0,Sometimes,,2.0,1.0,no,,2.0,no,0.0,,Sometimes,Public_Transportation,Normal_Weight
+375,18.0,,1.76,70.0,Sometimes,,2.0,4.0,no,no,2.0,yes,2.0,1.0,,Automobile,Normal_Weight
+376,41.0,Male,1.8,92.0,Sometimes,yes,2.0,1.0,no,no,3.0,yes,1.0,0.0,Frequently,Automobile,Overweight_Level_II
+377,36.0,,1.58,,Sometimes,no,3.0,3.0,no,,1.0,yes,2.0,0.0,Sometimes,Automobile,Normal_Weight
+378,18.0,Male,,68.0,,,2.0,4.0,no,no,2.0,no,1.0,1.0,Frequently,Public_Transportation,Normal_Weight
+379,18.0,,,70.0,Sometimes,,3.0,3.0,no,,1.0,no,2.0,1.0,Frequently,Public_Transportation,Normal_Weight
+380,17.0,Male,1.7,,Sometimes,,3.0,3.0,no,no,2.0,yes,0.0,2.0,Sometimes,,Normal_Weight
+381,25.0,,1.7,83.0,no,yes,3.0,3.0,yes,no,3.0,no,3.0,0.0,Sometimes,Motorbike,Overweight_Level_II
+382,21.0,Male,1.8,,Sometimes,,3.0,3.0,no,no,1.0,yes,2.0,0.0,,Public_Transportation,Normal_Weight
+383,29.0,Female,,56.0,Sometimes,no,2.0,3.0,no,,1.0,,0.0,1.0,,Public_Transportation,Normal_Weight
+384,,Male,1.7,,Sometimes,,2.0,3.0,no,no,2.0,yes,0.0,,Sometimes,Automobile,Obesity_Type_I
+385,,Female,1.6,60.0,no,yes,3.0,1.0,yes,no,1.0,yes,0.0,,Sometimes,Walking,Normal_Weight
+386,16.0,,1.55,45.0,no,,2.0,3.0,no,no,2.0,no,1.0,1.0,Frequently,Public_Transportation,Normal_Weight
+387,18.0,,,53.0,no,no,1.0,3.0,no,no,1.0,,1.0,,Sometimes,,Normal_Weight
+388,37.0,Female,1.5,75.0,Sometimes,yes,2.0,3.0,no,,1.0,yes,0.0,0.0,,Motorbike,Obesity_Type_I
+389,18.0,Male,1.78,,no,no,2.0,3.0,no,no,3.0,yes,1.0,0.0,Sometimes,Public_Transportation,Obesity_Type_I
+390,,,1.61,65.0,no,,1.0,1.0,no,,2.0,yes,0.0,,Sometimes,Public_Transportation,Overweight_Level_I
+391,,Male,1.71,50.0,no,,2.0,3.0,no,,3.0,yes,0.0,2.0,,Public_Transportation,Insufficient_Weight
+392,18.0,Female,1.7,50.0,Sometimes,no,2.0,3.0,no,no,2.0,no,0.0,1.0,Sometimes,,Insufficient_Weight
+393,18.0,Male,1.76,69.5,no,no,3.0,3.0,no,no,3.0,no,2.0,2.0,Frequently,Public_Transportation,Normal_Weight
+394,18.0,,,78.0,Sometimes,yes,1.0,3.0,no,no,2.0,no,0.0,1.0,Sometimes,Public_Transportation,Overweight_Level_II
+395,17.0,,1.53,,no,yes,2.0,3.0,no,no,1.0,yes,0.0,1.0,Sometimes,Public_Transportation,Normal_Weight
+396,,,1.54,39.0,,,1.0,3.0,no,,2.0,yes,3.0,2.0,Sometimes,,Insufficient_Weight
+397,38.0,Female,1.55,,Frequently,,3.0,3.0,no,no,1.0,yes,2.0,,,Automobile,Normal_Weight
+398,20.0,Male,1.66,60.0,no,yes,2.0,4.0,no,,3.0,no,0.0,0.0,Frequently,Public_Transportation,Normal_Weight
+399,,Male,,,Sometimes,yes,3.0,1.0,no,,1.0,yes,0.0,0.0,,Public_Transportation,Obesity_Type_II
+400,21.0,Male,1.65,60.0,Sometimes,no,3.0,1.0,no,no,1.0,no,0.0,0.0,Frequently,Motorbike,Normal_Weight
+401,18.0,Male,1.65,70.0,no,no,2.0,3.0,no,no,2.0,yes,0.0,0.0,Sometimes,Public_Transportation,Overweight_Level_I
+402,26.0,Male,,82.0,Sometimes,yes,2.0,3.0,no,no,2.0,no,1.0,1.0,Always,,Normal_Weight
+403,27.0,Male,,,Sometimes,yes,3.0,1.0,no,no,2.0,yes,2.0,1.0,Frequently,Walking,Overweight_Level_II
+404,,Female,,112.0,no,,3.0,3.0,no,no,3.0,yes,0.0,0.0,Sometimes,Automobile,Obesity_Type_III
+405,34.0,Male,1.78,73.0,Sometimes,,2.0,3.0,no,no,2.0,no,3.0,1.0,,Automobile,Normal_Weight
+406,,,1.74,86.0,no,,3.0,3.0,no,no,2.0,no,3.0,0.0,Sometimes,Public_Transportation,Overweight_Level_II
+407,,,1.76,66.5,Sometimes,no,2.0,3.0,no,no,2.0,no,3.0,1.0,Sometimes,Automobile,Normal_Weight
+408,19.0,Female,1.51,,Sometimes,yes,3.0,3.0,no,,1.0,yes,1.0,2.0,Frequently,Walking,Overweight_Level_I
+409,20.0,Male,1.81,,Sometimes,,3.0,1.0,no,,2.0,,0.0,0.0,Sometimes,Public_Transportation,Normal_Weight
+410,33.0,,1.55,,Sometimes,yes,3.0,1.0,no,no,3.0,,2.0,,,Public_Transportation,Normal_Weight
+411,20.0,,1.83,66.0,no,no,2.0,3.0,no,no,2.0,no,1.0,1.0,Sometimes,Public_Transportation,Normal_Weight
+412,20.0,,1.6,,Sometimes,no,3.0,3.0,yes,,2.0,no,0.0,0.0,Sometimes,Public_Transportation,Overweight_Level_I
+413,33.0,Male,1.85,85.0,Sometimes,yes,2.0,3.0,no,no,2.0,no,1.0,0.0,,Automobile,Normal_Weight
+414,33.0,Male,,85.0,Sometimes,,2.0,3.0,yes,,2.0,no,1.0,0.0,Sometimes,Public_Transportation,Overweight_Level_II
+415,33.0,Male,1.83,113.0,Frequently,yes,2.0,1.0,no,no,2.0,yes,1.0,2.0,Always,Automobile,Obesity_Type_I
+416,14.0,Male,1.71,72.0,no,yes,3.0,3.0,no,,3.0,yes,2.0,1.0,Sometimes,Walking,Normal_Weight
+417,34.0,,1.84,,no,yes,3.0,3.0,yes,no,1.0,,2.0,0.0,,Automobile,Overweight_Level_I
+418,18.0,Male,1.77,,Frequently,yes,3.0,3.0,no,no,2.0,yes,1.0,1.0,Sometimes,,Overweight_Level_II
+419,18.0,Male,1.7,90.0,Sometimes,yes,3.0,3.0,no,no,2.0,no,2.0,0.0,Sometimes,Public_Transportation,Obesity_Type_I
+420,29.0,Male,,89.0,Sometimes,,1.0,3.0,no,,1.0,yes,0.0,0.0,Sometimes,Public_Transportation,Obesity_Type_I
+421,18.0,Male,1.85,60.0,Sometimes,yes,3.0,4.0,yes,no,2.0,yes,2.0,0.0,,Automobile,Insufficient_Weight
+422,,Male,1.84,60.0,,,3.0,4.0,yes,no,2.0,yes,2.0,0.0,Sometimes,Automobile,Insufficient_Weight
+423,,Male,1.75,58.0,Sometimes,,2.0,3.0,no,,2.0,no,2.0,0.0,Sometimes,Bike,Normal_Weight
+424,,Male,1.85,,Sometimes,,2.0,3.0,no,no,1.0,yes,1.0,1.0,Sometimes,,Overweight_Level_II
+425,,Male,,76.0,Sometimes,no,2.0,3.0,no,no,1.0,no,0.0,2.0,Sometimes,Walking,Overweight_Level_I
+426,,,1.61,53.8,Sometimes,,2.0,3.0,no,,2.0,yes,2.0,1.0,,Public_Transportation,Normal_Weight
+427,,Male,1.75,,no,no,2.0,3.0,no,no,3.0,no,1.0,,Sometimes,Public_Transportation,Normal_Weight
+428,20.0,,1.67,60.0,Sometimes,yes,3.0,3.0,no,no,2.0,no,3.0,,no,Public_Transportation,Normal_Weight
+429,23.0,Male,1.7,69.0,Sometimes,yes,3.0,1.0,no,no,1.0,no,2.0,,,Public_Transportation,Normal_Weight
+430,26.0,Male,,80.0,,,2.0,3.0,yes,,1.0,yes,1.0,,Frequently,,Normal_Weight
+431,18.0,Male,1.65,,Sometimes,yes,2.0,3.0,no,no,1.0,no,1.0,0.0,Sometimes,Public_Transportation,Obesity_Type_I
+432,18.0,,1.6,,Sometimes,yes,2.0,4.0,no,no,2.0,no,2.0,1.0,Frequently,Public_Transportation,Normal_Weight
+433,19.0,Male,,,no,,3.0,3.0,no,no,1.0,no,2.0,0.0,Frequently,,Normal_Weight
+434,18.0,Female,,59.0,Sometimes,yes,2.0,3.0,no,no,1.0,yes,1.0,1.0,Sometimes,Public_Transportation,Normal_Weight
+435,,Male,1.89,87.0,Frequently,,2.0,4.0,no,,2.0,no,3.0,1.0,,Automobile,Normal_Weight
+436,19.0,Female,1.76,,no,yes,2.0,1.0,no,,3.0,yes,3.0,1.0,Sometimes,Public_Transportation,Overweight_Level_I
+437,18.0,Female,1.56,55.0,Frequently,,2.0,3.0,no,no,1.0,,0.0,0.0,Sometimes,Automobile,Normal_Weight
+438,18.0,,1.6,56.0,Sometimes,yes,2.0,1.0,no,no,2.0,yes,,0.0,Always,Walking,Normal_Weight
+439,,,1.67,,Sometimes,yes,3.0,3.0,no,no,2.0,no,2.0,,Sometimes,,Normal_Weight
+440,,,1.6,,Sometimes,yes,2.0,3.0,no,no,2.0,no,0.0,1.0,Frequently,Public_Transportation,Normal_Weight
+441,18.0,Female,1.55,,no,,2.0,3.0,no,,1.0,no,0.0,0.0,Sometimes,Automobile,Normal_Weight
+442,18.0,,,50.0,no,,3.0,3.0,no,no,1.0,,1.0,,Frequently,,Normal_Weight
+443,26.0,Male,1.72,65.0,,,2.0,3.0,no,no,2.0,yes,0.0,1.0,Sometimes,Walking,Normal_Weight
+444,18.0,Male,1.72,53.0,Sometimes,,2.0,3.0,no,,2.0,,0.0,2.0,Sometimes,,Insufficient_Weight
+445,19.0,Male,1.7,60.0,Sometimes,yes,2.0,1.0,no,,2.0,yes,2.0,0.0,Sometimes,Public_Transportation,Normal_Weight
+446,19.0,Female,1.51,45.0,Sometimes,,2.0,4.0,no,no,1.0,no,3.0,0.0,,Public_Transportation,Normal_Weight
+447,19.0,Male,1.83,82.0,Sometimes,yes,3.0,3.0,no,no,2.0,yes,2.0,,Frequently,Public_Transportation,Normal_Weight
+448,,Male,1.8,87.0,Sometimes,yes,2.0,4.0,no,no,2.0,yes,2.0,1.0,Sometimes,Public_Transportation,Overweight_Level_I
+449,24.0,Female,,,Sometimes,yes,3.0,1.0,no,,1.0,yes,0.0,2.0,Sometimes,Public_Transportation,Obesity_Type_II
+450,18.0,Female,1.63,63.0,Sometimes,,1.0,3.0,no,no,2.0,yes,2.0,2.0,,Public_Transportation,Normal_Weight
+451,19.0,Male,1.71,,Sometimes,yes,3.0,3.0,no,no,2.0,no,1.0,1.0,,Public_Transportation,Normal_Weight
+452,19.0,Male,1.7,65.0,no,,2.0,3.0,no,no,2.0,yes,1.0,0.0,Frequently,Public_Transportation,Normal_Weight
+453,23.0,Male,,,Sometimes,,3.0,3.0,no,no,2.0,,2.0,,,,Normal_Weight
+454,18.0,Female,1.62,50.0,Sometimes,yes,3.0,3.0,no,no,1.0,no,0.0,0.0,Sometimes,Automobile,Normal_Weight
+455,,Female,,,no,yes,3.0,1.0,no,no,1.0,no,1.0,0.0,Sometimes,Public_Transportation,Normal_Weight
+456,,Male,,,Sometimes,,2.0,3.0,no,no,1.0,no,1.0,1.0,Frequently,Public_Transportation,Normal_Weight
+457,33.0,Female,1.59,,no,yes,3.0,1.0,no,no,2.0,no,0.0,0.0,Frequently,Public_Transportation,Normal_Weight
+458,19.0,Female,1.5,45.0,Sometimes,,2.0,3.0,no,,1.0,no,0.0,0.0,Sometimes,Public_Transportation,Normal_Weight
+459,19.0,,1.69,,Sometimes,,2.0,3.0,no,no,1.0,no,1.0,1.0,Always,Public_Transportation,Normal_Weight
+460,19.0,Male,1.76,79.0,Frequently,,2.0,3.0,no,no,3.0,yes,1.0,2.0,Frequently,,Overweight_Level_I
+461,18.0,,1.62,55.0,no,yes,2.0,3.0,no,no,1.0,yes,1.0,1.0,Frequently,Public_Transportation,Normal_Weight
+462,,,,100.0,no,,2.0,1.0,no,no,2.0,,0.0,2.0,Sometimes,Public_Transportation,Obesity_Type_I
+463,27.0,Male,1.72,88.0,Sometimes,yes,2.0,1.0,no,no,2.0,yes,0.0,0.0,Always,Automobile,Overweight_Level_II
+464,17.0,,,,Sometimes,,2.0,3.0,no,no,1.0,yes,2.0,,Sometimes,,Normal_Weight
+465,,Male,,86.0,Sometimes,no,3.0,4.0,no,,2.0,,2.0,,Always,Walking,Normal_Weight
+466,18.0,Female,1.6,51.0,Sometimes,,2.0,3.0,no,no,1.0,yes,1.0,,,Public_Transportation,Normal_Weight
+467,22.0,Male,1.74,75.0,no,,3.0,3.0,no,no,1.0,yes,1.0,0.0,,Automobile,Normal_Weight
+468,,,1.74,75.0,no,yes,3.0,3.0,no,,1.0,,1.0,0.0,,Automobile,Normal_Weight
+469,20.0,Female,1.62,,Sometimes,yes,3.0,3.0,no,no,1.0,no,1.0,0.0,,Public_Transportation,Insufficient_Weight
+470,19.0,Female,,42.0,no,,3.0,1.0,no,,2.0,no,0.0,1.0,Sometimes,Public_Transportation,Insufficient_Weight
+471,,Female,,,Sometimes,yes,2.0,3.0,no,,2.0,no,3.0,0.0,Frequently,Public_Transportation,Normal_Weight
+472,18.0,,1.6,,no,,2.0,3.0,yes,no,2.0,yes,1.0,0.0,,Public_Transportation,Obesity_Type_I
+473,18.0,,1.54,71.0,no,no,3.0,4.0,no,no,2.0,no,1.0,1.0,Frequently,Public_Transportation,Overweight_Level_II
+474,18.0,Female,1.63,51.0,Sometimes,yes,1.0,3.0,no,no,1.0,yes,1.0,0.0,Frequently,Public_Transportation,Normal_Weight
+475,,Male,1.78,64.0,no,,2.0,3.0,no,no,1.0,no,1.0,,Sometimes,Public_Transportation,Normal_Weight
+476,18.0,,,68.0,no,,2.0,1.0,no,,1.0,no,0.0,2.0,Sometimes,Public_Transportation,Overweight_Level_I
+477,,Female,,75.0,no,,3.0,3.0,no,,2.0,yes,1.0,0.0,,,Overweight_Level_I
+478,,Female,,56.0,no,yes,3.0,3.0,yes,no,1.0,,1.0,1.0,,Public_Transportation,Normal_Weight
+479,,Male,1.69,65.0,Sometimes,,2.0,3.0,no,no,1.0,no,1.0,1.0,Frequently,,Normal_Weight
+480,,,1.58,,Sometimes,,1.0,4.0,no,no,2.0,,1.0,,Frequently,,Normal_Weight
+481,18.0,Female,1.57,50.0,Sometimes,yes,2.0,3.0,no,no,1.0,no,0.0,1.0,,Public_Transportation,Normal_Weight
+482,,Male,1.74,64.0,Sometimes,yes,3.0,4.0,yes,no,1.0,yes,2.0,0.0,Sometimes,Public_Transportation,Normal_Weight
+483,20.0,,1.58,53.5,Sometimes,yes,2.0,1.0,no,no,2.0,yes,1.0,1.0,,Public_Transportation,Normal_Weight
+484,,Female,1.5,58.0,no,yes,2.0,3.0,no,no,1.0,no,0.0,,Sometimes,Public_Transportation,Overweight_Level_I
+485,36.0,,1.65,80.0,no,yes,2.0,3.0,no,no,1.0,yes,0.0,2.0,,Automobile,Overweight_Level_II
+486,,Male,1.8,73.0,Sometimes,yes,1.0,3.0,no,,2.0,,,1.0,,,Normal_Weight
+487,23.0,Male,1.75,75.0,Frequently,,2.0,3.0,no,no,2.0,no,1.0,0.0,,,Normal_Weight
+488,,Male,1.84,,no,no,2.0,3.0,no,,3.0,yes,3.0,0.0,Sometimes,Motorbike,Obesity_Type_I
+489,21.0,Male,1.88,84.0,Sometimes,yes,3.0,3.0,no,no,3.0,yes,2.0,1.0,Sometimes,Walking,Normal_Weight
+490,19.0,,1.56,50.0,no,yes,2.0,1.0,no,no,1.0,no,0.0,2.0,Sometimes,Public_Transportation,Normal_Weight
+491,24.0,,,84.0,Sometimes,yes,3.0,3.0,yes,no,2.0,no,1.0,0.0,no,Public_Transportation,Overweight_Level_II
+492,25.0,Male,1.66,68.0,Sometimes,yes,2.0,3.0,no,yes,1.0,no,1.0,1.0,Sometimes,Public_Transportation,Normal_Weight
+493,45.0,Male,1.7,86.0,,yes,3.0,3.0,no,no,1.0,no,0.0,0.0,Frequently,Automobile,Overweight_Level_II
+494,20.0,Male,1.8,65.0,Sometimes,,2.0,3.0,no,no,1.0,no,2.0,0.0,,Motorbike,Normal_Weight
+495,18.0,Female,1.67,,,,3.0,3.0,no,no,2.0,no,0.0,0.0,Sometimes,Public_Transportation,Normal_Weight
+496,19.0,Male,1.8,60.0,no,,3.0,1.0,yes,,1.0,yes,0.0,0.0,Always,Motorbike,Normal_Weight
+497,18.0,Male,,53.0,Sometimes,yes,2.0,3.0,no,no,2.0,yes,0.0,2.0,Sometimes,Public_Transportation,Insufficient_Weight
+498,20.0,Male,1.56,,Sometimes,,2.0,3.0,no,no,2.0,no,1.0,,,Public_Transportation,Normal_Weight
+499,25.196214,Female,1.686306,,Sometimes,yes,3.0,3.0,no,no,1.152736,yes,0.319156,1.0,,Public_Transportation,Obesity_Type_III
+500,,Female,1.683124,126.67378,Sometimes,,3.0,3.0,no,no,1.115967,yes,1.541072,1.0,Sometimes,,Obesity_Type_III
+501,,Female,1.622397,110.79263,Sometimes,yes,3.0,3.0,no,no,2.704507,yes,0.0,0.29499,,Public_Transportation,Obesity_Type_III
+502,21.853826,,1.755643,137.796884,Sometimes,yes,3.0,3.0,no,no,2.184707,yes,1.978631,0.838957,Sometimes,Public_Transportation,Obesity_Type_III
+503,21.90012,Female,1.843419,165.057269,Sometimes,yes,3.0,3.0,no,no,2.406541,yes,0.10032,0.479221,Sometimes,Public_Transportation,Obesity_Type_III
+504,,Female,,133.03441,Sometimes,yes,3.0,3.0,no,no,2.984323,yes,1.586525,0.62535,Sometimes,Public_Transportation,Obesity_Type_III
+505,26.0,Female,1.630927,111.485516,Sometimes,yes,3.0,3.0,no,no,2.444125,yes,0.0,0.26579,Sometimes,Public_Transportation,Obesity_Type_III
+506,,Female,1.629191,104.826776,Sometimes,yes,3.0,3.0,no,,2.654702,yes,0.0,,Sometimes,Public_Transportation,Obesity_Type_III
+507,21.849705,,1.770612,133.963349,,,3.0,3.0,no,no,2.825629,yes,1.399183,0.928972,Sometimes,,Obesity_Type_III
+508,19.799054,Male,1.743702,54.927529,Sometimes,,2.0,3.28926,no,no,2.847264,yes,1.680844,2.0,Sometimes,Public_Transportation,Insufficient_Weight
+509,17.188754,Male,1.771915,55.695036,Sometimes,,2.0,4.0,no,no,2.884033,yes,2.0,1.340107,Sometimes,Public_Transportation,Insufficient_Weight
+510,,,1.75376,55.879263,Sometimes,yes,2.450218,3.995147,no,no,2.147746,yes,2.0,0.58998,Sometimes,Public_Transportation,Insufficient_Weight
+511,,Female,1.675446,,no,yes,3.0,3.0,no,no,2.815293,yes,1.978631,1.0,Frequently,Public_Transportation,Insufficient_Weight
+512,21.02497,Female,1.666203,49.869791,no,,3.0,3.0,no,no,2.593459,yes,2.0,1.0,Frequently,Public_Transportation,Insufficient_Weight
+513,22.038327,Female,,51.965521,no,yes,2.880161,3.0,no,no,1.031354,yes,2.206738,1.37465,Frequently,Public_Transportation,Insufficient_Weight
+514,,Female,1.598019,44.845655,no,no,3.0,1.72626,no,no,2.444125,no,1.31817,0.0,Frequently,Public_Transportation,Insufficient_Weight
+515,,Female,1.59611,42.848033,,no,3.0,2.581015,no,no,2.654702,,0.902095,0.0,Frequently,Public_Transportation,Insufficient_Weight
+516,21.962426,,,43.919835,no,no,3.0,1.600812,no,,2.651258,no,0.600817,0.0,,Public_Transportation,Insufficient_Weight
+517,21.491055,Female,1.586952,43.087508,no,,2.00876,1.73762,no,no,1.792022,no,0.119643,0.0,Frequently,Public_Transportation,Insufficient_Weight
+518,,Female,1.59559,44.581159,no,no,2.596579,1.10548,no,no,1.490613,no,0.345684,0.0,Frequently,Public_Transportation,Insufficient_Weight
+519,,,1.6,45.0,no,,2.591439,3.0,no,no,2.074048,no,1.679935,0.0,,,Insufficient_Weight
+520,18.535075,Female,1.688025,45.0,no,yes,3.0,3.0,yes,no,3.0,no,2.539762,1.283673,Sometimes,Public_Transportation,Insufficient_Weight
+521,19.0,Female,,42.339767,no,yes,3.0,2.0846,yes,no,2.13755,no,0.196152,0.062488,Sometimes,Public_Transportation,Insufficient_Weight
+522,19.0,Female,1.564199,42.096062,no,,3.0,1.894384,yes,no,2.456581,no,1.596576,0.9974,Sometimes,Public_Transportation,Insufficient_Weight
+523,20.254534,Female,1.56948,41.324558,Sometimes,,2.392665,1.0,no,no,1.0,no,0.0,,,Public_Transportation,Insufficient_Weight
+524,21.0,,1.52,,Sometimes,,3.0,1.0,no,,1.0,no,0.0,0.0,Frequently,Public_Transportation,Insufficient_Weight
+525,20.225396,Female,1.550648,44.641796,Sometimes,,3.0,2.857787,no,no,1.0,no,0.754646,,Frequently,Public_Transportation,Insufficient_Weight
+526,,Female,1.520997,42.0,Sometimes,,3.0,1.0,no,no,1.527036,no,0.0,,Frequently,Public_Transportation,Insufficient_Weight
+527,20.147114,Female,1.528011,,Sometimes,,3.0,1.0,no,no,1.322669,no,0.0,0.478676,Frequently,Public_Transportation,Insufficient_Weight
+528,,,1.52,,Sometimes,,3.0,1.0,no,no,1.0,no,0.0,0.0,Frequently,,Insufficient_Weight
+529,21.996523,Female,1.733263,50.890363,Sometimes,,3.0,3.765526,no,,1.656082,no,0.42777,0.555967,Frequently,Public_Transportation,Insufficient_Weight
+530,21.376426,Female,1.722527,50.833029,Sometimes,,3.0,3.285167,no,,1.569082,no,0.545931,,Frequently,,Insufficient_Weight
+531,,Female,,50.0,Sometimes,no,1.123939,4.0,no,no,1.0,,1.303976,0.371941,Frequently,Public_Transportation,Insufficient_Weight
+532,,Male,1.882779,,Sometimes,yes,3.0,3.0,no,,2.843777,yes,1.488843,0.009254,Sometimes,Automobile,Insufficient_Weight
+533,,Male,1.854592,63.611109,Sometimes,,3.0,3.691226,no,,2.650989,yes,1.228136,0.8324,Sometimes,Automobile,Insufficient_Weight
+534,23.0,Male,1.835643,58.854416,Sometimes,,3.0,3.0,no,no,2.027984,yes,1.661556,,Sometimes,Automobile,Insufficient_Weight
+535,,Male,1.755507,52.0,no,,3.0,3.0,no,no,2.0,yes,0.658894,,Frequently,Public_Transportation,Insufficient_Weight
+536,21.81119,Male,1.71266,51.598593,no,,3.0,3.156153,no,no,1.253803,,0.544784,0.256382,,,Insufficient_Weight
+537,18.164768,Male,1.694265,,no,yes,3.0,3.0,no,,2.0,yes,0.819682,,,,Insufficient_Weight
+538,18.871794,Female,1.586895,,Sometimes,yes,2.0,1.07976,no,no,1.0,no,0.194745,,Sometimes,Public_Transportation,Insufficient_Weight
+539,18.766033,Female,1.579561,41.890204,Sometimes,yes,2.027574,1.0,no,no,1.636326,no,0.0,1.906141,Sometimes,,Insufficient_Weight
+540,18.540535,Female,1.564568,41.397378,Sometimes,yes,2.658112,1.0,no,no,1.298165,no,0.0,1.639326,Sometimes,Public_Transportation,Insufficient_Weight
+541,,Female,,,Sometimes,no,2.88626,3.559841,no,no,1.632004,no,2.0,1.0,Frequently,Public_Transportation,Insufficient_Weight
+542,19.717249,Female,1.688426,49.660995,Sometimes,no,2.714447,3.0,no,,2.0,no,1.903182,,,,Insufficient_Weight
+543,19.633898,,1.66084,49.039794,Sometimes,,2.750715,3.0,no,,2.0,no,1.067817,1.0,,,Insufficient_Weight
+544,23.0,Female,,50.287967,no,yes,2.0,3.0,no,no,2.099863,yes,1.63581,,Frequently,Public_Transportation,Insufficient_Weight
+545,20.406871,,1.755978,53.699561,no,yes,2.0,3.891994,no,,1.86393,yes,2.870127,,Frequently,Public_Transportation,Insufficient_Weight
+546,,Female,1.728834,51.442293,no,,2.0,3.0,no,no,1.229915,yes,0.619533,2.0,,Public_Transportation,Insufficient_Weight
+547,,Female,,,Sometimes,yes,1.4925,3.0,no,no,1.049134,,2.0,1.0,,Public_Transportation,Insufficient_Weight
+548,18.827008,Female,1.7,50.0,Sometimes,,1.0,3.240578,no,no,1.0,,2.0,1.0,,Public_Transportation,Insufficient_Weight
+549,19.314964,Female,1.661403,49.932199,Sometimes,,2.205439,3.0,no,,1.530531,no,2.0,1.0,Sometimes,Public_Transportation,Insufficient_Weight
+550,,Female,1.610863,49.516027,no,,2.059138,3.904858,no,,2.0,yes,0.821977,0.0,Frequently,Public_Transportation,Insufficient_Weight
+551,32.383858,,1.640688,,no,yes,3.0,3.11158,no,no,2.721769,yes,1.44287,0.0,Frequently,Public_Transportation,Insufficient_Weight
+552,24.163526,,1.64603,49.839685,no,,3.0,3.590039,no,no,2.7305,yes,0.107078,0.0,Frequently,,Insufficient_Weight
+553,17.038222,Male,1.710564,51.588874,Sometimes,,2.0,2.057935,no,,2.371015,no,0.288032,0.714627,Sometimes,Public_Transportation,Insufficient_Weight
+554,,,1.752755,50.0,Sometimes,yes,2.310423,3.558637,no,no,1.787843,no,1.926592,,Sometimes,Public_Transportation,Insufficient_Weight
+555,16.198153,,1.691007,52.629374,,,2.0,2.000986,no,no,2.673835,no,0.99295,,Sometimes,,Insufficient_Weight
+556,18.0,,1.753349,,Sometimes,,2.823179,3.0,no,no,1.773236,no,1.252472,1.0,Sometimes,Public_Transportation,Insufficient_Weight
+557,18.0,Male,1.781543,,Sometimes,yes,2.052932,3.0,no,,2.0,no,0.520408,,Sometimes,Public_Transportation,Insufficient_Weight
+558,18.0,Male,1.755823,52.331172,Sometimes,,2.596364,3.0,no,no,2.0,no,0.281734,1.488372,,,Insufficient_Weight
+559,17.486869,,1.836669,58.943347,no,,2.767731,3.821168,no,no,2.0,yes,2.0,0.556245,,Automobile,Insufficient_Weight
+560,19.920629,Male,1.768493,,no,yes,2.0,3.897078,no,no,2.622638,yes,2.0,1.894105,,Automobile,Insufficient_Weight
+561,,Male,1.777108,57.145917,no,yes,2.0,3.092116,no,no,2.426465,yes,2.0,1.839862,Sometimes,Automobile,Insufficient_Weight
+562,17.082867,Female,1.640824,43.365005,Sometimes,yes,2.815157,3.0,no,,2.911187,no,2.595128,1.380204,Sometimes,,Insufficient_Weight
+563,17.000433,,,44.411801,Sometimes,,2.737762,3.0,no,,2.310921,no,2.240714,1.59257,,,Insufficient_Weight
+564,16.270434,Female,1.818268,47.124717,,yes,3.0,3.286431,no,no,2.148146,no,2.458237,1.273333,Sometimes,Public_Transportation,Insufficient_Weight
+565,17.908114,,1.793926,59.682591,no,,2.568063,4.0,no,no,2.0,yes,2.0,,,Automobile,Insufficient_Weight
+566,17.120699,,1.809251,58.968994,no,yes,2.524428,4.0,no,,2.0,yes,2.0,,Sometimes,Automobile,Insufficient_Weight
+567,19.329542,Male,,55.700497,no,,2.0,4.0,no,no,2.157395,yes,2.0,1.679149,,Automobile,Insufficient_Weight
+568,22.377998,Female,1.699568,54.98774,no,,3.0,3.0,no,no,2.0,yes,0.139808,,Frequently,Public_Transportation,Insufficient_Weight
+569,20.954955,Female,1.759358,,no,,2.971574,3.592415,no,,2.894678,yes,2.0,1.009632,,Public_Transportation,Insufficient_Weight
+570,22.991668,,1.740295,54.166453,no,yes,3.0,3.0,no,no,2.025279,yes,2.0,0.152985,Frequently,Public_Transportation,Insufficient_Weight
+571,19.300435,Female,1.739354,,Sometimes,yes,3.0,3.754599,no,no,1.692112,no,2.0,1.0,Sometimes,Public_Transportation,Insufficient_Weight
+572,17.065445,Female,,,Sometimes,yes,3.0,3.566082,no,,1.438398,no,2.0,,,Public_Transportation,Insufficient_Weight
+573,19.084967,Female,,,Sometimes,,3.0,3.725797,no,no,1.191401,no,2.0,1.0,Sometimes,Public_Transportation,Insufficient_Weight
+574,,Female,1.7,,Sometimes,yes,1.0816,3.520555,no,no,1.016968,no,0.651412,1.0,Frequently,Public_Transportation,Insufficient_Weight
+575,19.833682,Female,1.699464,49.676046,Sometimes,yes,1.270448,3.731212,no,,1.876915,no,2.0,1.0,Frequently,Public_Transportation,Insufficient_Weight
+576,17.767432,Female,1.74379,50.0,Sometimes,yes,1.344854,4.0,no,,1.0,,2.0,1.0,,,Insufficient_Weight
+577,,Female,1.590317,42.367615,Sometimes,no,2.959658,3.0,no,no,1.0,no,1.522399,,Frequently,Public_Transportation,Insufficient_Weight
+578,,Female,1.527133,42.0,Sometimes,,2.725282,1.259803,no,no,1.0,no,1.37467,0.0,,Public_Transportation,Insufficient_Weight
+579,19.0,Female,1.530875,,Sometimes,,2.844607,1.273128,no,no,1.69551,no,0.260079,0.635867,Frequently,Public_Transportation,Insufficient_Weight
+580,17.0,Male,,59.409018,no,yes,2.44004,3.0,no,no,2.0,yes,2.784471,1.0,,Automobile,Insufficient_Weight
+581,17.0,,1.824414,59.295172,,,2.432302,3.0,no,no,2.0,,2.349495,1.0,Sometimes,Automobile,Insufficient_Weight
+582,18.525525,Male,1.856633,,no,,2.592247,3.304123,no,no,2.036764,yes,2.038653,1.119877,,Automobile,Insufficient_Weight
+583,22.926352,Female,1.715597,,no,yes,2.449267,3.647154,no,,1.266018,yes,0.866045,0.097234,Frequently,Public_Transportation,Insufficient_Weight
+584,21.785351,Female,,49.945233,no,yes,2.929889,3.0,no,,2.792074,yes,0.630944,1.366355,Frequently,Public_Transportation,Insufficient_Weight
+585,23.0,Female,1.717601,,no,,2.0,3.0,no,,1.426874,yes,2.20208,2.0,,,Insufficient_Weight
+586,,Female,,,Sometimes,yes,2.015258,3.300666,no,no,1.315608,no,0.069802,,,Public_Transportation,Insufficient_Weight
+587,18.0,Female,,50.0,Sometimes,,1.031149,3.0,no,no,1.963628,no,0.028202,1.0,Sometimes,Public_Transportation,Insufficient_Weight
+588,18.48207,Female,1.7,50.0,,,1.592183,3.535016,no,no,1.086391,no,0.618913,1.0,Sometimes,Public_Transportation,Insufficient_Weight
+589,18.53084,Female,,39.850137,Sometimes,yes,1.21498,1.717608,no,,1.179942,no,0.684739,,,Public_Transportation,Insufficient_Weight
+590,19.94814,Female,1.530884,,,yes,1.522001,3.0,no,no,1.98126,no,2.306844,0.720454,,Public_Transportation,Insufficient_Weight
+591,20.400053,Female,1.529724,,Sometimes,yes,2.703436,2.884479,no,no,1.439962,no,0.144627,0.322307,Sometimes,Public_Transportation,Insufficient_Weight
+592,19.556729,Male,1.767563,56.307019,no,yes,2.362918,4.0,no,no,2.358172,yes,2.0,0.939819,Sometimes,,Insufficient_Weight
+593,17.70368,,1.883364,60.0,no,,3.0,3.626815,no,no,2.0,yes,2.011519,0.456462,Sometimes,Automobile,Insufficient_Weight
+594,18.274358,Male,1.824655,58.621349,no,yes,2.14084,4.0,no,no,2.931438,yes,2.0,1.164457,,Automobile,Insufficient_Weight
+595,,Male,1.840138,60.0,no,,3.0,4.0,no,no,2.0,yes,2.0,0.0,Sometimes,Automobile,Insufficient_Weight
+596,17.210933,,1.819557,58.325122,no,yes,2.5596,4.0,no,no,2.0,,2.0,0.331483,Sometimes,Automobile,Insufficient_Weight
+597,,Male,1.798645,59.612717,no,yes,2.336044,4.0,no,no,2.0,yes,2.0,0.133005,,Automobile,Insufficient_Weight
+598,18.0,Male,1.7108,,Sometimes,,2.0,3.0,no,no,2.0,yes,0.0,1.593704,Sometimes,Public_Transportation,Insufficient_Weight
+599,18.0,Male,1.70653,51.121749,Sometimes,yes,2.0,3.0,no,,2.0,yes,0.0,1.329237,,Public_Transportation,Insufficient_Weight
+600,18.0,Male,1.716691,51.149283,,yes,1.813234,3.0,no,no,1.274815,yes,0.520407,1.673584,Sometimes,Public_Transportation,Insufficient_Weight
+601,19.010211,Female,1.555431,44.188767,Sometimes,,2.724285,3.0,yes,no,1.0,no,1.070331,,,,Insufficient_Weight
+602,19.091346,Female,1.603923,,Sometimes,no,3.0,3.0,yes,no,1.28246,no,1.60195,0.0,Frequently,Public_Transportation,Insufficient_Weight
+603,19.773303,Female,1.602082,45.0,Sometimes,,3.0,3.0,yes,,2.875583,no,1.258504,0.0,Frequently,Public_Transportation,Insufficient_Weight
+604,19.483036,Female,1.53777,42.0,Sometimes,yes,3.0,1.0,no,no,1.387531,no,0.0,0.466169,Frequently,,Insufficient_Weight
+605,19.0,,1.538398,42.0,Sometimes,yes,2.71897,1.473088,no,,1.164644,no,1.235675,0.930926,Frequently,,Insufficient_Weight
+606,19.407204,,1.520862,42.0,,yes,3.0,1.0,no,,1.848703,no,0.0,0.744555,Frequently,Public_Transportation,Insufficient_Weight
+607,18.0,Male,,51.7325,Sometimes,,1.133844,3.0,no,no,1.325326,yes,0.227985,,,Public_Transportation,Insufficient_Weight
+608,,Male,1.753389,54.121925,Sometimes,yes,2.0,3.16645,no,,2.278578,yes,1.838881,2.0,,Public_Transportation,Insufficient_Weight
+609,18.0,Male,,50.157707,Sometimes,yes,1.757466,3.0,no,,1.153559,yes,0.833976,1.616045,,Public_Transportation,Insufficient_Weight
+610,19.97981,Male,,54.997374,no,,2.0,3.494849,no,no,2.976672,yes,1.94907,,Sometimes,Public_Transportation,Insufficient_Weight
+611,21.798856,Female,1.672007,49.980968,no,,2.979383,3.0,no,no,2.975887,,0.945093,1.241755,Frequently,Public_Transportation,Insufficient_Weight
+612,,Female,,,no,,3.0,2.99321,no,,2.702783,no,1.967234,0.0,Frequently,,Insufficient_Weight
+613,,Female,1.584785,44.376637,no,no,2.204914,2.127797,no,no,2.120292,,0.995735,0.0,,Public_Transportation,Insufficient_Weight
+614,19.376997,Female,1.600264,45.0,Sometimes,,3.0,3.0,yes,,2.949419,,1.295697,0.0,,,Insufficient_Weight
+615,,,,,Sometimes,,2.927218,1.0,no,no,1.0,,0.0,,Frequently,,Insufficient_Weight
+616,20.345161,,1.534385,41.96525,Sometimes,,2.88853,1.0,no,no,1.0,no,0.0,,,Public_Transportation,Insufficient_Weight
+617,20.519916,Female,,,no,,2.890535,3.90779,no,no,1.109115,yes,1.548953,0.555468,Frequently,Public_Transportation,Insufficient_Weight
+618,20.406066,Male,1.868931,63.199726,Sometimes,yes,3.0,3.699594,no,no,2.825629,yes,1.699592,0.071028,Sometimes,Automobile,Insufficient_Weight
+619,,Female,,51.256059,no,yes,3.0,3.179995,no,no,1.910378,,0.480614,0.625079,Frequently,,Insufficient_Weight
+620,18.372563,Female,1.589829,40.202773,Sometimes,,2.0,1.075553,no,,1.0,no,0.127425,1.679442,Sometimes,,Insufficient_Weight
+621,,,1.653209,49.026214,Sometimes,no,2.530066,3.0,no,no,1.965237,no,2.0,1.0,Sometimes,,Insufficient_Weight
+622,,,1.740108,53.65727,no,yes,2.241606,3.0,no,no,1.846626,yes,2.460238,0.814518,,Public_Transportation,Insufficient_Weight
+623,18.006742,,,,Sometimes,,1.003566,3.238258,no,,1.014634,no,0.783676,1.0,,Public_Transportation,Insufficient_Weight
+624,,Female,1.689141,,no,,2.652779,3.804944,no,,1.60114,yes,0.174692,0.096982,Frequently,Public_Transportation,Insufficient_Weight
+625,,Male,1.691206,,Sometimes,,2.0,1.630846,no,no,2.975528,,0.548991,0.369134,Sometimes,Public_Transportation,Insufficient_Weight
+626,,Male,1.788459,,Sometimes,yes,2.897899,3.0,no,no,1.835545,no,1.162519,1.0,Sometimes,Public_Transportation,Insufficient_Weight
+627,17.377131,Male,1.811238,,no,yes,2.483979,3.762778,no,no,2.0,,2.0,0.930051,Sometimes,,Insufficient_Weight
+628,,,1.830068,43.534531,Sometimes,,2.945967,3.0,no,,2.953192,no,2.830911,1.466667,,,Insufficient_Weight
+629,17.080493,Male,1.782756,,no,,2.0,4.0,no,,2.28525,yes,2.0,1.162801,Sometimes,Automobile,Insufficient_Weight
+630,22.970655,Female,,,no,yes,2.478891,3.371832,no,no,2.004126,yes,2.0,0.327376,Frequently,Public_Transportation,Insufficient_Weight
+631,17.764764,Female,1.78656,50.0,Sometimes,,2.784464,4.0,no,no,1.0,no,2.0,1.0,,Public_Transportation,Insufficient_Weight
+632,19.272573,Female,1.71367,50.0,Sometimes,yes,1.005578,4.0,no,no,1.0,no,1.683957,0.704978,Frequently,Public_Transportation,Insufficient_Weight
+633,,Female,1.540375,,Sometimes,,2.938031,2.705445,yes,,1.333807,no,1.877369,,Frequently,Public_Transportation,Insufficient_Weight
+634,17.06713,Male,,59.895052,no,yes,2.842102,3.34175,no,no,2.0,yes,2.511157,0.560351,Sometimes,Automobile,Insufficient_Weight
+635,,Female,1.710129,50.079991,no,yes,2.0,3.0,no,no,2.685842,yes,0.373186,,Frequently,Public_Transportation,Insufficient_Weight
+636,18.0,Female,1.704193,50.631889,Sometimes,,2.0,3.0,no,no,2.0,no,0.0,1.525597,,,Insufficient_Weight
+637,19.054008,,,39.695295,Sometimes,yes,1.889199,2.217651,no,no,2.013605,no,2.075293,1.683261,Sometimes,Public_Transportation,Insufficient_Weight
+638,,Male,1.845399,,,,3.0,4.0,no,no,2.0,yes,2.0,0.0,Sometimes,Automobile,Insufficient_Weight
+639,17.491272,,1.834637,59.990861,no,,2.943749,4.0,no,no,2.0,yes,2.0,0.128895,,Automobile,Insufficient_Weight
+640,18.0,Male,,52.514302,Sometimes,yes,2.33998,3.0,no,,2.0,yes,0.027433,1.884138,Sometimes,Public_Transportation,Insufficient_Weight
+641,20.172661,Female,1.605521,44.661461,Sometimes,no,3.0,2.893778,yes,no,1.0,no,0.769726,,,Public_Transportation,Insufficient_Weight
+642,,Female,1.530266,,,yes,3.0,1.0,no,,1.954889,no,0.0,0.907868,Frequently,,Insufficient_Weight
+643,,Male,1.71889,52.058335,Sometimes,yes,1.950742,3.0,no,no,1.751723,yes,0.201136,,Sometimes,Public_Transportation,Insufficient_Weight
+644,,,1.756338,54.98234,no,yes,2.277436,3.502604,no,,2.891713,,1.696294,1.894902,Sometimes,Public_Transportation,Insufficient_Weight
+645,,,1.770324,55.695253,no,,2.0,4.0,no,no,2.369627,yes,2.0,,,Automobile,Insufficient_Weight
+646,21.125098,Female,,56.265959,no,yes,2.371338,3.998766,no,no,2.263466,,2.0,0.844004,Frequently,Public_Transportation,Insufficient_Weight
+647,22.033129,Female,,,no,,2.984425,3.0,no,,2.044694,,2.008256,,Frequently,,Insufficient_Weight
+648,20.744839,,1.667852,49.803921,no,,2.977018,3.193671,no,,2.482933,yes,2.0,1.0,Frequently,,Insufficient_Weight
+649,,Female,,,no,,2.663421,3.0,no,no,1.04111,yes,0.794402,1.391948,Frequently,Public_Transportation,Insufficient_Weight
+650,21.837996,Female,1.588046,44.236067,no,no,3.0,1.69608,no,,2.550307,no,1.098862,,Frequently,Public_Transportation,Insufficient_Weight
+651,,Female,1.598612,,no,,2.753752,2.812377,no,no,2.346647,no,1.612248,0.0,Frequently,Public_Transportation,Insufficient_Weight
+652,21.529439,,1.592379,,no,,3.0,1.612747,no,,2.566629,no,1.190465,0.0,,,Insufficient_Weight
+653,21.287999,Female,1.555778,,no,no,2.318355,1.082304,no,no,1.220365,no,0.033328,0.0,Frequently,Public_Transportation,Insufficient_Weight
+654,23.444286,Female,1.596466,44.594588,no,no,2.594653,1.882158,no,no,1.916812,no,0.417119,0.0,,Public_Transportation,Insufficient_Weight
+655,22.329041,Female,1.598393,44.918255,no,no,2.886157,2.326233,no,no,2.306821,no,1.42237,,,Public_Transportation,Insufficient_Weight
+656,18.91505,Female,1.633316,,Sometimes,,3.0,3.0,yes,no,2.924594,no,1.352558,0.220087,Sometimes,Public_Transportation,Insufficient_Weight
+657,19.0,Female,1.559567,,no,,3.0,1.989398,no,,2.241607,,0.206025,0.284453,Sometimes,Public_Transportation,Insufficient_Weight
+658,19.052833,Female,,42.069992,no,yes,3.0,1.735493,no,,2.318736,no,1.193486,0.74568,Sometimes,Public_Transportation,Insufficient_Weight
+659,19.59904,Female,1.566501,41.706283,Sometimes,yes,2.967853,1.0,no,no,1.131185,no,0.0,0.504176,Frequently,Public_Transportation,Insufficient_Weight
+660,21.0,Female,,42.0,Sometimes,,3.0,1.0,no,,1.0,no,0.0,0.0,Frequently,Public_Transportation,Insufficient_Weight
+661,19.673262,Female,1.599486,44.810751,Sometimes,,3.0,2.974568,yes,,1.145761,no,0.87967,,Frequently,Public_Transportation,Insufficient_Weight
+662,20.244359,Female,,,Sometimes,yes,2.619835,1.0,no,no,1.198883,no,0.0,0.751212,Frequently,Public_Transportation,Insufficient_Weight
+663,,Female,1.523426,42.0,Sometimes,,3.0,1.0,no,no,1.185062,no,0.0,0.076654,Frequently,Public_Transportation,Insufficient_Weight
+664,21.0,Female,1.52,42.0,Sometimes,,3.0,1.0,no,no,1.0,no,0.0,0.0,Frequently,Public_Transportation,Insufficient_Weight
+665,,,1.689441,,no,,3.0,3.715118,no,no,1.774576,yes,0.10297,0.646423,,Public_Transportation,Insufficient_Weight
+666,,Female,,50.479039,no,yes,3.0,3.489918,no,no,1.326694,yes,0.791929,0.128394,Frequently,Public_Transportation,Insufficient_Weight
+667,,Female,1.732096,,Sometimes,,1.053534,3.378859,no,no,1.0,no,1.853425,0.861809,Sometimes,,Insufficient_Weight
+668,22.396504,Male,1.869098,,Sometimes,yes,3.0,3.263201,no,no,2.233274,yes,1.557737,0.000355,,Automobile,Insufficient_Weight
+669,19.084317,,1.851123,61.264785,Sometimes,yes,3.0,3.994588,no,,2.548527,yes,1.285976,0.267076,Sometimes,Automobile,Insufficient_Weight
+670,21.084625,Male,1.787264,58.585146,no,,2.530233,3.24934,no,no,2.387945,yes,1.976341,1.672508,Sometimes,Automobile,Insufficient_Weight
+671,18.068767,,1.787787,52.0,Sometimes,yes,3.0,3.0,no,no,2.0,,0.854337,1.0,Sometimes,Public_Transportation,Insufficient_Weight
+672,,Female,1.712515,,no,,2.8813,3.087544,no,no,1.24818,,1.952427,,Frequently,Public_Transportation,Insufficient_Weight
+673,18.038422,Male,1.698914,51.692272,Sometimes,yes,2.824559,3.0,no,,2.0,yes,0.533309,1.099764,Sometimes,Public_Transportation,Insufficient_Weight
+674,,Female,1.533609,,Sometimes,yes,2.762325,1.163666,no,no,1.30491,no,0.25289,1.001405,,Public_Transportation,Insufficient_Weight
+675,19.21164,Female,,41.934368,Sometimes,yes,2.070964,1.0,no,,1.676975,,0.0,1.718513,Sometimes,Public_Transportation,Insufficient_Weight
+676,18.988581,Female,1.544263,41.535047,Sometimes,yes,2.68601,1.0,no,no,1.310074,no,0.0,1.0647,Sometimes,Public_Transportation,Insufficient_Weight
+677,19.408999,Female,1.670552,,Sometimes,,2.794197,3.409363,no,,1.543021,no,2.0,1.0,Sometimes,Public_Transportation,Insufficient_Weight
+678,,Female,1.676346,49.105025,Sometimes,no,2.720701,3.0,no,no,2.0,no,1.862235,1.0,Sometimes,Public_Transportation,Insufficient_Weight
+679,,Female,1.667404,,Sometimes,,2.880792,3.281391,no,no,1.960131,no,1.513029,1.0,Sometimes,Public_Transportation,Insufficient_Weight
+680,22.422674,Female,1.70011,50.173425,no,yes,2.674431,3.0,no,no,2.453384,yes,1.321624,1.990617,Frequently,Public_Transportation,Insufficient_Weight
+681,20.242237,,,54.567343,no,,2.0,3.98525,no,no,2.654078,,2.113151,,Sometimes,Public_Transportation,Insufficient_Weight
+682,22.637018,,1.703584,51.607091,no,,2.55996,3.0,no,no,1.990788,yes,0.486006,1.561272,Frequently,,Insufficient_Weight
+683,19.007177,Female,1.690727,49.895716,Sometimes,yes,1.212908,3.207071,no,no,1.029703,no,2.0,1.0,Sometimes,Public_Transportation,Insufficient_Weight
+684,18.288205,,,50.0,Sometimes,yes,1.140615,3.471536,no,,1.0,no,2.0,1.0,,,Insufficient_Weight
+685,19.314429,Female,1.67231,49.713944,Sometimes,,2.562409,3.488342,no,no,1.67062,no,2.0,1.0,Sometimes,Public_Transportation,Insufficient_Weight
+686,27.14823,Female,1.660446,49.558304,no,yes,2.004146,3.443456,no,,2.020764,yes,1.078719,1.26729,Frequently,Public_Transportation,Insufficient_Weight
+687,25.380557,Female,,46.062954,no,,2.690754,3.03779,no,no,2.212296,yes,1.616882,0.0,Frequently,Public_Transportation,Insufficient_Weight
+688,22.867719,Female,1.655413,50.424661,no,,3.0,3.642802,no,no,1.995177,yes,0.118271,0.065515,,Public_Transportation,Insufficient_Weight
+689,,Male,1.732862,51.216463,,yes,2.051283,2.645858,no,,2.35752,no,0.291309,0.897942,,Public_Transportation,Insufficient_Weight
+690,16.834813,Female,,50.0,Sometimes,yes,2.19005,3.420618,no,no,1.356405,no,1.351996,0.98468,Sometimes,Public_Transportation,Insufficient_Weight
+691,17.521754,Male,1.757958,52.09432,Sometimes,,2.21498,2.64155,no,no,2.121251,no,0.998391,,Sometimes,,Insufficient_Weight
+692,,Male,,51.524444,Sometimes,,2.91548,3.0,no,no,1.777486,no,1.077469,,Sometimes,Public_Transportation,Insufficient_Weight
+693,18.0,,1.767058,51.132809,Sometimes,,2.708965,3.0,no,no,1.873004,yes,1.21718,1.0,Sometimes,,Insufficient_Weight
+694,18.128249,Male,1.699437,,Sometimes,,2.853513,3.0,no,no,2.0,yes,0.680464,1.258881,Sometimes,Public_Transportation,Insufficient_Weight
+695,,,1.82525,58.913579,no,,2.580872,3.887906,no,no,2.0,yes,2.0,,Sometimes,Automobile,Insufficient_Weight
+696,19.72925,Male,,,no,yes,2.508835,3.435905,no,no,2.076933,yes,2.026668,1.443328,,Automobile,Insufficient_Weight
+697,18.525834,Male,1.776989,57.275946,no,yes,2.0,3.747163,no,,2.575535,yes,2.0,1.84383,Sometimes,Automobile,Insufficient_Weight
+698,18.595614,,,42.656563,no,yes,2.896562,2.625475,yes,no,2.839558,no,1.949667,1.253311,Sometimes,,Insufficient_Weight
+699,16.613108,Female,,,Sometimes,yes,2.911877,3.098399,no,,2.196405,no,2.328147,1.55011,Sometimes,Public_Transportation,Insufficient_Weight
+700,16.928791,,,,,yes,2.910733,3.12544,no,,2.204263,no,2.407906,1.403037,Sometimes,Public_Transportation,Insufficient_Weight
+701,17.758315,Male,,,no,yes,2.966126,3.96981,no,no,2.0,yes,2.000088,0.378619,Sometimes,Automobile,Insufficient_Weight
+702,17.282945,Male,1.821514,,,yes,2.613249,3.712183,no,,2.0,yes,2.002997,,,Automobile,Insufficient_Weight
+703,19.993154,Male,,55.511075,no,yes,2.0,4.0,no,no,2.542415,yes,2.0,1.807465,Sometimes,Automobile,Insufficient_Weight
+704,,,1.732307,54.835576,no,yes,3.0,3.0,no,no,2.00357,yes,1.25955,0.417116,Frequently,Public_Transportation,Insufficient_Weight
+705,20.738469,Male,,55.003417,no,yes,2.627031,3.832911,no,no,2.993448,yes,2.0,1.425903,,Public_Transportation,Insufficient_Weight
+706,22.99368,Female,1.741377,,no,,3.0,3.0,no,no,2.009796,yes,2.0,0.071317,Frequently,Public_Transportation,Insufficient_Weight
+707,,Female,1.731195,49.650897,,yes,2.919751,3.576103,no,no,1.949308,,1.940182,1.0,,Public_Transportation,Insufficient_Weight
+708,16.910997,,,,,yes,2.494451,3.56544,no,no,1.491268,no,1.951027,0.956204,Sometimes,Public_Transportation,Insufficient_Weight
+709,,,1.756865,49.699672,Sometimes,yes,1.69427,3.266644,no,no,1.095417,,2.0,1.0,Sometimes,Public_Transportation,Insufficient_Weight
+710,18.019572,,1.701378,,Sometimes,yes,1.601236,3.433908,no,no,1.055019,no,0.819269,,Sometimes,Public_Transportation,Insufficient_Weight
+711,,,1.699956,49.98297,Sometimes,yes,1.204855,3.531038,no,no,1.134658,no,2.0,1.0,,Public_Transportation,Insufficient_Weight
+712,18.094079,,1.723328,,Sometimes,yes,1.052699,3.998618,no,no,1.0,no,2.0,1.0,Frequently,Public_Transportation,Insufficient_Weight
+713,,,1.585886,42.541794,Sometimes,,2.910345,3.0,yes,no,1.0,no,1.461005,0.0,Frequently,Public_Transportation,Insufficient_Weight
+714,20.850119,Female,1.524926,42.0,Sometimes,,2.866383,1.226342,no,,1.0,no,0.14495,0.0,,Public_Transportation,Insufficient_Weight
+715,,Female,,42.0,Sometimes,,2.913486,1.060796,no,,1.596212,no,0.108948,0.773087,Frequently,Public_Transportation,Insufficient_Weight
+716,17.0,Male,1.844749,,no,,2.432886,3.0,no,no,2.0,yes,2.697949,1.0,Sometimes,Automobile,Insufficient_Weight
+717,,Male,1.853325,,no,yes,2.883745,3.595761,no,no,2.0,yes,2.077653,0.714701,Sometimes,Automobile,Insufficient_Weight
+718,17.671064,Male,1.854706,59.20945,no,,2.707666,3.737914,no,,2.026547,yes,2.009397,,Sometimes,Automobile,Insufficient_Weight
+719,,,,50.0,no,yes,2.919584,3.697831,no,no,1.147121,yes,0.993058,0.08922,Frequently,Public_Transportation,Insufficient_Weight
+720,21.708354,Female,1.704167,,no,yes,2.969205,3.21043,no,no,2.765876,yes,0.611037,,,Public_Transportation,Insufficient_Weight
+721,,,,,no,yes,2.486189,3.0,no,no,1.064378,yes,2.206055,,,Public_Transportation,Insufficient_Weight
+722,17.823438,Female,1.708406,,Sometimes,,1.642241,3.45259,no,,1.099231,no,,,Sometimes,Public_Transportation,Insufficient_Weight
+723,18.0,,1.763465,50.279053,Sometimes,,1.567101,3.0,no,no,1.994139,no,0.107981,,Sometimes,Public_Transportation,Insufficient_Weight
+724,18.281092,,1.7,,Sometimes,yes,1.036414,3.205587,no,no,1.745959,no,0.115974,1.0,Sometimes,,Insufficient_Weight
+725,18.656912,Female,,41.220175,Sometimes,,1.649974,1.513835,no,no,1.549974,no,0.227802,1.972926,Sometimes,Public_Transportation,Insufficient_Weight
+726,19.994543,Female,,,Sometimes,,1.118436,3.0,no,no,1.997744,no,2.432443,,Sometimes,Public_Transportation,Insufficient_Weight
+727,20.255616,Female,1.534223,41.268597,Sometimes,yes,2.673638,2.779379,no,no,1.249074,no,0.043412,0.403694,,Public_Transportation,Insufficient_Weight
+728,,Male,1.76033,55.3707,no,yes,2.120185,4.0,no,no,2.582165,yes,2.0,1.510609,Sometimes,Automobile,Insufficient_Weight
+729,17.888073,Male,1.841879,,no,yes,3.0,3.732126,no,,2.0,yes,2.000934,,Sometimes,Automobile,Insufficient_Weight
+730,,,1.856406,58.673963,no,,2.34222,3.937099,no,,2.311791,yes,2.013377,1.128355,Sometimes,Automobile,Insufficient_Weight
+731,17.925497,Male,1.829142,59.933015,no,yes,2.86099,4.0,no,no,2.0,yes,2.0,0.007872,Sometimes,Automobile,Insufficient_Weight
+732,17.000752,Male,1.822084,,no,,2.559571,3.047959,no,,2.0,yes,2.011646,0.588994,Sometimes,Automobile,Insufficient_Weight
+733,17.362129,Male,1.80671,,no,,2.424977,4.0,no,no,2.0,,2.0,,Sometimes,Automobile,Insufficient_Weight
+734,18.0,,1.707259,,Sometimes,,1.786841,3.0,no,no,1.546856,yes,,1.608265,Sometimes,Public_Transportation,Insufficient_Weight
+735,18.0,,1.708107,,Sometimes,,1.303878,3.0,no,no,1.755497,yes,0.062932,1.672532,Sometimes,Public_Transportation,Insufficient_Weight
+736,,,1.739344,50.951444,Sometimes,yes,1.889883,3.0,no,no,1.959531,yes,0.520407,1.151166,Sometimes,Public_Transportation,Insufficient_Weight
+737,,Female,1.573987,44.316254,Sometimes,no,2.984004,3.0,yes,no,1.015249,no,1.327833,,Frequently,Public_Transportation,Insufficient_Weight
+738,19.269079,,1.58092,44.753943,Sometimes,,3.0,2.975362,yes,no,1.246822,no,0.979701,0.0,Frequently,Public_Transportation,Insufficient_Weight
+739,19.946244,Female,,45.0,Sometimes,no,3.0,3.0,yes,no,2.487919,no,1.230441,0.0,,Public_Transportation,Insufficient_Weight
+740,19.639431,Female,1.53535,42.0,,yes,3.0,1.0,no,no,1.49681,no,0.0,0.513427,,Public_Transportation,Insufficient_Weight
+741,19.0,,1.53161,42.0,Sometimes,yes,2.749268,1.394539,no,no,1.322048,no,0.463949,0.800993,Frequently,Public_Transportation,Insufficient_Weight
+742,,Female,,42.0,Sometimes,yes,3.0,1.0,no,no,1.764055,no,0.0,0.560887,Frequently,Public_Transportation,Insufficient_Weight
+743,18.0,,1.719827,,Sometimes,,1.202075,3.0,no,no,1.927976,yes,0.023574,1.747256,Sometimes,Public_Transportation,Insufficient_Weight
+744,18.381382,Male,,53.783977,Sometimes,,2.0,3.131032,no,no,2.072194,yes,1.487987,2.0,Sometimes,Public_Transportation,Insufficient_Weight
+745,18.0,Male,1.738702,50.248677,Sometimes,yes,1.871213,3.0,no,,1.283738,yes,0.684879,1.487223,,Public_Transportation,Insufficient_Weight
+746,26.69858,Male,1.816298,,no,,2.341133,1.578521,no,no,2.0,no,2.0,0.554072,Sometimes,Automobile,Overweight_Level_I
+747,21.125836,Male,1.638085,70.0,Sometimes,yes,2.0,1.0,no,no,2.115967,no,,,,Public_Transportation,Overweight_Level_I
+748,25.191627,Male,,,no,yes,1.450218,3.985442,no,no,2.147746,no,0.046836,1.0,Sometimes,,Overweight_Level_I
+749,21.963457,Male,1.697228,75.5771,Sometimes,,2.204914,3.623364,no,no,1.815293,yes,0.989316,0.0,,Public_Transportation,Overweight_Level_I
+750,21.0,Male,1.617469,68.869791,Sometimes,yes,1.206276,3.0,no,no,2.406541,no,0.94984,0.479221,no,Public_Transportation,Overweight_Level_I
+751,19.114981,,1.855543,88.965521,Sometimes,yes,2.0,3.0,no,no,1.015677,yes,0.0,0.37465,Sometimes,,Overweight_Level_I
+752,41.823567,Female,1.721854,82.919584,Sometimes,,2.81646,3.36313,no,,2.722063,no,3.0,,Sometimes,Automobile,Overweight_Level_I
+753,21.142432,,1.855353,,Sometimes,yes,2.0,3.0,no,no,1.345298,yes,1.097905,,,Public_Transportation,Overweight_Level_I
+754,21.962426,Male,1.696336,75.0,Sometimes,,2.0,3.0,no,,1.825629,,0.699592,,Sometimes,,Overweight_Level_I
+755,,Female,,80.0,Frequently,yes,2.0,1.73762,no,no,2.207978,yes,2.641072,,,Public_Transportation,Overweight_Level_I
+756,23.572648,Male,1.698346,75.0,Sometimes,yes,2.0,3.0,no,,2.0,yes,0.345684,1.415536,Sometimes,Public_Transportation,Overweight_Level_I
+757,33.700749,,,74.803157,Sometimes,,3.0,1.146052,no,no,1.074048,yes,0.679935,0.0,,Automobile,Overweight_Level_I
+758,21.845025,,1.613668,,Sometimes,yes,1.758394,3.981997,no,no,2.174248,yes,0.920476,1.358163,,,Overweight_Level_I
+759,21.0,Male,1.605404,68.226511,Sometimes,yes,2.0,1.9154,no,no,3.0,no,1.0,,,Public_Transportation,Overweight_Level_I
+760,,,1.529834,,Sometimes,yes,2.0,2.105616,no,no,1.456581,no,0.0,,Sometimes,Automobile,Overweight_Level_I
+761,36.769646,,,62.337721,Sometimes,,2.392665,3.0,no,,2.951056,yes,0.0,0.369134,Sometimes,Automobile,Overweight_Level_I
+762,,,1.731261,78.175706,Sometimes,,2.577427,1.0,no,no,2.0,,2.287423,0.0,,Public_Transportation,Overweight_Level_I
+763,,Male,1.629194,70.0,Sometimes,,2.0,1.0,no,no,2.803311,no,0.245354,0.0,no,Public_Transportation,Overweight_Level_I
+764,21.0,,1.62,70.0,Sometimes,yes,2.0,1.0,no,no,3.0,no,1.0,0.0,no,Public_Transportation,Overweight_Level_I
+765,21.0,Male,1.62,70.0,Sometimes,yes,2.0,1.0,no,no,3.0,,1.0,0.0,no,Public_Transportation,Overweight_Level_I
+766,30.958957,,1.633491,,Sometimes,yes,2.052152,3.0,no,no,1.972074,,0.228307,0.0,Sometimes,Automobile,Overweight_Level_I
+767,21.017383,Male,,,Sometimes,yes,3.0,1.0,no,no,2.0,yes,2.57223,0.0,,Automobile,Overweight_Level_I
+768,19.623574,Male,1.818226,,Sometimes,,2.954996,3.714833,no,no,2.430918,,2.545931,,,,Overweight_Level_I
+769,19.637947,Male,1.809101,85.0,Sometimes,,3.0,3.0,no,,2.229171,yes,1.607953,0.628059,,Public_Transportation,Overweight_Level_I
+770,,Male,,75.0,Sometimes,yes,2.0,3.0,no,no,2.843777,yes,2.022315,0.009254,Sometimes,Public_Transportation,Overweight_Level_I
+771,21.029633,Male,1.607082,67.722222,Sometimes,yes,2.0,3.691226,no,,3.0,yes,1.228136,0.3352,no,Public_Transportation,Overweight_Level_I
+772,,Female,1.718939,,Sometimes,yes,2.0,3.0,no,no,2.0,yes,0.0,2.0,Frequently,Public_Transportation,Overweight_Level_I
+773,20.0,Male,1.831357,,Sometimes,yes,2.555401,3.292386,no,no,3.0,yes,2.0,0.315918,Sometimes,Public_Transportation,Overweight_Level_I
+774,21.81119,Female,1.6,,Sometimes,yes,2.108711,3.0,no,,2.746197,,1.910432,0.0,,Public_Transportation,Overweight_Level_I
+775,21.0,Female,1.754813,,Sometimes,yes,2.915279,1.104642,no,no,1.530046,,1.360635,0.0,Sometimes,Public_Transportation,Overweight_Level_I
+776,18.128206,Male,1.778447,80.273807,no,,1.570089,3.0,no,,2.0,yes,2.707882,0.0,Sometimes,,Overweight_Level_I
+777,21.0,Male,,,Sometimes,,2.0,3.0,no,no,1.636326,yes,1.0,0.0,Sometimes,Public_Transportation,Overweight_Level_I
+778,29.08107,,1.674568,,Sometimes,yes,2.0,3.0,no,no,1.701835,yes,1.682271,0.0,,Automobile,Overweight_Level_I
+779,26.358919,Male,1.755317,82.228794,Sometimes,,1.94313,3.559841,no,no,2.367996,yes,0.23553,0.879977,Sometimes,Public_Transportation,Overweight_Level_I
+780,,Male,1.708071,,,,2.714447,3.0,no,no,3.0,,1.096818,1.89388,,Public_Transportation,Overweight_Level_I
+781,19.816949,Male,1.806947,85.079589,Sometimes,,2.0,3.0,no,,2.292073,yes,1.067817,,,Public_Transportation,Overweight_Level_I
+782,24.023972,Female,1.599697,64.808022,Sometimes,,2.903545,3.0,no,,1.549931,no,0.0,0.273882,Sometimes,Public_Transportation,Overweight_Level_I
+783,,Female,1.721903,72.748903,Sometimes,yes,2.0,3.0,no,,1.0,yes,0.0,1.339232,Sometimes,Automobile,Overweight_Level_I
+784,23.0,,,75.480764,Sometimes,yes,3.0,3.654061,no,,1.229915,yes,0.793489,1.597608,Sometimes,Public_Transportation,Overweight_Level_I
+785,16.941489,Female,,,Sometimes,yes,1.75375,1.296156,yes,no,2.0,no,0.110174,1.944675,Sometimes,,Overweight_Level_I
+786,,Female,1.603842,65.0,Sometimes,yes,2.543563,1.0,yes,no,2.0,yes,0.694281,1.056911,Sometimes,Public_Transportation,Overweight_Level_I
+787,,Female,1.588597,,Sometimes,yes,2.39728,2.656588,no,no,2.061062,no,,1.887386,Sometimes,Public_Transportation,Overweight_Level_I
+788,,,1.673482,73.193589,Sometimes,no,3.0,2.809716,no,no,1.591425,yes,0.178023,,Sometimes,Automobile,Overweight_Level_I
+789,,Male,1.858624,88.675503,Sometimes,,2.0,2.77684,no,no,1.278231,,0.55713,1.0,,Automobile,Overweight_Level_I
+790,37.218161,Female,,63.320629,Sometimes,yes,2.37464,3.0,no,no,2.0,yes,2.892922,0.480813,Sometimes,Automobile,Overweight_Level_I
+791,19.076443,,1.62,69.529625,Sometimes,yes,2.278644,1.0,no,no,2.628985,,1.0,,Sometimes,Public_Transportation,Overweight_Level_I
+792,,,1.616366,67.183128,no,yes,1.620845,1.0,yes,,2.0,yes,0.926592,1.657098,,Public_Transportation,Overweight_Level_I
+793,18.297229,,1.637396,70.0,no,,2.0,1.999014,no,no,2.326165,yes,0.00705,0.0,Sometimes,Public_Transportation,Overweight_Level_I
+794,18.610761,Female,,60.628321,Sometimes,yes,2.823179,2.644692,yes,no,1.226764,no,0.747528,0.008899,Sometimes,Public_Transportation,Overweight_Level_I
+795,17.451085,Female,,65.0,Sometimes,yes,3.0,2.449723,yes,,2.0,yes,0.479592,1.720642,,Public_Transportation,Overweight_Level_I
+796,29.740496,Male,1.820471,87.668828,no,yes,3.0,3.0,no,,1.174611,,2.0,0.0,Sometimes,Automobile,Overweight_Level_I
+797,,,,73.641633,Sometimes,yes,2.0,3.0,no,,1.0,,0.0,1.112489,Sometimes,Automobile,Overweight_Level_I
+798,18.026457,Male,1.752123,80.0,no,,2.0,2.794156,no,no,2.377362,yes,0.101236,,Sometimes,Public_Transportation,Overweight_Level_I
+799,19.47554,Male,1.857231,,Sometimes,yes,2.061952,4.0,no,,2.426465,yes,2.0,0.160138,Sometimes,Public_Transportation,Overweight_Level_I
+800,19.0,Female,,79.544998,Frequently,,2.0,1.146794,no,no,3.0,yes,1.809745,1.690102,,Public_Transportation,Overweight_Level_I
+801,18.0,Female,1.644682,68.392133,no,,2.0,1.131695,no,,1.344539,yes,0.0,1.59257,Sometimes,Public_Transportation,Overweight_Level_I
+802,18.270434,Female,1.737165,,Frequently,,2.838969,3.0,no,no,2.425927,yes,1.0,1.453335,,,Overweight_Level_I
+803,19.816228,Female,,64.259379,Sometimes,,2.568063,3.0,yes,no,1.817983,,0.0,0.0,Sometimes,Public_Transportation,Overweight_Level_I
+804,28.39124,,1.81006,,no,yes,3.0,3.0,no,,1.205633,no,2.0,0.0,Sometimes,Automobile,Overweight_Level_I
+805,26.758516,Male,1.80179,,no,,2.652958,2.488189,no,no,2.0,no,2.0,0.096614,Sometimes,Automobile,Overweight_Level_I
+806,,Male,,70.0,Sometimes,,2.0,1.0,no,no,2.00876,no,0.63119,0.0,no,Public_Transportation,Overweight_Level_I
+807,,Male,1.64037,70.0,Sometimes,,2.0,1.0,no,no,2.069184,no,0.729898,0.0,no,Public_Transportation,Overweight_Level_I
+808,26.650419,,1.791047,83.26312,no,yes,1.27785,3.999591,no,no,2.495944,no,0.00342,1.0,Sometimes,Automobile,Overweight_Level_I
+809,,,1.679306,,Sometimes,,2.0,3.0,no,no,1.957871,yes,0.994592,0.117303,,,Overweight_Level_I
+810,21.012542,,1.615145,68.653347,Sometimes,,1.729824,3.612941,no,no,2.043703,yes,0.562118,0.426643,no,Public_Transportation,Overweight_Level_I
+811,21.071195,,1.616467,68.77185,Sometimes,,1.452524,3.950553,no,no,2.109858,yes,0.508847,1.194633,no,Public_Transportation,Overweight_Level_I
+812,,,1.816783,86.522799,Sometimes,yes,2.0,3.0,no,,2.177386,,0.336814,0.004813,Sometimes,,Overweight_Level_I
+813,,Male,1.812472,86.748295,Sometimes,yes,2.0,3.0,no,no,2.168651,yes,0.977998,0.142638,,Public_Transportation,Overweight_Level_I
+814,,,,75.62931,Sometimes,,3.0,2.951837,no,no,2.112032,yes,0.378683,0.0,,Automobile,Overweight_Level_I
+815,22.283082,Male,,89.251639,Sometimes,,2.0,2.799979,no,no,1.081333,yes,0.444347,1.0,Sometimes,Public_Transportation,Overweight_Level_I
+816,,Male,1.863685,,Sometimes,,2.0,3.0,no,no,1.005727,,0.0,0.798219,Sometimes,Public_Transportation,Overweight_Level_I
+817,,,1.670227,75.0,Sometimes,yes,2.0,3.0,no,,2.0,yes,0.129163,1.983678,Sometimes,Public_Transportation,Overweight_Level_I
+818,22.740275,Male,1.717288,75.948164,Sometimes,yes,2.0,3.0,no,no,2.0,yes,0.0,,Sometimes,,Overweight_Level_I
+819,18.900253,,1.750359,79.828725,Frequently,yes,2.0,2.228113,no,no,2.045004,yes,1.293665,0.961806,Sometimes,Public_Transportation,Overweight_Level_I
+820,,Male,1.707557,75.306702,Sometimes,yes,2.303367,3.042774,no,,1.277636,yes,0.944982,0.366126,Sometimes,Public_Transportation,Overweight_Level_I
+821,,,1.672446,74.812707,Sometimes,,2.948425,1.198643,no,no,1.0,yes,0.0,0.173796,Sometimes,Automobile,Overweight_Level_I
+822,,Female,1.675979,74.959747,Sometimes,yes,2.291846,1.555557,no,,1.0,yes,,,,Automobile,Overweight_Level_I
+823,21.938831,Female,1.611239,,Sometimes,yes,1.906194,3.987707,no,no,2.597746,yes,1.922234,1.376124,,Public_Transportation,Overweight_Level_I
+824,,Female,1.611356,68.06609,Sometimes,yes,1.834155,3.995957,no,,2.632871,yes,1.236114,1.980875,,Public_Transportation,Overweight_Level_I
+825,21.0,,1.62,70.0,Sometimes,,2.0,1.0,no,,3.0,no,1.0,0.0,no,Public_Transportation,Overweight_Level_I
+826,37.455752,,1.508908,,Sometimes,yes,2.048582,1.047197,no,no,2.0,yes,0.15136,0.22596,,Automobile,Overweight_Level_I
+827,,,1.561109,62.871794,Sometimes,yes,2.948248,3.0,no,no,2.429911,yes,0.11964,,Sometimes,Automobile,Overweight_Level_I
+828,38.943282,Female,1.554728,63.011645,Sometimes,,2.869436,3.0,no,,2.972426,yes,2.16079,0.305954,Sometimes,Automobile,Overweight_Level_I
+829,21.987341,Female,1.730182,78.55444,Sometimes,yes,2.293705,1.0,no,,2.0,yes,2.063943,0.0,Sometimes,Public_Transportation,Overweight_Level_I
+830,21.198217,,1.743841,,Sometimes,yes,2.510583,1.0,no,no,2.0,yes,2.119682,,,Public_Transportation,Overweight_Level_I
+831,21.0,Male,1.62,70.0,Sometimes,,2.0,1.0,no,no,3.0,no,1.0,0.0,,Public_Transportation,Overweight_Level_I
+832,21.0,Male,1.62,70.0,Sometimes,yes,2.0,1.0,no,no,3.0,no,1.0,0.0,,Public_Transportation,Overweight_Level_I
+833,21.0,Male,,,Sometimes,yes,2.0,1.0,no,no,3.0,no,1.0,0.0,,,Overweight_Level_I
+834,,Male,,70.0,Sometimes,,2.0,1.0,no,no,3.0,no,1.0,,no,Public_Transportation,Overweight_Level_I
+835,21.0,Male,1.62,70.0,Sometimes,,2.0,1.0,no,no,3.0,no,1.0,0.0,no,,Overweight_Level_I
+836,,Female,,69.906708,Sometimes,,2.366949,3.0,no,,1.926577,yes,1.581242,0.0,,Automobile,Overweight_Level_I
+837,31.255587,Female,1.69308,,Sometimes,yes,2.615788,3.0,no,no,1.771781,yes,0.759422,0.686529,Sometimes,Automobile,Overweight_Level_I
+838,22.851773,Male,1.752115,79.414603,Sometimes,yes,3.0,1.0,no,no,2.0,,2.315983,0.0,Sometimes,Public_Transportation,Overweight_Level_I
+839,26.0,,1.745033,80.0,Sometimes,,2.217267,1.193589,no,no,2.0,yes,2.0,0.0,Sometimes,Public_Transportation,Overweight_Level_I
+840,19.789291,,1.820643,,Sometimes,yes,3.0,3.0,no,no,2.759246,yes,1.763277,,,Public_Transportation,Overweight_Level_I
+841,19.895877,Male,1.80733,85.073801,Sometimes,yes,2.801514,3.0,no,,2.734782,yes,2.207881,0.143675,,Public_Transportation,Overweight_Level_I
+842,19.693804,Male,1.8,85.0,Sometimes,yes,2.188722,3.0,no,no,2.721356,yes,1.528968,1.0,,Public_Transportation,Overweight_Level_I
+843,,Male,,,Sometimes,,2.971351,3.390143,no,,2.133767,yes,2.318492,0.678618,,Public_Transportation,Overweight_Level_I
+844,21.652229,Male,1.700181,75.057177,Sometimes,yes,2.086093,3.546352,no,,2.081121,yes,,0.673835,Sometimes,Public_Transportation,Overweight_Level_I
+845,,,1.604697,68.016472,Sometimes,yes,1.901611,3.266501,no,no,2.926995,yes,0.985872,,no,Public_Transportation,Overweight_Level_I
+846,21.455463,Female,1.611,68.107866,Sometimes,,1.977298,3.554974,no,,2.217957,yes,0.97812,,no,Public_Transportation,Overweight_Level_I
+847,21.0,Female,,77.956921,Sometimes,yes,2.446872,2.372311,no,no,1.81031,,0.094893,1.650778,Sometimes,,Overweight_Level_I
+848,,Female,1.752944,,Sometimes,yes,2.839048,2.10601,no,no,1.639202,,1.117311,0.967919,Sometimes,Public_Transportation,Overweight_Level_I
+849,19.337404,,,87.105828,Sometimes,yes,2.21232,4.0,no,no,2.374044,yes,2.0,0.622638,,Public_Transportation,Overweight_Level_I
+850,21.701643,,1.896073,90.52446,Sometimes,,2.427689,3.715306,no,,2.876096,yes,1.815768,,Sometimes,,Overweight_Level_I
+851,21.620245,,1.605314,,Sometimes,,2.357496,3.376717,no,no,2.184843,yes,1.358185,0.014885,Sometimes,Public_Transportation,Overweight_Level_I
+852,21.012569,,,,Sometimes,yes,3.0,1.0,no,,2.0,yes,2.971832,0.0,Sometimes,,Overweight_Level_I
+853,21.016623,Female,1.755427,78.300084,Sometimes,,3.0,1.0,no,no,2.0,yes,2.877473,0.0,,Public_Transportation,Overweight_Level_I
+854,19.0,Female,1.779882,80.091886,no,yes,1.078529,1.211606,no,,2.568063,yes,3.0,0.817983,Sometimes,Public_Transportation,Overweight_Level_I
+855,21.0,,1.712061,75.0,Sometimes,yes,2.0,3.0,no,no,1.333707,yes,1.0,0.0,,Public_Transportation,Overweight_Level_I
+856,21.0,,,75.0,Sometimes,yes,2.0,3.0,no,no,1.164062,yes,1.0,0.0,Sometimes,Public_Transportation,Overweight_Level_I
+857,27.899784,Female,1.7,74.244004,,yes,2.0,3.0,no,no,2.0,yes,1.722053,0.0,Sometimes,Automobile,Overweight_Level_I
+858,,Male,,82.045045,Sometimes,,1.064162,3.98955,no,,2.028426,yes,0.81517,0.894678,Sometimes,Public_Transportation,Overweight_Level_I
+859,,,,80.018571,Sometimes,,1.993101,3.171082,no,no,2.364498,yes,1.224743,0.022245,,Public_Transportation,Overweight_Level_I
+860,23.0,,1.690196,75.0,Sometimes,,2.620963,3.0,no,,2.824559,yes,0.754599,2.0,,,Overweight_Level_I
+861,20.0,Male,1.81748,85.0,Sometimes,,2.95118,3.0,no,no,3.0,yes,2.433918,0.561602,Sometimes,Public_Transportation,Overweight_Level_I
+862,21.832995,Female,1.580964,,Sometimes,,2.021446,3.0,no,,1.077917,no,0.523847,0.808599,Sometimes,Public_Transportation,Overweight_Level_I
+863,,Female,1.652084,73.575981,Sometimes,yes,2.0,3.0,no,no,1.0,yes,0.0,0.018877,Sometimes,Automobile,Overweight_Level_I
+864,30.613586,Female,1.645511,69.168978,Sometimes,yes,2.000466,3.0,no,,1.131448,yes,0.061366,0.0,Sometimes,Automobile,Overweight_Level_I
+865,23.245408,Male,,75.383716,Sometimes,,2.5621,3.105007,no,no,1.172427,yes,0.184917,0.923082,Sometimes,Public_Transportation,Overweight_Level_I
+866,18.0,Female,1.456346,55.523481,Sometimes,yes,2.0,3.0,yes,no,1.040342,no,0.497373,1.783319,Sometimes,Public_Transportation,Overweight_Level_I
+867,18.0,,1.498561,55.376512,Sometimes,yes,2.0,3.0,yes,no,1.274718,no,0.129902,0.978574,Sometimes,Public_Transportation,Overweight_Level_I
+868,,Female,,,no,,2.96008,1.0,yes,no,2.0,yes,0.736032,1.344072,Sometimes,Public_Transportation,Overweight_Level_I
+869,21.837058,Female,1.558045,,Sometimes,yes,2.53915,1.590982,no,no,1.977801,no,1.264616,,,Public_Transportation,Overweight_Level_I
+870,27.0,,1.55,,Sometimes,yes,2.244142,1.704828,no,,1.0,no,0.792929,,Sometimes,Public_Transportation,Overweight_Level_I
+871,35.483601,,1.647514,73.91692,Sometimes,,3.0,2.725012,no,no,1.62244,,0.902661,0.0,Sometimes,Automobile,Overweight_Level_I
+872,,Male,1.855779,,Sometimes,,2.0,2.372339,no,,1.675733,yes,1.066241,1.0,,,Overweight_Level_I
+873,23.367212,Male,1.853223,87.083266,Sometimes,,2.0,1.097312,no,no,1.328835,yes,1.264257,1.0,Sometimes,Automobile,Overweight_Level_I
+874,40.0,,1.570811,62.211572,Sometimes,,2.253371,3.0,no,no,2.756916,yes,1.016042,,Sometimes,Automobile,Overweight_Level_I
+875,16.38009,Female,,,no,,2.851664,1.0,no,no,2.0,yes,0.977929,1.765321,Sometimes,Public_Transportation,Overweight_Level_I
+876,,,1.644053,67.439589,no,,1.31415,1.068196,yes,no,1.364957,yes,0.0,0.057926,Sometimes,Public_Transportation,Overweight_Level_I
+877,,Female,1.608914,65.0,no,yes,1.321028,1.0,yes,no,2.0,,0.371452,0.965604,Sometimes,Public_Transportation,Overweight_Level_I
+878,18.0,Female,1.647971,68.818893,no,,2.0,1.411685,no,,1.859089,,0.0,1.306,,Public_Transportation,Overweight_Level_I
+879,,,1.624831,69.975607,no,yes,2.253998,2.752318,no,no,2.328331,yes,0.815509,0.024088,Sometimes,Public_Transportation,Overweight_Level_I
+880,,Female,1.508267,61.10403,Sometimes,yes,2.778079,3.0,yes,,1.696691,no,0.94224,0.879925,Sometimes,Public_Transportation,Overweight_Level_I
+881,18.947102,Female,1.518917,60.267427,Sometimes,,2.838037,2.737571,yes,no,1.144467,no,0.753782,1.286844,Sometimes,Public_Transportation,Overweight_Level_I
+882,17.781183,Female,1.6,,Sometimes,yes,3.0,2.973504,yes,,2.0,yes,0.178976,0.166076,,Public_Transportation,Overweight_Level_I
+883,,Male,,87.85785,no,,2.814453,2.608055,no,no,1.85916,no,2.0,0.516084,Sometimes,Automobile,Overweight_Level_I
+884,33.251015,Female,1.730379,75.920519,Sometimes,,2.013782,2.625942,no,no,1.045586,yes,0.553305,0.480214,,,Overweight_Level_I
+885,18.985119,Female,,80.0,no,,2.0,1.411808,no,,2.651194,yes,2.878414,0.953841,Sometimes,Public_Transportation,Overweight_Level_I
+886,18.871917,Female,1.755254,,no,yes,2.0,1.095223,no,no,2.474132,yes,2.876696,0.7939,,Public_Transportation,Overweight_Level_I
+887,19.478533,Male,,85.196279,Sometimes,yes,2.459976,3.30846,no,no,2.078011,yes,1.779646,0.871772,Sometimes,Public_Transportation,Overweight_Level_I
+888,,Male,1.813567,86.144904,Sometimes,,2.643183,3.821461,no,,2.397124,yes,2.044165,0.471663,Sometimes,Public_Transportation,Overweight_Level_I
+889,,,,78.721696,Frequently,,2.0,3.0,no,no,2.813234,yes,0.228753,2.0,Sometimes,Public_Transportation,Overweight_Level_I
+890,18.869151,Female,1.756774,79.989789,Frequently,,2.0,2.658639,no,no,2.781628,yes,1.955992,1.409198,Sometimes,Public_Transportation,Overweight_Level_I
+891,,Female,1.62,69.3899,no,,2.22399,1.0,no,no,2.20312,yes,0.104451,1.899073,Sometimes,,Overweight_Level_I
+892,20.901393,,,,Sometimes,yes,2.104105,3.0,no,,1.871033,yes,1.0,0.0,Sometimes,Public_Transportation,Overweight_Level_I
+893,17.08525,Female,1.535618,,Sometimes,,1.972545,2.339614,yes,no,1.711074,no,0.095517,1.191053,,,Overweight_Level_I
+894,25.785925,Male,1.818848,,no,,2.286481,1.713762,no,no,1.797161,no,1.658698,,,Automobile,Overweight_Level_I
+895,26.787842,Male,1.817641,87.107317,,yes,2.971588,2.743277,no,,1.394883,no,2.0,0.470243,,Automobile,Overweight_Level_I
+896,21.037514,,1.636592,,Sometimes,yes,2.0,1.0,no,,2.881677,no,0.915699,0.0,no,Public_Transportation,Overweight_Level_I
+897,,,1.621412,70.0,Sometimes,yes,2.0,1.0,no,no,2.795651,no,0.80873,0.0,no,Public_Transportation,Overweight_Level_I
+898,26.70371,Male,1.802871,85.770013,Sometimes,yes,2.872121,3.051804,no,,2.111913,yes,0.843709,0.153559,Sometimes,Automobile,Overweight_Level_I
+899,21.731497,,1.696201,,Sometimes,,2.109162,3.245148,no,no,1.971774,yes,0.989335,,,,Overweight_Level_I
+900,21.052894,,,75.0522,Sometimes,,2.178889,3.563744,no,,1.853991,yes,0.997731,0.0,,Public_Transportation,Overweight_Level_I
+901,21.0,Female,1.618148,68.981403,Sometimes,yes,1.142468,3.0,no,no,2.197732,yes,0.827506,0.572877,no,Public_Transportation,Overweight_Level_I
+902,19.241058,,1.856811,88.633616,Sometimes,,2.047069,3.829101,no,no,1.641022,yes,1.554817,,Sometimes,Public_Transportation,Overweight_Level_I
+903,,Female,1.738321,86.934846,Sometimes,yes,2.843709,3.058539,no,no,1.130079,no,2.834373,0.044954,Sometimes,Automobile,Overweight_Level_I
+904,39.965474,Female,1.739293,80.914382,Sometimes,yes,2.416044,3.196043,no,no,1.352649,no,0.148628,1.08266,Sometimes,Automobile,Overweight_Level_I
+905,20.261925,,1.807538,85.316125,Sometimes,yes,2.0,3.0,no,,1.968011,yes,1.072662,0.776758,Sometimes,Public_Transportation,Overweight_Level_I
+906,20.31094,Male,1.849425,,Sometimes,yes,2.146598,3.0,no,no,2.100112,yes,1.17116,0.833761,Sometimes,,Overweight_Level_I
+907,,Male,1.712473,75.0,Sometimes,,2.0,3.0,no,,1.362642,,0.921268,0.139013,Sometimes,Public_Transportation,Overweight_Level_I
+908,,Female,,,no,yes,2.0,1.391778,no,no,2.64548,yes,2.685087,,Sometimes,Public_Transportation,Overweight_Level_I
+909,23.562135,Male,1.717432,75.371244,Sometimes,,2.0,3.0,no,,2.0,yes,0.121585,1.967259,Sometimes,Public_Transportation,Overweight_Level_I
+910,,Male,,75.0,Sometimes,,2.0,3.0,no,no,2.0,yes,0.334579,1.905826,Sometimes,,Overweight_Level_I
+911,33.732714,,,74.885222,Sometimes,yes,3.0,1.13715,no,no,1.000695,yes,0.261274,,Sometimes,Automobile,Overweight_Level_I
+912,21.571288,,1.600914,68.058902,Sometimes,yes,1.766849,3.322522,no,,2.616285,yes,0.943058,0.256977,Sometimes,Public_Transportation,Overweight_Level_I
+913,21.165574,Female,1.617749,68.908136,Sometimes,,1.188089,3.269088,no,no,2.039535,yes,0.779686,1.043108,Sometimes,Public_Transportation,Overweight_Level_I
+914,21.0,Male,1.610209,68.865008,Sometimes,yes,1.910176,2.938135,no,no,2.943097,no,0.997202,0.207922,no,Public_Transportation,Overweight_Level_I
+915,21.0,Male,1.612556,69.463458,Sometimes,yes,2.0,1.259628,no,no,3.0,no,1.0,,no,Public_Transportation,Overweight_Level_I
+916,38.692265,Female,1.548178,62.341438,Sometimes,,2.956671,2.965494,no,no,2.868132,yes,0.0,0.54925,Sometimes,Automobile,Overweight_Level_I
+917,38.952866,,1.568441,62.855073,Sometimes,yes,2.002796,3.0,no,no,2.526775,yes,0.271174,0.806069,,Automobile,Overweight_Level_I
+918,36.631456,Female,1.532322,62.417228,Sometimes,yes,2.288604,2.845307,no,no,2.638164,yes,0.0,0.990741,Sometimes,Automobile,Overweight_Level_I
+919,,,1.730199,78.997062,Sometimes,yes,2.277077,1.0,no,no,2.0,yes,1.061743,0.0,,,Overweight_Level_I
+920,,Female,1.730167,78.429312,Sometimes,yes,2.138334,1.0,no,no,2.0,yes,2.269058,0.0,Sometimes,,Overweight_Level_I
+921,22.018228,Male,1.627396,70.0,Sometimes,yes,2.0,1.0,no,no,2.976177,no,0.780117,,no,Public_Transportation,Overweight_Level_I
+922,,Male,1.62,,Sometimes,yes,2.0,1.0,no,no,3.0,no,1.0,0.0,,Public_Transportation,Overweight_Level_I
+923,,Male,1.62,,Sometimes,,2.0,1.0,no,no,3.0,no,1.0,0.0,no,Public_Transportation,Overweight_Level_I
+924,21.0,,1.62,,Sometimes,yes,2.0,1.0,no,,3.0,no,1.0,0.0,no,Public_Transportation,Overweight_Level_I
+925,29.934465,Female,1.638744,,Sometimes,yes,2.029634,3.0,no,no,1.827515,yes,0.480206,,Sometimes,,Overweight_Level_I
+926,31.166572,,1.680858,71.81338,Sometimes,yes,2.048216,3.0,no,no,1.305816,,0.170452,0.276806,Sometimes,Automobile,Overweight_Level_I
+927,20.534606,,,79.469513,Sometimes,,2.8557,1.0,no,no,2.663861,yes,2.762711,0.783336,Sometimes,Public_Transportation,Overweight_Level_I
+928,19.97166,Male,1.822573,85.084364,Sometimes,yes,2.995599,3.095663,no,,2.568157,yes,2.7243,0.330457,Sometimes,Public_Transportation,Overweight_Level_I
+929,19.627,Male,1.815409,85.302146,Sometimes,yes,2.987148,3.483449,no,no,2.359246,yes,2.060415,,Sometimes,Public_Transportation,Overweight_Level_I
+930,,,,,Sometimes,yes,2.0,3.0,no,,2.763573,yes,1.502711,0.127879,Sometimes,Public_Transportation,Overweight_Level_I
+931,,,1.60681,67.773914,Sometimes,yes,2.0,3.156309,no,,3.0,yes,1.179592,0.086868,no,Public_Transportation,Overweight_Level_I
+932,21.538225,Female,1.610327,67.999778,Sometimes,yes,1.887951,3.728377,no,,2.682107,yes,1.123931,0.492528,no,Public_Transportation,Overweight_Level_I
+933,22.828435,Male,1.710415,,Sometimes,,2.786008,3.0,no,no,2.526193,yes,0.925118,2.0,Sometimes,Public_Transportation,Overweight_Level_I
+934,,Male,1.716289,,Sometimes,yes,2.0,3.0,no,,2.0,yes,0.092344,,Sometimes,Public_Transportation,Overweight_Level_I
+935,19.576682,Male,1.834715,,Sometimes,yes,2.342323,3.60885,no,no,2.878866,yes,2.0,0.208323,Sometimes,Public_Transportation,Overweight_Level_I
+936,,,1.611822,67.140367,Sometimes,,1.874935,3.370362,no,no,2.558773,yes,1.206121,0.271024,,Public_Transportation,Overweight_Level_I
+937,21.979769,Female,,,Sometimes,,2.213135,3.0,no,no,2.046766,yes,2.172546,0.0,Sometimes,,Overweight_Level_I
+938,21.0,Female,1.753578,77.97917,Sometimes,,2.273548,2.39007,no,no,1.648404,yes,0.874643,1.102696,Sometimes,Public_Transportation,Overweight_Level_I
+939,21.0285,Female,,78.664618,Sometimes,yes,2.780699,1.101404,no,no,1.579207,yes,1.153775,0.0,Sometimes,Public_Transportation,Overweight_Level_I
+940,,,,,no,yes,1.687569,2.756405,no,no,2.079131,yes,2.931527,0.68173,,,Overweight_Level_I
+941,21.0,Male,,75.0,Sometimes,,2.0,3.0,no,no,1.081597,,1.0,0.0,Sometimes,,Overweight_Level_I
+942,,,1.693628,75.0,Sometimes,,2.0,3.0,no,,1.833055,yes,1.0,0.0,Sometimes,Public_Transportation,Overweight_Level_I
+943,29.463168,Female,1.659172,71.170001,,yes,2.0,3.0,no,,1.281683,yes,1.609801,0.0,Sometimes,,Overweight_Level_I
+944,24.284861,,,,no,yes,1.989905,3.054899,no,,2.080968,yes,1.107543,0.939726,Sometimes,Public_Transportation,Overweight_Level_I
+945,,,1.767806,82.694689,no,yes,1.947405,3.118013,no,,2.136159,yes,0.783963,0.88868,Sometimes,Public_Transportation,Overweight_Level_I
+946,23.455324,,,75.0,Sometimes,yes,2.162519,3.0,no,,2.152666,yes,1.078074,1.502839,Sometimes,Public_Transportation,Overweight_Level_I
+947,19.637203,Male,1.814182,,Sometimes,yes,2.923916,3.335876,no,no,2.372444,yes,1.305633,0.311436,Sometimes,Public_Transportation,Overweight_Level_I
+948,,Female,1.59994,65.423942,Sometimes,yes,2.99448,3.0,no,no,1.706568,no,0.784216,0.150969,Sometimes,Public_Transportation,Overweight_Level_I
+949,31.62638,,1.666023,72.906186,Sometimes,yes,2.0,3.0,no,no,1.0,yes,0.0,1.301385,Sometimes,Automobile,Overweight_Level_I
+950,23.0,Male,1.701584,75.093569,Sometimes,yes,3.0,3.205009,no,,2.643468,yes,0.998039,1.898139,Sometimes,,Overweight_Level_I
+951,22.874658,Male,1.713343,75.828119,,,2.507841,3.648194,no,no,1.279756,yes,0.132629,1.82753,Sometimes,,Overweight_Level_I
+952,,Female,1.489409,53.620604,Sometimes,,1.836554,1.865238,yes,,2.0,no,0.320209,1.969507,Sometimes,Public_Transportation,Overweight_Level_I
+953,17.807828,Female,1.518067,55.822119,Sometimes,yes,1.773265,2.118153,yes,,1.075239,no,0.085388,1.915191,Sometimes,Public_Transportation,Overweight_Level_I
+954,16.240576,Female,1.616533,65.062945,no,,2.388168,1.0,yes,no,1.438018,yes,0.110887,1.165817,Sometimes,,Overweight_Level_I
+955,23.252457,Female,1.589616,65.127324,Sometimes,yes,2.286146,2.961113,no,,2.657303,no,1.91108,1.618227,Sometimes,Public_Transportation,Overweight_Level_I
+956,34.772902,Female,1.675612,73.501233,Sometimes,yes,3.0,2.400943,no,no,1.509734,yes,0.167125,0.0,Sometimes,Automobile,Overweight_Level_I
+957,22.766227,Male,1.874061,89.754302,Sometimes,,2.0,2.870005,no,no,1.15031,yes,0.417724,,Sometimes,Automobile,Overweight_Level_I
+958,,Female,1.580765,62.631382,Sometimes,,2.487167,3.0,no,no,2.396977,yes,0.577063,0.435072,Sometimes,Automobile,Overweight_Level_I
+959,19.858973,Male,1.62,69.575315,Sometimes,,2.185938,1.0,no,no,2.81353,no,1.0,1.110222,no,Public_Transportation,Overweight_Level_I
+960,16.370009,Female,1.613921,66.738769,no,,2.206399,1.0,yes,no,2.0,yes,0.94893,1.772463,Sometimes,Public_Transportation,Overweight_Level_I
+961,17.992717,Female,1.618683,67.193585,no,yes,1.952987,1.0,yes,no,1.334856,yes,0.732276,1.890214,Sometimes,Public_Transportation,Overweight_Level_I
+962,19.179932,Male,1.637537,70.0,no,,2.0,1.030416,no,no,2.118716,yes,0.529259,0.0,,Public_Transportation,Overweight_Level_I
+963,,Female,1.566524,61.616,Sometimes,,2.908757,2.696051,yes,no,1.622827,no,0.539952,0.001096,Sometimes,Public_Transportation,Overweight_Level_I
+964,19.755797,,1.542328,63.856193,Sometimes,yes,2.628791,2.762883,yes,,1.512035,no,0.303722,0.003229,,Public_Transportation,Overweight_Level_I
+965,,Female,1.6,65.0,Sometimes,,3.0,2.401341,yes,,2.0,yes,0.663896,,Sometimes,Public_Transportation,Overweight_Level_I
+966,17.25813,,,,Sometimes,yes,2.749629,2.298612,yes,no,2.0,yes,0.547515,1.619473,Sometimes,Public_Transportation,Overweight_Level_I
+967,29.153907,Male,1.773656,,no,,1.595746,3.618722,no,,1.274389,no,1.504003,0.370067,Sometimes,Automobile,Overweight_Level_I
+968,,,1.64602,74.147443,Sometimes,yes,2.885178,2.562895,no,no,1.017006,yes,0.588673,0.916291,Sometimes,,Overweight_Level_I
+969,31.793937,Female,,73.810728,Sometimes,,2.372494,2.849848,no,no,1.028538,yes,0.675983,0.303025,,Automobile,Overweight_Level_I
+970,18.014333,,,80.0,Frequently,,2.0,2.805436,no,,2.122884,yes,0.045651,,,Public_Transportation,Overweight_Level_I
+971,19.685,,1.838266,89.496905,Sometimes,,2.153639,3.715148,no,no,2.703337,yes,2.0,0.226097,Sometimes,Public_Transportation,Overweight_Level_I
+972,19.506389,,1.824449,,Sometimes,yes,2.793561,3.788602,no,no,2.429059,yes,2.094542,0.393358,Sometimes,Public_Transportation,Overweight_Level_I
+973,19.0,,,,no,,2.0,1.893811,no,no,3.0,yes,1.376229,1.801322,Sometimes,,Overweight_Level_I
+974,18.0,Female,1.622241,,no,,2.0,1.010319,no,no,1.319437,yes,0.0,1.626456,,,Overweight_Level_I
+975,18.003153,,1.729996,,Frequently,,2.992329,3.0,no,no,2.004908,yes,1.0,1.405086,,Public_Transportation,Overweight_Level_I
+976,18.052394,Female,1.725233,,Frequently,yes,2.927409,3.0,no,no,2.209991,yes,1.0,,,Public_Transportation,Overweight_Level_I
+977,19.774317,,,,Sometimes,,2.706134,2.669766,yes,no,1.979848,no,0.445238,0.908836,Sometimes,Public_Transportation,Overweight_Level_I
+978,21.180346,Male,1.773766,89.28282,Sometimes,yes,2.010684,1.322087,no,no,2.0,yes,0.540397,0.973834,,Public_Transportation,Overweight_Level_II
+979,21.793724,,1.75463,89.068227,Sometimes,yes,2.0,2.041558,no,no,2.38725,yes,0.813917,,Sometimes,Public_Transportation,Overweight_Level_II
+980,,,1.674327,80.0,no,,2.0,3.0,no,,2.0,yes,1.66639,,Sometimes,Public_Transportation,Overweight_Level_II
+981,21.18354,Male,,80.555875,no,,2.0,2.468421,no,no,2.0,yes,2.0,,Sometimes,Public_Transportation,Overweight_Level_II
+982,,Male,1.913241,,Sometimes,,2.0,2.110937,no,no,2.175632,yes,1.0,0.0,Sometimes,Walking,Overweight_Level_II
+983,,Male,,82.523113,Sometimes,yes,2.300408,3.071028,no,,1.738959,yes,0.090147,0.0,Sometimes,Automobile,Overweight_Level_II
+984,29.956198,Male,1.703688,82.207978,Sometimes,yes,2.119643,3.292956,no,no,1.723372,yes,0.0,,Sometimes,Automobile,Overweight_Level_II
+985,21.403421,Male,1.716308,80.0,no,,2.0,3.0,no,no,2.0,yes,2.936551,1.40913,Sometimes,Public_Transportation,Overweight_Level_II
+986,22.591439,,1.65,,no,yes,2.0,3.0,no,,2.0,yes,0.451078,2.0,Sometimes,Public_Transportation,Overweight_Level_II
+987,28.583944,Female,1.57856,65.522744,Sometimes,,2.0,2.283673,no,,1.970622,yes,1.863258,1.581703,Sometimes,Public_Transportation,Overweight_Level_II
+988,38.825189,Male,1.780846,,Sometimes,yes,2.901924,1.124977,no,,2.76382,yes,0.8554,0.999183,,Automobile,Overweight_Level_II
+989,,Male,1.823168,91.630257,Sometimes,,2.0,2.9948,no,no,1.290979,yes,0.87599,0.85405,Sometimes,Automobile,Overweight_Level_II
+990,20.392665,Female,1.525234,65.220249,no,,2.451009,3.0,no,no,2.0,yes,2.177243,,,Public_Transportation,Overweight_Level_II
+991,22.154854,Female,,61.373868,no,no,2.0,2.983297,no,no,1.453626,yes,0.32896,0.509396,,Public_Transportation,Overweight_Level_II
+992,19.108796,Male,1.768578,87.803311,Sometimes,yes,2.754646,3.0,no,no,2.957821,yes,2.242754,0.786609,Sometimes,Public_Transportation,Overweight_Level_II
+993,,Female,1.569878,,no,no,2.417635,3.0,no,,1.937674,yes,1.417035,1.0,,Public_Transportation,Overweight_Level_II
+994,20.634694,Female,1.568188,67.904023,no,no,2.512719,3.0,no,no,1.131169,yes,0.095389,1.0,Sometimes,Public_Transportation,Overweight_Level_II
+995,22.052152,,1.792527,,,,1.771693,1.890213,no,,2.0,yes,0.0,,,Public_Transportation,Overweight_Level_II
+996,,,1.795311,89.868784,Sometimes,yes,1.57223,1.888067,no,,2.0,yes,0.0,0.552498,Sometimes,,Overweight_Level_II
+997,,Female,1.700038,80.0,no,,2.0,3.0,no,,2.0,yes,0.973114,1.540298,Sometimes,Public_Transportation,Overweight_Level_II
+998,23.0,Female,1.668649,80.458343,no,,2.0,2.256119,no,,1.142873,yes,0.807076,1.611271,,,Overweight_Level_II
+999,24.679807,Male,1.7,,Sometimes,yes,2.0,3.0,no,no,2.020424,yes,0.0,1.0,,Public_Transportation,Overweight_Level_II
+1000,23.884212,,1.713825,83.952968,Sometimes,yes,2.0,2.6648,no,,1.810738,yes,0.80989,,Sometimes,,Overweight_Level_II
+1001,25.461411,,1.7,78.055968,,,2.661556,3.0,no,no,3.0,yes,0.55181,0.658783,Sometimes,Public_Transportation,Overweight_Level_II
+1002,31.333798,Male,1.835381,,Sometimes,,2.0,3.0,no,no,1.18423,yes,0.155579,0.453404,Sometimes,Public_Transportation,Overweight_Level_II
+1003,24.108711,Male,1.7,,Sometimes,,2.0,3.0,no,no,2.879402,yes,0.0,0.322405,Sometimes,,Overweight_Level_II
+1004,28.830558,Female,1.7,78.0,Frequently,,3.0,3.0,no,no,1.699971,yes,1.727114,1.0,,Automobile,Overweight_Level_II
+1005,,Male,1.7,83.199034,no,no,2.097373,2.547086,no,,1.538626,yes,1.0,0.761898,,Public_Transportation,Overweight_Level_II
+1006,,Female,1.659877,77.272652,Sometimes,yes,2.061461,2.812283,no,no,3.0,yes,0.362441,0.78519,Sometimes,Public_Transportation,Overweight_Level_II
+1007,,Male,,96.192662,Sometimes,yes,1.317729,2.278652,no,,2.0,yes,1.80674,1.93977,Sometimes,Public_Transportation,Overweight_Level_II
+1008,22.94313,Male,1.819614,93.086419,Sometimes,yes,1.882235,1.240046,no,no,2.0,yes,0.0,1.541493,Sometimes,Public_Transportation,Overweight_Level_II
+1009,,,,85.312639,Sometimes,yes,2.951591,3.0,no,no,2.971557,yes,0.0,0.947192,,Public_Transportation,Overweight_Level_II
+1010,23.0,Male,,90.0,Sometimes,yes,2.067817,,no,,1.082084,yes,0.0,1.922364,Sometimes,Public_Transportation,Overweight_Level_II
+1011,25.19291,Female,1.7,80.749657,Frequently,yes,2.54527,3.0,no,no,2.269564,yes,0.503122,1.0,,Public_Transportation,Overweight_Level_II
+1012,,Male,1.68108,,no,,2.0,1.660768,no,no,2.482294,yes,0.891205,0.0,Sometimes,Automobile,Overweight_Level_II
+1013,,Female,1.660756,78.574786,Frequently,yes,2.0,2.597608,no,no,2.0,yes,0.0,0.434198,Sometimes,Public_Transportation,Overweight_Level_II
+1014,55.24625,Male,1.769269,80.491339,no,,2.0,3.0,no,no,2.0,no,1.0,0.0,Sometimes,Automobile,Overweight_Level_II
+1015,34.543563,Male,1.765188,85.0,no,,2.694281,3.0,no,no,2.653831,yes,1.96582,,Sometimes,Automobile,Overweight_Level_II
+1016,21.808159,,1.65,80.0,no,yes,2.0,3.0,no,no,2.0,yes,0.826609,2.0,,,Overweight_Level_II
+1017,18.118277,Male,1.654757,80.0,no,yes,2.821977,2.044035,no,no,1.954968,yes,1.0,0.854536,Sometimes,Public_Transportation,Overweight_Level_II
+1018,,,,79.165306,no,,2.0,3.0,no,no,1.0,,0.0,,Sometimes,Automobile,Overweight_Level_II
+1019,22.0,Male,1.691303,,Sometimes,yes,2.0,2.038373,no,,2.0,yes,2.70825,,Sometimes,Public_Transportation,Overweight_Level_II
+1020,28.770852,Female,1.532897,65.031879,no,no,2.0,1.0,no,,1.0,yes,0.262171,0.0,Sometimes,Public_Transportation,Overweight_Level_II
+1021,25.483381,Female,1.565288,,no,no,2.0,1.0,no,no,1.0,yes,0.740633,0.0,Sometimes,Public_Transportation,Overweight_Level_II
+1022,,Female,1.5,63.65233,no,no,2.0,1.474836,no,no,2.0,,0.274838,0.613902,,Public_Transportation,Overweight_Level_II
+1023,23.469538,,1.507106,,no,,2.252472,3.986652,no,,2.0,,0.934286,0.890626,,,Overweight_Level_II
+1024,23.0,Male,,81.32297,Sometimes,yes,2.0,2.720642,no,no,1.5197,yes,0.279375,1.043435,Sometimes,Public_Transportation,Overweight_Level_II
+1025,23.0,,,81.650778,Sometimes,yes,2.0,1.976744,no,no,1.628997,yes,0.880584,1.127675,,Public_Transportation,Overweight_Level_II
+1026,38.464538,,1.696423,,no,yes,3.0,3.0,no,no,2.981604,yes,0.0,,,Automobile,Overweight_Level_II
+1027,,,1.653088,80.0,no,yes,2.033745,3.0,no,no,1.517225,yes,0.0,1.517897,Sometimes,Automobile,Overweight_Level_II
+1028,,Female,1.681842,,no,yes,3.0,2.679724,no,no,1.999737,yes,1.747347,0.681773,Sometimes,Automobile,Overweight_Level_II
+1029,34.369686,,1.652202,77.13322,no,yes,2.595128,1.619796,no,,1.642251,yes,0.662831,,Sometimes,Automobile,Overweight_Level_II
+1030,31.426573,Male,1.848683,,Sometimes,,2.759286,2.59257,no,no,2.549617,yes,1.427233,0.519395,Sometimes,Automobile,Overweight_Level_II
+1031,34.288249,Male,1.835678,96.01851,Sometimes,yes,2.0,1.546665,no,,3.0,yes,1.0,0.0,,Automobile,Overweight_Level_II
+1032,18.863875,Female,,,Sometimes,,3.0,3.339914,no,no,2.0,,1.0,1.0,Sometimes,Public_Transportation,Overweight_Level_II
+1033,18.951144,,1.621048,72.105856,Sometimes,no,3.0,3.884861,no,,2.0,yes,1.0,,Sometimes,Public_Transportation,Overweight_Level_II
+1034,19.671876,Male,1.699474,78.0,,no,1.925064,2.358298,no,no,2.774043,yes,0.0,0.133566,Sometimes,Public_Transportation,Overweight_Level_II
+1035,50.832559,Male,1.745528,82.130728,no,,2.0,3.0,no,no,1.774778,yes,0.943266,0.0,,Automobile,Overweight_Level_II
+1036,17.971574,,1.720379,,Sometimes,,2.0,3.0,no,no,2.802498,,1.0,0.41758,,,Overweight_Level_II
+1037,18.0,,1.758787,85.050558,,yes,2.846981,3.0,no,no,2.87781,yes,1.0,0.429081,Sometimes,Public_Transportation,Overweight_Level_II
+1038,,Male,1.704908,81.384224,Sometimes,yes,2.650629,1.0,no,no,1.708083,yes,,0.938791,Sometimes,Public_Transportation,Overweight_Level_II
+1039,34.389679,Female,1.691322,77.561602,no,yes,3.0,1.802305,no,no,2.0,yes,0.390877,0.0,Sometimes,Automobile,Overweight_Level_II
+1040,,Male,1.78629,95.277392,Sometimes,,2.0,3.0,no,no,3.0,yes,1.072318,0.651904,Sometimes,Public_Transportation,Overweight_Level_II
+1041,,Male,1.705617,83.016968,no,yes,2.0,2.7976,no,no,2.991671,,2.148738,0.0,,Automobile,Overweight_Level_II
+1042,33.270448,Male,1.733439,,no,,2.631565,2.627173,no,,2.253422,yes,2.690756,0.845774,Sometimes,Automobile,Overweight_Level_II
+1043,36.310292,Female,1.701397,83.0,no,yes,2.0,1.0,no,no,2.0,yes,1.472172,,,Automobile,Overweight_Level_II
+1044,20.0,,1.625236,74.433362,,,2.522399,1.032887,no,,2.397653,yes,2.358699,0.440087,,Public_Transportation,Overweight_Level_II
+1045,18.549437,,,,Sometimes,,3.0,3.014808,no,no,2.0,yes,1.997529,,Sometimes,Public_Transportation,Overweight_Level_II
+1046,34.243146,Male,1.843172,,,,2.0,2.271734,no,,2.629043,yes,1.0,0.075823,,,Overweight_Level_II
+1047,23.32012,Male,1.705813,82.011962,Sometimes,,2.784471,2.122545,no,no,2.984153,,2.164472,0.203978,Sometimes,Public_Transportation,Overweight_Level_II
+1048,,Male,1.704141,,Sometimes,,1.650505,3.0,no,no,2.0,yes,1.73234,1.0,Sometimes,Public_Transportation,Overweight_Level_II
+1049,19.223259,,1.706082,78.073528,Sometimes,,1.961347,3.0,no,,2.0,yes,1.655488,1.0,Sometimes,Public_Transportation,Overweight_Level_II
+1050,,,1.842943,93.798055,Sometimes,,2.133955,2.902766,no,no,1.753464,yes,1.729987,1.0,,Public_Transportation,Overweight_Level_II
+1051,27.0,,,,Sometimes,,2.684528,1.0,no,no,1.05668,,1.516147,,,Public_Transportation,Overweight_Level_II
+1052,21.027662,Male,1.726774,,Sometimes,yes,2.265973,2.687502,no,no,2.0,yes,2.21722,0.648522,Sometimes,Public_Transportation,Overweight_Level_II
+1053,33.015258,,1.73196,84.315608,no,yes,2.0,3.0,no,no,2.205911,yes,1.293396,0.0,Sometimes,Automobile,Overweight_Level_II
+1054,18.0,Male,1.751278,86.963628,Sometimes,,3.0,3.0,no,no,2.0,yes,1.271667,0.155278,,,Overweight_Level_II
+1055,30.553097,,1.780448,88.431954,Sometimes,,2.0,1.178708,no,no,1.791286,yes,0.893362,0.276364,Sometimes,Public_Transportation,Overweight_Level_II
+1056,33.0,,1.85,97.92035,Sometimes,yes,2.0,3.0,no,no,1.117464,,1.0,0.663649,Sometimes,Public_Transportation,Overweight_Level_II
+1057,24.911994,Male,,88.03748,Sometimes,,1.306844,2.279546,no,no,2.0,yes,0.0,0.739609,Sometimes,,Overweight_Level_II
+1058,24.444846,,1.718845,86.319887,Sometimes,,2.0,2.677693,no,no,2.693978,yes,0.0,0.688013,Sometimes,Public_Transportation,Overweight_Level_II
+1059,,Female,1.530248,68.85097,no,,2.258795,3.53009,no,no,1.172186,yes,0.678943,,Sometimes,Public_Transportation,Overweight_Level_II
+1060,34.204408,,1.664927,80.386078,no,yes,2.0,3.0,no,no,2.641642,yes,0.285889,1.50301,Sometimes,Automobile,Overweight_Level_II
+1061,34.281681,Female,,,no,yes,2.689929,1.835543,no,no,1.718569,yes,0.674348,,Sometimes,,Overweight_Level_II
+1062,23.384374,,,82.480214,Sometimes,yes,2.712747,2.853676,no,no,1.526313,yes,1.0,,,Public_Transportation,Overweight_Level_II
+1063,,,1.733875,86.94538,no,yes,2.353603,2.337035,no,no,1.830614,yes,0.706287,0.0,Sometimes,Automobile,Overweight_Level_II
+1064,45.0,Female,1.675953,79.66832,,,2.598051,3.0,no,no,1.0,yes,0.0,0.0,Sometimes,Automobile,Overweight_Level_II
+1065,22.087389,,1.786238,89.802492,Sometimes,yes,1.718156,1.631184,no,no,2.0,yes,0.0,0.306124,Sometimes,Public_Transportation,Overweight_Level_II
+1066,21.378039,Male,1.718534,,no,,2.0,3.0,no,no,2.0,yes,2.721646,1.269982,,Public_Transportation,Overweight_Level_II
+1067,31.398281,Male,1.919543,,Sometimes,yes,2.0,1.005391,no,no,2.001936,,1.0,0.0,,Public_Transportation,Overweight_Level_II
+1068,31.484494,,,82.586893,,,2.795086,3.250467,no,no,1.367876,yes,0.022958,,Sometimes,,Overweight_Level_II
+1069,21.709159,Male,1.658393,,no,,2.0,3.0,no,no,2.0,yes,2.939733,,,,Overweight_Level_II
+1070,30.711381,Female,1.536819,65.912688,no,,2.030256,2.948721,no,no,1.984323,yes,0.986414,0.333673,,Public_Transportation,Overweight_Level_II
+1071,,Male,,,Sometimes,yes,2.0,1.80993,no,,2.174835,yes,0.340915,0.020153,,Automobile,Overweight_Level_II
+1072,,Female,1.521008,67.083121,no,no,2.493448,3.0,no,no,1.849997,yes,0.954459,1.444532,Sometimes,Public_Transportation,Overweight_Level_II
+1073,19.443639,Male,1.744733,87.27989,Sometimes,yes,2.442536,3.0,no,,2.825629,yes,3.0,0.0,Sometimes,Public_Transportation,Overweight_Level_II
+1074,20.492077,Female,,,no,no,2.003951,3.0,no,,1.207978,,1.916751,1.228995,,Public_Transportation,Overweight_Level_II
+1075,22.944349,,1.799742,89.98168,Sometimes,yes,1.34138,1.94671,no,,2.0,yes,0.0,0.975504,Sometimes,Public_Transportation,Overweight_Level_II
+1076,23.0,Female,1.681314,80.037202,no,yes,2.0,2.9796,no,no,1.964435,yes,0.189957,1.73216,,Public_Transportation,Overweight_Level_II
+1077,24.06894,Male,1.706912,85.743727,Sometimes,yes,2.0,2.994198,no,no,2.747302,yes,0.0,0.799756,,Public_Transportation,Overweight_Level_II
+1078,23.728707,,,,no,yes,2.0,3.0,no,no,2.13755,yes,0.0,0.124977,Sometimes,Public_Transportation,Overweight_Level_II
+1079,29.216019,Male,1.752265,88.096062,Sometimes,,2.0,1.894384,no,no,2.0,yes,0.0,0.0,,Public_Transportation,Overweight_Level_II
+1080,24.751511,,1.735343,83.337721,Sometimes,yes,2.607335,3.0,no,no,2.0,yes,0.451009,0.630866,Sometimes,Public_Transportation,Overweight_Level_II
+1081,28.977792,Female,1.7,78.0,Frequently,yes,3.0,3.0,no,,1.507638,yes,1.82434,1.0,Sometimes,,Overweight_Level_II
+1082,,Male,1.7,,Sometimes,,2.061384,2.579291,no,,1.909253,,1.0,0.962468,Sometimes,Public_Transportation,Overweight_Level_II
+1083,,Female,1.633794,,Sometimes,no,2.696381,3.0,no,no,2.472964,yes,1.856119,,Sometimes,Public_Transportation,Overweight_Level_II
+1084,24.122589,Male,1.856759,95.887056,Sometimes,yes,1.116068,2.449067,no,no,2.0,yes,0.92635,1.97117,Sometimes,Public_Transportation,Overweight_Level_II
+1085,23.0,Male,1.77433,90.0,Sometimes,,2.116432,3.0,no,no,1.002292,yes,0.0,1.066708,,,Overweight_Level_II
+1086,28.824194,Female,1.7,78.0,Frequently,,3.0,3.0,no,no,2.147074,yes,1.416076,1.0,,Automobile,Overweight_Level_II
+1087,,Male,1.719509,84.416515,no,yes,2.031246,3.0,no,no,2.803002,yes,1.98448,0.418623,Sometimes,Automobile,Overweight_Level_II
+1088,28.167799,,1.658202,,Frequently,yes,2.938031,1.532833,no,no,1.931242,yes,0.525002,,Sometimes,,Overweight_Level_II
+1089,55.137881,,1.657221,80.993213,no,yes,2.0,3.0,no,,2.0,yes,1.0,0.0,Sometimes,Automobile,Overweight_Level_II
+1090,,Male,1.713348,,no,yes,2.884212,3.0,no,no,3.0,,2.0,0.8324,,Automobile,Overweight_Level_II
+1091,20.986834,,1.677178,80.379575,no,yes,2.0,2.961706,no,no,2.0,,1.661556,1.114716,,Public_Transportation,Overweight_Level_II
+1092,38.378056,Female,1.67805,,no,yes,2.444599,3.0,no,,1.029798,yes,0.0,0.0,,Automobile,Overweight_Level_II
+1093,,,1.717722,81.92991,Sometimes,yes,2.0,1.152521,no,no,1.723159,yes,1.39016,,Sometimes,Public_Transportation,Overweight_Level_II
+1094,21.082384,Female,1.486484,,no,,2.0,1.104642,no,no,1.0,yes,0.0,0.969097,Sometimes,Public_Transportation,Overweight_Level_II
+1095,25.293202,Female,1.503379,,no,no,2.0,1.0,no,no,1.639807,yes,0.072117,0.0,Sometimes,,Overweight_Level_II
+1096,,Male,,,Sometimes,yes,2.0,1.729553,no,no,1.400247,,0.887923,1.011983,Sometimes,Public_Transportation,Overweight_Level_II
+1097,,Female,1.688354,79.278896,no,,3.0,3.0,no,,2.994515,yes,0.0,,Sometimes,Automobile,Overweight_Level_II
+1098,34.044229,Female,1.665807,77.098973,no,,2.976975,1.346987,no,no,1.868349,yes,0.702538,0.879333,,Automobile,Overweight_Level_II
+1099,,Male,,97.029249,Sometimes,yes,2.0,1.977221,no,,3.0,yes,1.0,0.0,Sometimes,Automobile,Overweight_Level_II
+1100,19.821996,Female,1.653431,,Sometimes,no,2.766036,2.443812,no,no,2.707927,yes,0.702839,,Sometimes,Public_Transportation,Overweight_Level_II
+1101,,Male,1.699818,,Sometimes,,1.096455,2.491315,no,,2.450069,,0.0,0.726118,Sometimes,Public_Transportation,Overweight_Level_II
+1102,46.491859,Male,1.718097,88.600878,no,,2.129969,3.0,no,no,1.568035,yes,0.870127,,Sometimes,Automobile,Overweight_Level_II
+1103,17.894784,,1.731389,84.064875,Sometimes,no,2.019674,2.843319,no,,2.832004,yes,1.0,0.608607,Sometimes,Public_Transportation,Overweight_Level_II
+1104,,Male,1.699667,,no,no,2.735297,2.157164,no,no,1.087166,yes,0.110174,0.003695,,Public_Transportation,Overweight_Level_II
+1105,38.384177,,,78.637307,no,,3.0,3.0,no,no,2.503198,yes,0.0,0.0,Sometimes,,Overweight_Level_II
+1106,,Male,1.823765,96.945262,Sometimes,,1.588782,2.601675,no,no,2.469469,yes,1.736538,1.886855,Sometimes,Public_Transportation,Overweight_Level_II
+1107,33.049121,Male,,83.001642,no,yes,2.0,1.171027,no,no,2.405172,yes,2.300282,0.0,Sometimes,Automobile,Overweight_Level_II
+1108,37.205173,Female,1.667469,80.993373,no,,2.01054,2.77684,no,no,1.651548,yes,0.0,,,Automobile,Overweight_Level_II
+1109,19.027417,Female,1.588147,,Sometimes,no,3.0,3.362758,no,,2.0,yes,2.892922,1.0,Sometimes,Public_Transportation,Overweight_Level_II
+1110,37.492444,Male,,,Sometimes,yes,2.0,1.672706,no,no,2.766674,yes,1.0,0.027093,,Automobile,Overweight_Level_II
